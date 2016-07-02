@@ -28,5 +28,15 @@
     "orgTwAlias": "kcdems",
     "orgOfficers": "https://www.kcdems.org/officers/",
     "orgEndorsements2016": "https://www.kcdems.org/endorsements/"
+  },
+  {
+    "orgShort": "Spokane",
+    "orgType": "County",
+    "orgWeb": "http://spokanedemocrats.org/",
+    "orgFbPage": "https://www.facebook.com/spokanedemocrats",
+    "orgFbGroup": "",
+    "orgTwAlias": "https://twitter.com/SpokaneDemParty",
+    "orgOfficers": "http://spokanedemocrats.org/executive-board/",
+    "orgEndorsements2016": "http://spokanedemocrats.org/"
   }
 ]

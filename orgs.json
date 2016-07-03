@@ -18,7 +18,17 @@
     "orgTwAlias": "11thLDDems",
     "orgOfficers": "http://www.11thlddems.org/executive-board/",
     "orgEndorsements2016": "http://www.11thlddems.org/2016/06/11th-ld-democrats-endorsements-primary-2016/"
-  },  
+  },
+  {
+    "orgShort": "36th",
+    "orgType": "LD",
+    "orgWeb": "http://www.36th.org/",
+    "orgFbPage": "https://www.facebook.com/36thdems/",
+    "orgFbGroup": "https://www.facebook.com/groups/103518050462/",
+    "orgTwAlias": "36th Dems",
+    "orgOfficers": "http://36th.org/executive-board/",
+    "orgEndorsements2016": "http://36th.org/endorsements/"
+  },
   {
     "orgShort": "King",
     "orgType": "County",

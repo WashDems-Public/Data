@@ -2,7 +2,9 @@
 The purpose of this repository is to compile and public data related to the Washington State Democratic Party 
 
 ## Organizations
-A JSON file listing the URLs for local Democratic party organizations can can be accessed via: http://washdems-public.github.io/Data/orgs.json
+One of the first projects has been to list the local (county and legislative district) Democratic party organizations and their online presence on the web, social media, etc.  
+  * A JSON file listing the URLs for local Democratic party organizations is at: http://washdems-public.github.io/Data/orgs.json
+  * A simple HTML page rendering this JSON file is at: https://washdems-public.github.io/Data/orgs.html
 
 ## Contributing to the orgs.json file
 Please submit a "pull request" on the JSON file to add to it:

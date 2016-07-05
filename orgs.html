@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Local Democratic Party Organizations</title>
+
+<script type="text/javascript">
+
+// Returns a string from the org JSON object
+function getOrgHTMLfromJSONObject(objOrg) {
+  var strReturn = "";
+  // Concatenate orgShort + orgType + "Democrats" to get org full name
+  strReturn = objOrg.orgShort.toString() + " " + objOrg.orgType.toString() + " Democrats";
+  // Try to wrap org full name in orgWeb IF orgWeb length > 0
+  try {
+    if (objOrg.orgWeb.length > 0) {
+      strReturn = "<a href='" + objOrg.orgWeb + "'>" + strReturn + "</a>";
+    }
+  } catch (err) {
+  }
+  // Try to add the org's Twitter alias IF orgTwAlias length > 0
+  try {
+    if (objOrg.orgTwAlias.length > 0) {
+      strReturn += " " + "<a href='https://twitter.com/" + objOrg.orgTwAlias + "'>" + objOrg.orgTwAlias + "</a>";
+    }
+  } catch (err) {
+  }
+  // Add line break
+  strReturn += "<br />";
+  return strReturn ;
+} // end getOrgHTMLfromJSONObject
+
+function changeText() {
+  document.getElementById('pLocalOrgs').innerHTML = 'Loading requested data...';
+  
+  var request = new XMLHttpRequest();
+  request.onreadystatechange = function () {
+    var DONE = this.DONE || 4;
+    if (this.readyState === DONE){
+        // alert(this.readyState);
+        // alert(request.responseText);
+        var dataObj = JSON.parse(request.responseText);
+        var strOrgsList = "";
+        // alert ( typeof dataObj ); 
+        // alert (dataObj.toString() )
+        // alert (dataObj[1].orgShort.toString() + " test" );
+        // alert (dataObj.length);
+        for (i = 0; i < dataObj.length; i++ ){
+          strOrgsList += getOrgHTMLfromJSONObject(dataObj[i]); 
+        }
+        // alert (strOrgsList); 
+        document.getElementById('pLocalOrgs').innerHTML = strOrgsList;
+    }
+  };
+  request.open('GET', 'orgs.json', true);
+  request.setRequestHeader('X-Requested-With', 'XMLHttpRequest');  // Tells server that this call is made for ajax purposes.
+  request.send(null);  // No data needs to be sent along with the request.
+
+  document.getElementById('pLocalOrgs').innerHTML = 'Rendering requested data...';
+  
+}
+</script>
+
+</head>
+
+<body onload="changeText()">
+
+<h1>Local Democratic Party Organizations</h1>
+
+<p id="pLocalOrgs">Loading data...</p>
+
+</body>
+</html> 

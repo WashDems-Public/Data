@@ -12,6 +12,8 @@ function getOrgHTMLfromJSONObject(objOrg) {
     if (objOrg.orgWeb.length > 0) {
       strReturn = "<a href='" + objOrg.orgWeb + "'>" + strReturn + "</a>";
     }
+  } catch (err) {
+    
   }
   return strReturn;
 }

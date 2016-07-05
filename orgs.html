@@ -5,9 +5,12 @@
 
 <script type="text/javascript">
 
+// Returns a string from the org JSON object
 function getOrgHTMLfromJSONObject(objOrg) {
   var strReturn = "";
-  strReturn = objOrg.orgShort.toString() + " " + objOrg.orgType.toString() + " Democrats" + "<br />";
+  // Concatenate orgShort + orgType + "Democrats" to get org full name
+  strReturn = objOrg.orgShort.toString() + " " + objOrg.orgType.toString() + " Democrats";
+  // Try to wrap org full name in orgWeb IF orgWeb length > 0
   try {
     if (objOrg.orgWeb.length > 0) {
       strReturn = "<a href='" + objOrg.orgWeb + "'>" + strReturn + "</a>";
@@ -15,8 +18,10 @@ function getOrgHTMLfromJSONObject(objOrg) {
   } catch (err) {
     
   }
-  return strReturn;
-}
+  // Add line break
+  strReturn += "<br />";
+  return strReturn ;
+} // end getOrgHTMLfromJSONObject
 
 function changeText() {
   document.getElementById('pLocalOrgs').innerHTML = 'Loading requested data...';
@@ -31,8 +36,8 @@ function changeText() {
         var strOrgsList = "";
         // alert ( typeof dataObj ); 
         // alert (dataObj.toString() )
-        alert (dataObj[1].orgShort.toString() + " test" );
-        alert (dataObj.length);
+        // alert (dataObj[1].orgShort.toString() + " test" );
+        // alert (dataObj.length);
         for (i = 0; i < dataObj.length; i++ ){
           strOrgsList += getOrgHTMLfromJSONObject(dataObj[i]); 
         }

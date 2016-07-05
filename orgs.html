@@ -28,6 +28,8 @@ function changeText() {
         strOrgsList += getOrgHTMLfromJSONObject(dataObj[3]); 
         alert (strOrgsList); 
 
+        document.getElementById('pLocalOrgs').innerHTML = strOrgsList;
+
     }
   };
   request.open('GET', 'orgs.json', true);
@@ -35,7 +37,6 @@ function changeText() {
   request.send(null);  // No data needs to be sent along with the request.
 
   document.getElementById('pLocalOrgs').innerHTML = 'Rendering requested data...';
-  document.getElementById('pLocalOrgs').innerHTML = strOrgsList;
   
 }
 </script>

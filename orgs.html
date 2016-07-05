@@ -7,7 +7,7 @@
 
 function getOrgHTMLfromJSONObject(objOrg) {
   // alert (objOrg.orgShort.toString() );
-  return objOrg.orgShort.toString() + " " + objOrg.orgType.toString() + " Democrats";
+  return objOrg.orgShort.toString() + " " + objOrg.orgType.toString() + " Democrats" + "<br />";
 }
 
 function changeText() {
@@ -24,7 +24,8 @@ function changeText() {
         // alert ( typeof dataObj ); 
         // alert (dataObj.toString() )
         alert (dataObj[1].orgShort.toString() + " test" );
-        strOrgsList += getOrgHTMLfromJSONObject(dataObj[2]) 
+        strOrgsList += getOrgHTMLfromJSONObject(dataObj[2]); 
+        strOrgsList += getOrgHTMLfromJSONObject(dataObj[3]); 
         alert (strOrgsList); 
 
     }

@@ -8,6 +8,11 @@
 function getOrgHTMLfromJSONObject(objOrg) {
   var strReturn = "";
   strReturn = objOrg.orgShort.toString() + " " + objOrg.orgType.toString() + " Democrats" + "<br />";
+  try {
+    if (objOrg.orgWeb.length > 0) {
+      strReturn = "<a href='" + objOrg.orgWeb + "'>" + strReturn + "</a>";
+    }
+  }
   return strReturn;
 }
 

@@ -15,7 +15,7 @@ function changeText() {
         // alert(this.readyState);
         // alert(request.responseText);
         var dataObj = JSON.parse(request.responseText);
-        alert( dataObj[1].orgShort );
+        // alert( dataObj[1].orgShort );
     }
   };
   request.open('GET', 'orgs.json', true);

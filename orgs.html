@@ -14,7 +14,7 @@ function changeText() {
     if (this.readyState === DONE){
         // alert(this.readyState);
         // alert(request.responseText);
-        var dataObj = JSON.Parse(request.responseText);
+        var dataObj = JSON.parse(request.responseText);
         alert( dataObj[1].orgShort );
     }
   };

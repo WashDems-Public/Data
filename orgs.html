@@ -15,7 +15,8 @@ function changeText() {
         // alert(this.readyState);
         // alert(request.responseText);
         var dataObj = JSON.parse(request.responseText);
-        alert (dataObj.toString() )
+        // alert (dataObj.toString() )
+        alert (dataObj[1].toString() );
         alert ( typeof dataObj ); 
         // alert( dataObj[1].orgShort );
     }

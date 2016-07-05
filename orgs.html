@@ -13,7 +13,9 @@ function changeText() {
     var DONE = this.DONE || 4;
     if (this.readyState === DONE){
         // alert(this.readyState);
-        alert(request.responseText);
+        // alert(request.responseText);
+        var dataObj = JSON.Parse(request.responseText);
+        alert( dataObj[1].orgShort );
     }
   };
   request.open('GET', 'orgs.json', true);

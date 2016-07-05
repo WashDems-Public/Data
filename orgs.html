@@ -5,6 +5,11 @@
 <title>Local Democratic Party Organizations</title>
 
 <script type="text/javascript">
+
+function getOrgHTMLfromJSONObject(objOrg) {
+  return "hello";  
+}
+
 function changeText() {
   document.getElementById('pLocalOrgs').innerHTML = 'Loading requested data...';
   
@@ -15,9 +20,10 @@ function changeText() {
         // alert(this.readyState);
         // alert(request.responseText);
         var dataObj = JSON.parse(request.responseText);
+        // alert ( typeof dataObj ); 
         // alert (dataObj.toString() )
-        alert (dataObj[1].orgShort.toString() );
-        alert ( typeof dataObj ); 
+        alert (dataObj[1].orgShort.toString() & " test" );
+        alert (getOrgHTMLfromJSONObject(dataObj[2]);
         // alert( dataObj[1].orgShort );
     }
   };

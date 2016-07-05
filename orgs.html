@@ -20,13 +20,13 @@ function changeText() {
         // alert(this.readyState);
         // alert(request.responseText);
         var dataObj = JSON.parse(request.responseText);
+        var strOrgsList = "";
         // alert ( typeof dataObj ); 
         // alert (dataObj.toString() )
         alert (dataObj[1].orgShort.toString() + " test" );
-        alert (getOrgHTMLfromJSONObject(dataObj[2])); 
+        strOrgsList += getOrgHTMLfromJSONObject(dataObj[2]) 
+        alert (strOrgsList); 
 
-        
-        // alert( dataObj[1].orgShort );
     }
   };
   request.open('GET', 'orgs.json', true);

@@ -6,8 +6,9 @@
 <script type="text/javascript">
 
 function getOrgHTMLfromJSONObject(objOrg) {
-  // alert (objOrg.orgShort.toString() );
-  return objOrg.orgShort.toString() + " " + objOrg.orgType.toString() + " Democrats" + "<br />";
+  var strReturn = "";
+  strReturn = objOrg.orgShort.toString() + " " + objOrg.orgType.toString() + " Democrats" + "<br />";
+  return strReturn;
 }
 
 function changeText() {
@@ -28,10 +29,8 @@ function changeText() {
         for (i = 0; i < dataObj.length; i++ ){
           strOrgsList += getOrgHTMLfromJSONObject(dataObj[i]); 
         }
-        alert (strOrgsList); 
-
+        // alert (strOrgsList); 
         document.getElementById('pLocalOrgs').innerHTML = strOrgsList;
-
     }
   };
   request.open('GET', 'orgs.json', true);

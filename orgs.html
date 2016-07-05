@@ -16,7 +16,13 @@ function getOrgHTMLfromJSONObject(objOrg) {
       strReturn = "<a href='" + objOrg.orgWeb + "'>" + strReturn + "</a>";
     }
   } catch (err) {
-    
+  }
+  // Try to add the org's Twitter alias IF orgTwAlias length > 0
+  try {
+    if (objOrg.orgTwAlias.length > 0) {
+      strReturn += " " + "<a href='https://twitter.com/" + objOrg.orgTwAlias + "'>" + objOrg.orgTwAlias + "</a>";
+    }
+  } catch (err) {
   }
   // Add line break
   strReturn += "<br />";

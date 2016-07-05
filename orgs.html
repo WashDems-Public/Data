@@ -7,11 +7,19 @@
 
 <body>
 
-<script>
+<script type="text/javascript">
 window.alert("test");
-document.getElementById("pLocalOrgs").innerHTML = "hello";
+document.getElementById('pLocalOrgs').innerHTML = 'hello';
 window.alert("test2");
 </script>
+
+<script type="text/javascript">
+function changeText(){
+	document.getElementById('boldStuff').innerHTML = 'Fred Flinstone';
+}
+</script>
+<p>Welcome to the site <b id='boldStuff'>dude</b> </p> 
+<input type='button' onclick='changeText()' value='Change Text'/>
 
 <h1>Local Democratic Party Organizations</h1>
 

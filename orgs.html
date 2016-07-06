@@ -22,7 +22,7 @@ function getOrgHTMLfromJSONObject(objOrg) {
   // Try to add the org's Twitter alias IF orgTwAlias length > 0
   try {
     if (objOrg.orgTwAlias.length > 0) {
-      strReturn += "<td>" + "<a href='https://twitter.com/" + objOrg.orgTwAlias + "'>" + objOrg.orgTwAlias + "</a>" + "</td>";
+      strReturn += "<td>" + "<a href='https://twitter.com/" + objOrg.orgTwAlias + "'>" + "@" + [objOrg.orgTwAlias + "</a>" + "</td>";
     }
   } catch (err) {
     strReturn += "<td></td>";

@@ -2,11 +2,13 @@
   {
     "orgShort": "01st",
     "orgType": "LD",
+    "orgFull": "1st Legislative District Democrats",
     "orgWeb": "http://www.1stlddems.org/",
     "orgFbPage": "",
     "orgFbGroup": "https://www.facebook.com/groups/120358778046046/",
     "orgTwAlias": "1stLDDems",
     "orgOfficers": "http://www.1stld.democrat/index.php/about-us/leadership-of-the-1st-ld",
+    "orgBylaws": "http://www.1stld.democrat/index.php/documents/bylaws-rules",
     "orgEndorsements2016": "http://www.1stld.democrat/index.php/endorsements"
   },
   {
@@ -31,25 +33,26 @@
   },
   {
     "orgShort": "41st",
-    "orgFull": "41st District Democrats",
     "orgType": "LD",
+    "orgFull": "41st District Democrats",
     "orgWeb": "http://41dems.org/",
     "orgFbPage": "https://www.facebook.com/WA-41st-LD-Democrats-101739566576622/",
     "orgFbGroup": "",
-    "orgTwAlias": "",
+    "orgTwAlias": "41Dems",
     "orgOfficers": "http://41dems.org/contact.html",
-    "orgEndorsements2016": "http://41dems.org",
     "orgBylaws": "http://41dems.org/41bylaws.xml"
+    "orgEndorsements2016": "http://41dems.org",
   },
   {
     "orgShort": "King",
-    "orgFull": "King County Democratic Central Committee",
     "orgType": "County",
+    "orgFull": "King County Democratic Central Committee",
     "orgWeb": "http://www.kcdems.org/",
     "orgFbPage": "https://www.facebook.com/kingcountydemocrats/",
     "orgFbGroup": "",
     "orgTwAlias": "kcdems",
     "orgOfficers": "https://www.kcdems.org/officers/",
+    "orgBylaws": "https://www.kcdems.org/standing-rules/",
     "orgEndorsements2016": "https://www.kcdems.org/endorsements/"
   },
   {

@@ -7,7 +7,7 @@
 
 // Returns a string from the org JSON object
 function getOrgHTMLfromJSONObject(objOrg) {
-  var strReturn = "";
+  var strReturn = "<tr>";
   // Concatenate orgShort + orgType + "Democrats" to get org full name
   strReturn = objOrg.orgShort.toString() + " " + objOrg.orgType.toString() + " Democrats";
   // Try to wrap org full name in orgWeb IF orgWeb length > 0
@@ -17,15 +17,18 @@ function getOrgHTMLfromJSONObject(objOrg) {
     }
   } catch (err) {
   }
+  // Wrap org full name in table cell
+  strReturn = "<td>" + strReturn + "</td>";
   // Try to add the org's Twitter alias IF orgTwAlias length > 0
   try {
     if (objOrg.orgTwAlias.length > 0) {
-      strReturn += " " + "<a href='https://twitter.com/" + objOrg.orgTwAlias + "'>" + objOrg.orgTwAlias + "</a>";
+      strReturn += "<td>" + "<a href='https://twitter.com/" + objOrg.orgTwAlias + "'>" + objOrg.orgTwAlias + "</a>" + "</td>";
     }
   } catch (err) {
+    strReturn += "<td></td>";
   }
   // Add line break
-  strReturn += "<br />";
+  strReturn += "</tr>";
   return strReturn ;
 } // end getOrgHTMLfromJSONObject
 
@@ -39,7 +42,7 @@ function changeText() {
         // alert(this.readyState);
         // alert(request.responseText);
         var dataObj = JSON.parse(request.responseText);
-        var strOrgsList = "";
+        var strOrgsList = "<table>";
         // alert ( typeof dataObj ); 
         // alert (dataObj.toString() )
         // alert (dataObj[1].orgShort.toString() + " test" );
@@ -47,6 +50,7 @@ function changeText() {
         for (i = 0; i < dataObj.length; i++ ){
           strOrgsList += getOrgHTMLfromJSONObject(dataObj[i]); 
         }
+        strOrgsList += "</table>";
         // alert (strOrgsList); 
         document.getElementById('pLocalOrgs').innerHTML = strOrgsList;
     }

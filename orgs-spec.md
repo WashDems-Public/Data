@@ -5,7 +5,10 @@ This document describes the fields in the orgs.json file.
 (Required) A short name for the organization.  Counties should be the county name.  Legislative districts should be the LD number, zero-padded if a single digit (ex: 03rd)
 
 ### orgType
-(Required) A descriptor of the organization type.  Expected values are: "County", "LD", "County Young", "College Young", "HS Young", and "Caucus".  Concatenation of orgShort & orgType & Democrats should yield a reasonable but sometimes imperfect organization full name.
+(Required) A descriptor of the organization type.  Expected values are: "County", "LD", "State Young", "County Young", "College Young", "HS Young", "Caucus", and "CD" (Congressional District).  Concatenation of orgShort & orgType & "Democrats" (or "Dems") should yield a reasonable but sometimes imperfect organization full name.
+
+### orgFull
+(Optional) Full name of the organization (ex: "1st Legislative District Democrats" or "King County Democratic Central Committee")
 
 ### orgWeb
 (Optional) URL to the organization's public-facing website
@@ -21,6 +24,9 @@ This document describes the fields in the orgs.json file.
 
 ### orgOfficers
 (Optional) URL to the organization's list of officers
+
+### orgBylaws
+(Optional) URL to the organization's governing documents such as a charter, bylaws, or standing rules
 
 ### orgEndorsements2016
 (Optional) URL to the organization's list of endorsed candidates and ballot measures for 2016

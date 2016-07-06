@@ -30,7 +30,20 @@
     "orgEndorsements2016": "http://36th.org/endorsements/"
   },
   {
+    "orgShort": "41st",
+    "orgFull": "41st District Democrats",
+    "orgType": "LD",
+    "orgWeb": "http://41dems.org/",
+    "orgFbPage": "https://www.facebook.com/WA-41st-LD-Democrats-101739566576622/",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
+    "orgOfficers": "http://41dems.org/contact.html",
+    "orgEndorsements2016": "http://41dems.org",
+    "orgBylaws": "http://41dems.org/41bylaws.xml"
+  },
+  {
     "orgShort": "King",
+    "orgFull": "King County Democratic Central Committee",
     "orgType": "County",
     "orgWeb": "http://www.kcdems.org/",
     "orgFbPage": "https://www.facebook.com/kingcountydemocrats/",

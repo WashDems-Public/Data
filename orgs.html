@@ -27,6 +27,14 @@ function getOrgHTMLfromJSONObject(objOrg) {
   } catch (err) {
     strReturn += "<td></td>";
   }
+  // Try to add the org's 2016 Endorsements link  IF length > 0
+  try {
+    if (objOrg.orgEndorsements2016.length > 0) {
+      strReturn += "<td>" + "<a href='" + objOrg.orgEndorsements2016 + "'>" + "2016 Endorsements" + "</a>" + "</td>";
+    }
+  } catch (err) {
+    strReturn += "<td></td>";
+  }
   // Add line break
   strReturn += "</tr>";
   return strReturn ;
@@ -43,10 +51,17 @@ function changeText() {
         // alert(request.responseText);
         var dataObj = JSON.parse(request.responseText);
         var strOrgsList = "<table>";
+        // Add a table row of headers
+        strOrgsList += "<tr>";
+        strOrgsList += "<td><b>Organization</b></td>";
+        strOrgsList += "<td><b>Twitter</b></td>";
+        strOrgsList += "<td><b>2016 Endorsements</b></td>";
+        strOrgsList += "</tr>";
         // alert ( typeof dataObj ); 
         // alert (dataObj.toString() )
         // alert (dataObj[1].orgShort.toString() + " test" );
         // alert (dataObj.length);
+        // for each object in the dataObj array, parse it:
         for (i = 0; i < dataObj.length; i++ ){
           strOrgsList += getOrgHTMLfromJSONObject(dataObj[i]); 
         }

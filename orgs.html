@@ -19,10 +19,22 @@ function getOrgHTMLfromJSONObject(objOrg) {
   }
   // Wrap org full name in table cell
   strReturn = "<td>" + strReturn + "</td>";
+  // Try to add the org's Facebook page IF orgFbPage length > 0
+  try {
+    if (objOrg.orgFbPage.length > 0) {
+      strReturn += "<td>" + "<a href='" + objOrg.orgFbPage + "'>" + Facebook page + "</a>" + "</td>";
+    } else {
+      strReturn += "<td></td>";
+    }
+  } catch (err) {
+    strReturn += "<td></td>";
+  }
   // Try to add the org's Twitter alias IF orgTwAlias length > 0
   try {
     if (objOrg.orgTwAlias.length > 0) {
       strReturn += "<td>" + "<a href='https://twitter.com/" + objOrg.orgTwAlias + "'>" + "@" + objOrg.orgTwAlias + "</a>" + "</td>";
+    } else {
+      strReturn += "<td></td>";
     }
   } catch (err) {
     strReturn += "<td></td>";
@@ -54,6 +66,7 @@ function changeText() {
         // Add a table row of headers
         strOrgsList += "<tr>";
         strOrgsList += "<td><b>Organization</b></td>";
+        strOrgsList += "<td><b>Facebook page</b></td>";
         strOrgsList += "<td><b>Twitter</b></td>";
         strOrgsList += "<td><b>2016 Endorsements</b></td>";
         strOrgsList += "</tr>";

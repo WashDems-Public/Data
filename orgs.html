@@ -22,7 +22,7 @@ function getOrgHTMLfromJSONObject(objOrg) {
   // Try to add the org's Facebook page IF orgFbPage length > 0
   try {
     if (objOrg.orgFbPage.length > 0) {
-      strReturn += "<td>" + "<a href='" + objOrg.orgFbPage + "'>" + Facebook page + "</a>" + "</td>";
+      strReturn += "<td>" + "<a href='" + objOrg.orgFbPage + "'>" + "Facebook page" + "</a>" + "</td>";
     } else {
       strReturn += "<td></td>";
     }

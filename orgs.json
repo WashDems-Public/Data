@@ -25,7 +25,9 @@
   },
   {
     "orgShort": "03rd",
-    "orgType": "LD"
+    "orgType": "LD",
+    "orgWeb": "http://thirdld.org/",
+    "orgEndorsements2016": "http://thirdld.org/endorsed-candidates"
   },
   {
     "orgShort": "04th",
@@ -33,7 +35,10 @@
   },
   {
     "orgShort": "05th",
-    "orgType": "LD"
+    "orgType": "LD",
+    "orgFull": "5th District Democrats",
+    "orgWeb": "http://www.5thdistrictdems.com/",
+    "orgEndorsements2016": "http://www.5thdistrictdems.com/?t2t_feature=endorsements"
   },
   {
     "orgShort": "06th",

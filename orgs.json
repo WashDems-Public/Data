@@ -31,7 +31,9 @@
   },
   {
     "orgShort": "04th",
-    "orgType": "LD"
+    "orgType": "LD",
+    "orgWeb": "",
+    "orgEndorsements": ""
   },
   {
     "orgShort": "05th",
@@ -42,23 +44,33 @@
   },
   {
     "orgShort": "06th",
-    "orgType": "LD"
+    "orgType": "LD",
+    "orgWeb": "",
+    "orgEndorsements": ""
   },
   {
     "orgShort": "07th",
-    "orgType": "LD"
+    "orgType": "LD",
+    "orgWeb": "",
+    "orgEndorsements": ""
   },
   {
     "orgShort": "08th",
-    "orgType": "LD"
+    "orgType": "LD",
+    "orgWeb": "",
+    "orgEndorsements": ""
   },
   {
     "orgShort": "09th",
-    "orgType": "LD"
+    "orgType": "LD",
+    "orgWeb": "",
+    "orgEndorsements": ""
   },
   {
     "orgShort": "10th",
-    "orgType": "LD"
+    "orgType": "LD",
+    "orgWeb": "",
+    "orgEndorsements": ""
   },
   {
     "orgShort": "11th",
@@ -69,6 +81,54 @@
     "orgTwAlias": "11thLDDems",
     "orgOfficers": "http://www.11thlddems.org/executive-board/",
     "orgEndorsements2016": "http://www.11thlddems.org/2016/06/11th-ld-democrats-endorsements-primary-2016/"
+  },
+  {
+    "orgShort": "12th",
+    "orgType": "LD",
+    "orgWeb": "",
+    "orgEndorsements": ""
+  },
+  {
+    "orgShort": "13th",
+    "orgType": "LD",
+    "orgWeb": "",
+    "orgEndorsements": ""
+  },
+  {
+    "orgShort": "14th",
+    "orgType": "LD",
+    "orgWeb": "",
+    "orgEndorsements": ""
+  },
+  {
+    "orgShort": "15th",
+    "orgType": "LD",
+    "orgWeb": "",
+    "orgEndorsements": ""
+  },
+  {
+    "orgShort": "16th",
+    "orgType": "LD",
+    "orgWeb": "",
+    "orgEndorsements": ""
+  },
+  {
+    "orgShort": "17th",
+    "orgType": "LD",
+    "orgWeb": "",
+    "orgEndorsements": ""
+  },
+  {
+    "orgShort": "18th",
+    "orgType": "LD",
+    "orgWeb": "",
+    "orgEndorsements": ""
+  },
+  {
+    "orgShort": "19th",
+    "orgType": "LD",
+    "orgWeb": "",
+    "orgEndorsements": ""
   },
   {
     "orgShort": "36th",

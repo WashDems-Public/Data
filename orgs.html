@@ -29,6 +29,16 @@ function getOrgHTMLfromJSONObject(objOrg) {
   } catch (err) {
     strReturn += "<td></td>";
   }
+  // Try to add the org's Facebook group IF orgFbGroup length > 0
+  try {
+    if (objOrg.orgFbGroup.length > 0) {
+      strReturn += "<td>" + "<a href='" + objOrg.orgFbGroup + "'>" + "Facebook group" + "</a>" + "</td>";
+    } else {
+      strReturn += "<td></td>";
+    }
+  } catch (err) {
+    strReturn += "<td></td>";
+  }
   // Try to add the org's Twitter alias IF orgTwAlias length > 0
   try {
     if (objOrg.orgTwAlias.length > 0) {
@@ -47,7 +57,7 @@ function getOrgHTMLfromJSONObject(objOrg) {
   } catch (err) {
     strReturn += "<td></td>";
   }
-  // Add line break
+  // Close the table row
   strReturn += "</tr>";
   return strReturn ;
 } // end getOrgHTMLfromJSONObject

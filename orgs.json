@@ -163,6 +163,42 @@
     "orgEndorsements2016": "http://www.46dems.org/2016_endorsement_information"
   },
   {
+    "orgShort": "50th",
+    "orgType": "LD",
+    "orgWeb": "",
+    "orgEndorsements": ""
+  },
+  {
+    "orgShort": "Adams",
+    "orgType": "County",
+    "orgWeb": "",
+    "orgEndorsements": ""
+  },
+  {
+    "orgShort": "Clallam",
+    "orgType": "County",
+    "orgWeb": "",
+    "orgEndorsements": "http://www.clallamdemocrats.org/endorsements.html"
+  },
+  {
+    "orgShort": "Cowlitz",
+    "orgType": "County",
+    "orgWeb": "",
+    "orgEndorsements": "http://cowlitz.wa-democrats.net/endorsements-3/"
+  },
+  {
+    "orgShort": "Grays Harbor",
+    "orgType": "County",
+    "orgWeb": "",
+    "orgEndorsements": "http://www.ghdemocrats.org/ghc-democrat-endorments"
+  },
+  {
+    "orgShort": "Jefferson",
+    "orgType": "County",
+    "orgWeb": "",
+    "orgEndorsements": "http://jeffcodemocrats.com/"
+  },
+  {
     "orgShort": "King",
     "orgType": "County",
     "orgFull": "King County Democratic Central Committee",
@@ -175,6 +211,42 @@
     "orgEndorsements2016": "https://www.kcdems.org/endorsements/"
   },
   {
+    "orgShort": "Kitsap",
+    "orgType": "County",
+    "orgWeb": "",
+    "orgEndorsements": "http://www.kitsapdemocrats.com/endorsements/"
+  },
+  {
+    "orgShort": "Kittitas",
+    "orgType": "County",
+    "orgWeb": "",
+    "orgEndorsements": ""
+  },
+  {
+    "orgShort": "Pacific",
+    "orgType": "County",
+    "orgWeb": "",
+    "orgEndorsements": "http://www.pacificcountydemocrats.com/"
+  },
+  {
+    "orgShort": "Pend Oreille",
+    "orgType": "County",
+    "orgWeb": "",
+    "orgEndorsements": "http://wp.podemocrats.org/"
+  },
+  {
+    "orgShort": "Pierce",
+    "orgType": "County",
+    "orgWeb": "",
+    "orgEndorsements": "http://www.piercecountydems.org/endorsements"
+  },
+  {
+    "orgShort": "Snohomish",
+    "orgType": "County",
+    "orgWeb": "",
+    "orgEndorsements": "http://snocodems.org/"
+  },
+  {
     "orgShort": "Spokane",
     "orgType": "County",
     "orgWeb": "http://spokanedemocrats.org/",
@@ -183,5 +255,11 @@
     "orgTwAlias": "SpokaneDemParty",
     "orgOfficers": "http://spokanedemocrats.org/executive-board/",
     "orgEndorsements2016": "http://spokanedemocrats.org/"
+  },
+  {
+    "orgShort": "Whatcom",
+    "orgType": "County",
+    "orgWeb": "",
+    "orgEndorsements": "http://www.whatcomdemocrats.com/story/2016-06-03/2016-endorsements"
   }
 ]

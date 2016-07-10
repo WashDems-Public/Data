@@ -175,10 +175,40 @@
     "orgEndorsements2016": ""
   },
   {
+    "orgShort": "Asotin",
+    "orgType": "County",
+    "orgWeb": "",
+    "orgEndorsements2016": ""
+  },
+  {
+    "orgShort": "Benton",
+    "orgType": "County",
+    "orgWeb": "",
+    "orgEndorsements2016": ""
+  },
+  {
+    "orgShort": "Chelan",
+    "orgType": "County",
+    "orgWeb": "",
+    "orgEndorsements2016": ""
+  },
+  {
     "orgShort": "Clallam",
     "orgType": "County",
     "orgWeb": "",
     "orgEndorsements2016": "http://www.clallamdemocrats.org/endorsements.html"
+  },
+  {
+    "orgShort": "Clark",
+    "orgType": "County",
+    "orgWeb": "",
+    "orgEndorsements2016": ""
+  },
+  {
+    "orgShort": "Columbia",
+    "orgType": "County",
+    "orgWeb": "",
+    "orgEndorsements2016": ""
   },
   {
     "orgShort": "Cowlitz",
@@ -187,10 +217,46 @@
     "orgEndorsements2016": "http://cowlitz.wa-democrats.net/endorsements-3/"
   },
   {
+    "orgShort": "Douglas",
+    "orgType": "County",
+    "orgWeb": "",
+    "orgEndorsements2016": ""
+  },
+  {
+    "orgShort": "Ferry",
+    "orgType": "County",
+    "orgWeb": "",
+    "orgEndorsements2016": ""
+  },
+  {
+    "orgShort": "Franklin",
+    "orgType": "County",
+    "orgWeb": "",
+    "orgEndorsements2016": ""
+  },
+  {
+    "orgShort": "Garfield",
+    "orgType": "County",
+    "orgWeb": "",
+    "orgEndorsements2016": ""
+  },
+  {
+    "orgShort": "Grant",
+    "orgType": "County",
+    "orgWeb": "",
+    "orgEndorsements2016": ""
+  },
+  {
     "orgShort": "Grays Harbor",
     "orgType": "County",
     "orgWeb": "",
     "orgEndorsements2016": "http://www.ghdemocrats.org/ghc-democrat-endorments"
+  },
+  {
+    "orgShort": "Island",
+    "orgType": "County",
+    "orgWeb": "",
+    "orgEndorsements2016": ""
   },
   {
     "orgShort": "Jefferson",
@@ -223,6 +289,30 @@
     "orgEndorsements2016": ""
   },
   {
+    "orgShort": "Lewis",
+    "orgType": "County",
+    "orgWeb": "",
+    "orgEndorsements2016": ""
+  },
+  {
+    "orgShort": "Lincoln",
+    "orgType": "County",
+    "orgWeb": "",
+    "orgEndorsements2016": ""
+  },
+  {
+    "orgShort": "Mason",
+    "orgType": "County",
+    "orgWeb": "",
+    "orgEndorsements2016": ""
+  },
+  {
+    "orgShort": "Okanogan",
+    "orgType": "County",
+    "orgWeb": "",
+    "orgEndorsements2016": ""
+  },
+  {
     "orgShort": "Pacific",
     "orgType": "County",
     "orgWeb": "",
@@ -241,6 +331,24 @@
     "orgEndorsements2016": "http://www.piercecountydems.org/endorsements"
   },
   {
+    "orgShort": "San Juan",
+    "orgType": "County",
+    "orgWeb": "",
+    "orgEndorsements2016": ""
+  },
+  {
+    "orgShort": "Skagit",
+    "orgType": "County",
+    "orgWeb": "",
+    "orgEndorsements2016": ""
+  },
+  {
+    "orgShort": "Skamania",
+    "orgType": "County",
+    "orgWeb": "",
+    "orgEndorsements2016": ""
+  },
+  {
     "orgShort": "Snohomish",
     "orgType": "County",
     "orgWeb": "",
@@ -257,9 +365,45 @@
     "orgEndorsements2016": "http://spokanedemocrats.org/"
   },
   {
+    "orgShort": "Stevens",
+    "orgType": "County",
+    "orgWeb": "",
+    "orgEndorsements2016": ""
+  },
+  {
+    "orgShort": "Thurston",
+    "orgType": "County",
+    "orgWeb": "",
+    "orgEndorsements2016": ""
+  },
+  {
+    "orgShort": "Wahkiakum",
+    "orgType": "County",
+    "orgWeb": "",
+    "orgEndorsements2016": ""
+  },
+  {
+    "orgShort": "Walla Walla",
+    "orgType": "County",
+    "orgWeb": "",
+    "orgEndorsements2016": ""
+  },
+  {
     "orgShort": "Whatcom",
     "orgType": "County",
     "orgWeb": "",
     "orgEndorsements2016": "http://www.whatcomdemocrats.com/story/2016-06-03/2016-endorsements"
+  },
+  {
+    "orgShort": "Whitman",
+    "orgType": "County",
+    "orgWeb": "",
+    "orgEndorsements2016": ""
+  },
+  {
+    "orgShort": "Yakima",
+    "orgType": "County",
+    "orgWeb": "",
+    "orgEndorsements2016": ""
   }
 ]

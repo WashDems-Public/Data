@@ -281,8 +281,14 @@
   {
     "orgShort": "43rd",
     "orgType": "LD",
-    "orgWeb": "",
-    "orgEndorsements2016": "https://www.facebook.com/43rddemocrats/posts/10153728866601586"
+    "orgFull": "43rd District Democrats",
+    "orgWeb": "http://www.43rdDems.org/",
+    "orgFbPage": "https://www.facebook.com/43rddemocrats/",
+    "orgFbGroup": "",
+    "orgTwAlias": "43rdDems",
+    "orgOfficers": "http://43rddems.ngpvanhost.com/executive-board", 
+    "orgBylaws": "http://43rddems.ngpvanhost.com/43rd-district-documents",
+    "orgEndorsements2016": "http://43rddems.ngpvanhost.com/2016-endorsements"
   },
   {
     "orgShort": "44th",

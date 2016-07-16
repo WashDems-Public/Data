@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Local Democratic Party Endorsements</title>
+
+<script type="text/javascript">
+
+function toggleDisplay (dv) {
+  // alert(dv.id.toString());
+  if (document.getElementById(dv.id.toString()).style.display == "none") {
+    document.getElementById(dv.id.toString()).style.display = "inline";
+  } else {
+    document.getElementById(dv.id.toString()).style.display = "none";
+  }
+  // alert(dv.style.value);
+}
+
+function getOrgHTMLfromJSONObject(objOrg) {
+  var strReturn = "";
+  strReturn += objOrg.orgShort.toString();
+  // Try to wrap org full name in URL IF URL length > 0
+  try {
+    if (objOrg.orgEndorsements2016.length > 0) {
+      strReturn = "<a href='" + objOrg.orgEndorsements2016 + "'>" + strReturn + "</a>";
+    }
+  } catch (err) {
+  }
+  
+  return strReturn;
+} // end get org HTML from JSON object
+
+function getOrgsByType(OrgType) {
+  // document.getElementById('pLocalOrgs').innerHTML = 'Loading requested data...';
+  
+  var request = new XMLHttpRequest();
+  request.onreadystatechange = function () {
+    var DONE = this.DONE || 4;
+    if (this.readyState === DONE){
+        var dataObj = JSON.parse(request.responseText);
+        var strOrgsList = "";
+
+        // for each org
+        for (i = 0; i < dataObj.length; i++ ){
+
+          if (dataObj[i].orgType.toString() == OrgType) {
+            if (strOrgsList.length > 0) {
+              strOrgsList += " | ";
+            }
+            strOrgsList += getOrgHTMLfromJSONObject(dataObj[i]); 
+          }
+        } // next org
+
+        // alert (strOrgsList);
+
+        if (OrgType == "County") {
+          document.getElementById('pLocalCountyOrgs').innerHTML = strOrgsList;
+        }
+        if (OrgType == "LD") {
+          document.getElementById('pLocalLDOrgs').innerHTML = strOrgsList;
+        }
+  
+        return strOrgsList;
+    }
+  };
+  request.open('GET', 'orgs.json', true);
+  request.setRequestHeader('X-Requested-With', 'XMLHttpRequest');  // Tells server that this call is made for ajax purposes.
+  request.send(null);  // No data needs to be sent along with the request.
+
+  // return "Rendering data...";
+  
+} // end get orgs by type
+
+
+function changeText() {
+  document.getElementById('pInfo').innerHTML = 'Loading requested data...';
+  
+  // Don't use these
+  var strCountyOrgs = getOrgsByType("County");
+  var strLDOrgs = getOrgsByType("LD");
+  
+  var request = new XMLHttpRequest();
+  request.onreadystatechange = function () {
+    var DONE = this.DONE || 4;
+    if (this.readyState === DONE){
+        // alert(this.readyState);
+        // alert(request.responseText);
+        var dataObj = JSON.parse(request.responseText);
+        
+        var strNav = ""
+        var strInfo = "";
+        var tmpCandidate;
+        
+        // for each group, write a header
+        for (iGroup = 0; iGroup < dataObj.length; iGroup++ ) {
+
+          // Skip WA Leg and County
+          /*
+          if ( (dataObj[iGroup].groupLevelID == "WALeg") || (dataObj[iGroup].groupLevelID == "County") ) { 
+            iGroup++;
+          }
+          */
+          
+          // if the nav string has something already, add a spacer
+          if (strNav.length > 0) { strNav += " | "; } 
+          // Add the group level name to the nav
+          strNav += "<a href='#" + dataObj[iGroup].groupLevelID + "'>" + dataObj[iGroup].groupLevelName + "</a>";
+          strInfo += "<a name='#" + dataObj[iGroup].groupLevelID + "'>" + "<h2>" + dataObj[iGroup].groupLevelName + "</h2>" + "</a>"; 
+          
+          // If the groupDisplay value is set to "collapsed"
+          try { 
+            if (dataObj[iGroup].groupDisplay == "collapsed") {
+              strInfo += "<div onClick='javascript:toggleDisplay(dv" + dataObj[iGroup].groupLevelID + ");'>" + "Click to expand / collapse" + "</div>";
+              
+              strInfo += "<div id='dv" + dataObj[iGroup].groupLevelID + "' style='display:none'>";
+            }
+          } catch (err) { }
+            
+          // If county or LD, point to further down
+          if ( (dataObj[iGroup].groupLevelID == "WALeg") || (dataObj[iGroup].groupLevelID == "County") ) { 
+            strInfo += "<p>For these endorsements, visit your <a href='#local'>local County and LD Democratic organizations</a></p>";
+          }
+
+          try {
+            // for each position write a smaller header
+            for (iPosition = 0; iPosition < dataObj[iGroup].positions.length; iPosition++) {
+              
+              strInfo += "<h3>" + dataObj[iGroup].positions[iPosition].posName + "</h3>";
+  
+              strInfo += "<table>";
+              
+              // for each candidate write their info
+              for (iCandidate = 0; iCandidate < dataObj[iGroup].positions[iPosition].candidates.length ; iCandidate++) {
+                tmpCandidate = dataObj[iGroup].positions[iPosition].candidates[iCandidate];
+                strInfo += "<tr>";
+                // Candidate photo (square)
+                if ( tmpCandidate.candPhotoURL.length > 0 ) {
+                  strInfo += "<td rowspan='2'>";
+                  strInfo += "<img src='" + tmpCandidate.candPhotoURL + "' height='80px' width='80px' alt='Photo of " + tmpCandidate.candName + "' />";
+                  strInfo += "</td>";
+                } else { strInfo += "<td rowspan='2'></td>"; }
+                // Candidate website
+                strInfo += "<td colspan='3' style='font-size:larger; vertical-align:top'><a href='" + tmpCandidate.candWeb + "'><b>" + tmpCandidate.candName + "</b><a/></td>";
+                strInfo += "</tr><tr>"; 
+                // Twitter alias
+                if ( tmpCandidate.candTwAlias.length > 0 ) {
+                  strInfo += "<td><a href='https://twitter.com/" + tmpCandidate.candTwAlias + "'>@" + tmpCandidate.candTwAlias + "</a></td>";
+                } else { strInfo += "<td></td>"; }
+                // Facebook page
+                if ( tmpCandidate.candFbPage.length > 0 ) {
+                  strInfo += "<td><a href='" + tmpCandidate.candFbPage + "'>" + "Facebook" + "</a></td>";
+                } else { strInfo += "<td></td>"; }
+                /* Hide volunteer link
+                if ( tmpCandidate.candVol.length > 0 ) {
+                  strInfo += "<td><a href='" + tmpCandidate.candVol + "'>" + "Volunteer" + "</a></td>";
+                } else { strInfo += "<td></td>"; }
+                */
+                /* Hide donate link
+                if ( tmpCandidate.candDonate.length > 0 ) {
+                  strInfo += "<td><a href='" + tmpCandidate.candDonate + "'>" + "Donate" + "</a></td>";
+                } else { strInfo += "<td></td>"; }
+                */
+                
+                // Show endorsements link if  present
+                try {
+                  strInfo += "<td>";
+                  if ( tmpCandidate.candEndorsements.length > 0 ) {
+                    strInfo += "<td><a href='" + tmpCandidate.candEndorsements + "'>" + "Endorsements" + "</a></td>";
+                  } else { strInfo += "<td></td>"; }
+                  
+                  strInfo += "</td>";
+                } catch (err) { 
+                  strInfo += "<td></td>";
+                }
+  
+                strInfo += "</tr>";
+  
+              } // next candidate for this position
+  
+              strInfo += "</table>";
+  
+            } // next position in this group
+
+          } catch (err) {
+        
+          }
+          
+          // If the groupDisplay value is set to "collapsed"
+          try { 
+            if (dataObj[iGroup].groupDisplay == "collapsed") {
+              strInfo += "</div>";
+            }
+          } catch (err) { }
+        
+        } // next group
+
+        try {
+          strInfo += "<p>For more local endorsements, see: " + strCountyOrgs + "</p>";
+        } catch (err) {
+          alert( "Error: " + err.toString() );
+        }
+        document.getElementById('pNav').innerHTML = strNav + " | <a href='#local'>More</a>";
+        document.getElementById('pInfo').innerHTML = strInfo;
+    }
+  };
+  request.open('GET', 'endorsements.json', true);
+  request.setRequestHeader('X-Requested-With', 'XMLHttpRequest');  // Tells server that this call is made for ajax purposes.
+  request.send(null);  // No data needs to be sent along with the request.
+
+  document.getElementById('pInfo').innerHTML = 'Rendering requested data...';
+  
+}
+</script>
+
+</head>
+
+<body onload="changeText()" style="font-family:Arial">
+
+<h1>Local Democratic Party Endorsements</h1>
+
+<p style="font-size:smaller">We're thrilled to have <a href="http://www.JayInslee.com/">Governor Jay Inslee</a> and <a href="http://www.pattymurray.com/">U.S. Sen. Patty Murray</a> leading our ticket</p>
+
+<p style="font-size:smaller">
+  Local <a href="http://www.wa-democrats.org/local/county">county</a> and <a href="http://www.wa-democrats.org/local/ldo">legislative district</a> 
+  Democratic partyhave endorsed Gov. Inslee, Sen. Murray, other candidates and ballot measures. 
+  Use this endorsement page to learn who your fellow Democrats support and then 
+  <a href="http://www.wa-democrats.org/volunteer">sign up to contribute your energy and skills</a> to helping
+  Democrats win in November.
+</p>
+
+<p style="font-size:smaller">We can’t defeat Trump, win statewide, re-take the State Senate and maintain the State House without you. </p>
+
+<p style="font-size:smaller"><a href="http://www.wa-democrats.org/volunteer">Sign up to volunteer</a>, and push our Democrats up and down the ballot to victory!</p>
+
+<p id="pNav">Loading data...</p>
+
+<p id="pInfo">Loading data...</p>
+
+<a name="#local"><h2>State Legislature, County, and more</h2></a>
+<p>For more local endorsements, visit your local County and LD Democratic organizations:</p>
+<ul>
+  <li>
+    <p id="pLocalCountyOrgs">Loading data...</p>
+  </li>
+  <li>
+    <p id="pLocalLDOrgs">Loading data...</p>
+  </li>
+</ul>
+
+
+<p>
+  Paid for by the Washington State Democrats<br />
+  PO Box 4027, Seattle, WA 98194, (206) 583-0664<br />
+  Chair Jaxon Ravens, <a href="http://www.wa-democrats.org">http://www.wa-democrats.org</a><br />
+  Not authorized by any candidate or candidate's committee<br />
+</p>
+
+</body>
+</html> 

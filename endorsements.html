@@ -193,11 +193,6 @@ function changeText() {
         
         } // next group
 
-        try {
-          strInfo += "<p>For more local endorsements, see: " + strCountyOrgs + "</p>";
-        } catch (err) {
-          alert( "Error: " + err.toString() );
-        }
         document.getElementById('pNav').innerHTML = strNav + " | <a href='#local'>More</a>";
         document.getElementById('pInfo').innerHTML = strInfo;
     }

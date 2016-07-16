@@ -21,7 +21,7 @@ function getOrgHTMLfromJSONObject(objOrg) {
   // Try to wrap org full name in URL IF URL length > 0
   try {
     if (objOrg.orgEndorsements2016.length > 0) {
-      strReturn = "<a href='" + objOrg.orgEndorsements2016 + "'>" + strReturn + "</a>";
+      strReturn = "<a href='" + objOrg.orgEndorsements2016 + "' target='_blank'>" + strReturn + "</a>";
     }
   } catch (err) {
   }
@@ -139,24 +139,24 @@ function changeText() {
                   strInfo += "</td>";
                 } else { strInfo += "<td rowspan='2'></td>"; }
                 // Candidate website
-                strInfo += "<td colspan='3' style='font-size:larger; vertical-align:top'><a href='" + tmpCandidate.candWeb + "'><b>" + tmpCandidate.candName + "</b><a/></td>";
+                strInfo += "<td colspan='3' style='font-size:larger; vertical-align:top'><a href='" + tmpCandidate.candWeb + "' target='_blank'><b>" + tmpCandidate.candName + "</b><a/></td>";
                 strInfo += "</tr><tr>"; 
                 // Twitter alias
                 if ( tmpCandidate.candTwAlias.length > 0 ) {
-                  strInfo += "<td><a href='https://twitter.com/" + tmpCandidate.candTwAlias + "'>@" + tmpCandidate.candTwAlias + "</a></td>";
+                  strInfo += "<td><a href='https://twitter.com/" + tmpCandidate.candTwAlias + "' target='_blank'>@" + tmpCandidate.candTwAlias + "</a></td>";
                 } else { strInfo += "<td></td>"; }
                 // Facebook page
                 if ( tmpCandidate.candFbPage.length > 0 ) {
-                  strInfo += "<td><a href='" + tmpCandidate.candFbPage + "'>" + "Facebook" + "</a></td>";
+                  strInfo += "<td><a href='" + tmpCandidate.candFbPage + "' target='_blank'>" + "Facebook" + "</a></td>";
                 } else { strInfo += "<td></td>"; }
                 /* Hide volunteer link
                 if ( tmpCandidate.candVol.length > 0 ) {
-                  strInfo += "<td><a href='" + tmpCandidate.candVol + "'>" + "Volunteer" + "</a></td>";
+                  strInfo += "<td><a href='" + tmpCandidate.candVol + "' target='_blank'>" + "Volunteer" + "</a></td>";
                 } else { strInfo += "<td></td>"; }
                 */
                 /* Hide donate link
                 if ( tmpCandidate.candDonate.length > 0 ) {
-                  strInfo += "<td><a href='" + tmpCandidate.candDonate + "'>" + "Donate" + "</a></td>";
+                  strInfo += "<td><a href='" + tmpCandidate.candDonate + "' target='_blank'>" + "Donate" + "</a></td>";
                 } else { strInfo += "<td></td>"; }
                 */
                 
@@ -164,7 +164,7 @@ function changeText() {
                 try {
                   strInfo += "<td>";
                   if ( tmpCandidate.candEndorsements.length > 0 ) {
-                    strInfo += "<td><a href='" + tmpCandidate.candEndorsements + "'>" + "Endorsements" + "</a></td>";
+                    strInfo += "<td><a href='" + tmpCandidate.candEndorsements + "' target='_blank'>" + "Endorsements" + "</a></td>";
                   } else { strInfo += "<td></td>"; }
                   
                   strInfo += "</td>";
@@ -212,19 +212,19 @@ function changeText() {
 
 <h1>Local Democratic Party Endorsements</h1>
 
-<p style="font-size:smaller">We're thrilled to have <a href="http://www.JayInslee.com/">Governor Jay Inslee</a> and <a href="http://www.pattymurray.com/">U.S. Sen. Patty Murray</a> leading our ticket</p>
+<p style="font-size:smaller">We're thrilled to have <a href="http://www.JayInslee.com/" target='_blank'>Governor Jay Inslee</a> and <a href="http://www.pattymurray.com/" target='_blank'>U.S. Sen. Patty Murray</a> leading our ticket</p>
 
 <p style="font-size:smaller">
-  Local <a href="http://www.wa-democrats.org/local/county">county</a> and <a href="http://www.wa-democrats.org/local/ldo">legislative district</a> 
+  Local <a href="http://www.wa-democrats.org/local/county" target='_blank'>county</a> and <a href="http://www.wa-democrats.org/local/ldo" target='_blank'>legislative district</a> 
   Democratic partyhave endorsed Gov. Inslee, Sen. Murray, other candidates and ballot measures. 
   Use this endorsement page to learn who your fellow Democrats support and then 
-  <a href="http://www.wa-democrats.org/volunteer">sign up to contribute your energy and skills</a> to helping
+  <a href="http://www.wa-democrats.org/volunteer" target='_blank'>sign up to contribute your energy and skills</a> to helping
   Democrats win in November.
 </p>
 
 <p style="font-size:smaller">We can’t defeat Trump, win statewide, re-take the State Senate and maintain the State House without you. </p>
 
-<p style="font-size:smaller"><a href="http://www.wa-democrats.org/volunteer">Sign up to volunteer</a>, and push our Democrats up and down the ballot to victory!</p>
+<p style="font-size:smaller"><a href="http://www.wa-democrats.org/volunteer" target='_blank'>Sign up to volunteer</a>, and push our Democrats up and down the ballot to victory!</p>
 
 <p id="pNav">Loading data...</p>
 
@@ -245,7 +245,7 @@ function changeText() {
 <p>
   Paid for by the Washington State Democrats<br />
   PO Box 4027, Seattle, WA 98194, (206) 583-0664<br />
-  Chair Jaxon Ravens, <a href="http://www.wa-democrats.org">http://www.wa-democrats.org</a><br />
+  Chair Jaxon Ravens, <a href="http://www.wa-democrats.org" target='_blank'>http://www.wa-democrats.org</a><br />
   Not authorized by any candidate or candidate's committee<br />
 </p>
 

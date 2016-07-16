@@ -346,7 +346,7 @@
     "orgShort": "Benton",
     "orgType": "County",
     "orgWeb": "",
-    "orgEndorsements2016": ""
+    "orgEndorsements2016": "https://www.facebook.com/permalink.php?story_fbid=1235762083101973&id=217681951576663"
   },
   {
     "orgShort": "Chelan",
@@ -364,7 +364,7 @@
     "orgShort": "Clark",
     "orgType": "County",
     "orgWeb": "",
-    "orgEndorsements2016": ""
+    "orgEndorsements2016": "http://clarkcountydems.com/2016-candidates/"
   },
   {
     "orgShort": "Columbia",
@@ -394,7 +394,7 @@
     "orgShort": "Franklin",
     "orgType": "County",
     "orgWeb": "",
-    "orgEndorsements2016": ""
+    "orgEndorsements2016": "https://www.facebook.com/FranklinCountyWADems/posts/10154210428025435"
   },
   {
     "orgShort": "Garfield",
@@ -418,7 +418,7 @@
     "orgShort": "Island",
     "orgType": "County",
     "orgWeb": "",
-    "orgEndorsements2016": ""
+    "orgEndorsements2016": "https://islandcountydemocrats.wordpress.com/"
   },
   {
     "orgShort": "Jefferson",
@@ -448,7 +448,13 @@
     "orgShort": "Kittitas",
     "orgType": "County",
     "orgWeb": "",
-    "orgEndorsements2016": ""
+    "orgEndorsements2016": "https://www.facebook.com/kittitasdemocrats/posts/1800365530185082 "
+  },
+  {
+    "orgShort": "Klickitat",
+    "orgType": "County",
+    "orgWeb": "",
+    "orgEndorsements2016": "http://klickitatdemocrats.org/wp2/august-3-primary-endorsements/"
   },
   {
     "orgShort": "Lewis",
@@ -502,7 +508,7 @@
     "orgShort": "Skagit",
     "orgType": "County",
     "orgWeb": "",
-    "orgEndorsements2016": ""
+    "orgEndorsements2016": "https://www.facebook.com/skagitdemocrats/photos/a.656164904413965.1073741834.158708310826296/1221088507921599/?type=3&theater"
   },
   {
     "orgShort": "Skamania",
@@ -536,7 +542,7 @@
     "orgShort": "Thurston",
     "orgType": "County",
     "orgWeb": "",
-    "orgEndorsements2016": ""
+    "orgEndorsements2016": "http://www.thurstondemocrats.org/content/current-campaigns"
   },
   {
     "orgShort": "Wahkiakum",
@@ -548,7 +554,7 @@
     "orgShort": "Walla Walla",
     "orgType": "County",
     "orgWeb": "",
-    "orgEndorsements2016": ""
+    "orgEndorsements2016": "http://wallawalla.wa-democrats.net/"
   },
   {
     "orgShort": "Whatcom",
@@ -566,6 +572,6 @@
     "orgShort": "Yakima",
     "orgType": "County",
     "orgWeb": "",
-    "orgEndorsements2016": ""
+    "orgEndorsements2016": "https://www.facebook.com/yakimademocrats/posts/993581154096770"
   }
 ]

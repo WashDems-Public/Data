@@ -104,7 +104,7 @@ function changeText() {
           if (strNav.length > 0) { strNav += " | "; } 
           // Add the group level name to the nav
           strNav += "<a href='#" + dataObj[iGroup].groupLevelID + "'>" + dataObj[iGroup].groupLevelName + "</a>";
-          strInfo += "<a name='#" + dataObj[iGroup].groupLevelID + "'>" + "<h2>" + dataObj[iGroup].groupLevelName + "</h2>" + "</a>"; 
+          strInfo += "<a name='" + dataObj[iGroup].groupLevelID + "'>" + "<h2>" + dataObj[iGroup].groupLevelName + "</h2>" + "</a>"; 
           
           // If the groupDisplay value is set to "collapsed"
           try { 
@@ -230,7 +230,7 @@ function changeText() {
 
 <p id="pInfo">Loading data...</p>
 
-<a name="#local"><h2>State Legislature, County, and more</h2></a>
+<a name="local"><h2>State Legislature, County, and more</h2></a>
 <p>For more local endorsements, visit your local County and LD Democratic organizations:</p>
 <ul>
   <li>

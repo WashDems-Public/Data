@@ -1,5 +1,5 @@
 # Data
-The purpose of this repository is to compile and public data related to the Washington State Democratic Party 
+The purpose of this repository is to compile public data related to the Washington State Democratic Party 
 
 ## Organizations
 One of the first projects has been to list the local (county and legislative district) Democratic party organizations and their online presence on the web, social media, etc.  

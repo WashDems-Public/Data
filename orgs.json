@@ -27,7 +27,7 @@
     "orgShort": "03rd",
     "orgType": "LD",
     "orgWeb": "http://thirdld.org/",
-    "orgFbPage": "",
+    "orgFbPage": "https://www.facebook.com/3rdLD",
     "orgFbGroup": "",
     "orgTwAlias": "",
     "orgEndorsements2016": "http://thirdld.org/endorsed-candidates"
@@ -46,7 +46,7 @@
     "orgType": "LD",
     "orgFull": "5th District Democrats",
     "orgWeb": "http://www.5thdistrictdems.com/",
-    "orgFbPage": "",
+    "orgFbPage": "https://www.facebook.com/5thdems/",
     "orgFbGroup": "",
     "orgTwAlias": "",
     "orgEndorsements2016": "http://www.5thdistrictdems.com/?t2t_feature=endorsements"
@@ -56,7 +56,7 @@
     "orgType": "LD",
     "orgWeb": "",
     "orgFbPage": "",
-    "orgFbGroup": "",
+    "orgFbGroup": "https://www.facebook.com/groups/189844541052163/",
     "orgTwAlias": "",
     "orgEndorsements2016": ""
   },
@@ -163,8 +163,8 @@
   {
     "orgShort": "18th",
     "orgType": "LD",
-    "orgWeb": "",
-    "orgFbPage": "",
+    "orgWeb": "http://clarkcountydems.com/18th-legislative-district-democrats/",
+    "orgFbPage": "https://www.facebook.com/WA18dems",
     "orgFbGroup": "",
     "orgTwAlias": "",
     "orgEndorsements2016": "http://clarkcountydems.com/18-cand"
@@ -173,7 +173,7 @@
     "orgShort": "19th",
     "orgType": "LD",
     "orgWeb": "",
-    "orgFbPage": "",
+    "orgFbPage": "https://www.facebook.com/19thLegislativeDistrict/",
     "orgFbGroup": "",
     "orgTwAlias": "",
     "orgEndorsements2016": "https://www.facebook.com/19thLegislativeDistrict/posts/961445783972125"
@@ -181,8 +181,8 @@
   {
     "orgShort": "20th",
     "orgType": "LD",
-    "orgWeb": "",
-    "orgFbPage": "",
+    "orgWeb": "http://ld20.wa-democrats.net/",
+    "orgFbPage": "https://www.facebook.com/20thLegislativeDistrictDemocratsWA",
     "orgFbGroup": "",
     "orgTwAlias": "",
     "orgEndorsements2016": ""
@@ -190,17 +190,17 @@
   {
     "orgShort": "21st",
     "orgType": "LD",
-    "orgWeb": "",
+    "orgWeb": "http://21dems.org/",
     "orgFbPage": "",
-    "orgFbGroup": "",
-    "orgTwAlias": "",
+    "orgFbGroup": "https://www.facebook.com/groups/49768531934/",
+    "orgTwAlias": "21Dems",
     "orgEndorsements2016": "http://21dems.org/?page_id=207"
   },
   {
     "orgShort": "22nd",
     "orgType": "LD",
-    "orgWeb": "",
-    "orgFbPage": "",
+    "orgWeb": "http://www.thurstondemocrats.org/LD22",
+    "orgFbPage": "https://www.facebook.com/22nd.Democrats/",
     "orgFbGroup": "",
     "orgTwAlias": "",
     "orgEndorsements2016": "http://www.thurstondemocrats.org/content/current-campaigns"
@@ -208,8 +208,8 @@
   {
     "orgShort": "23rd",
     "orgType": "LD",
-    "orgWeb": "",
-    "orgFbPage": "",
+    "orgWeb": "http://www.kitsap23rd.com/",
+    "orgFbPage": "https://www.facebook.com/23rdLegislativeDistrictDemocrats",
     "orgFbGroup": "",
     "orgTwAlias": "",
     "orgEndorsements2016": "http://www.kitsap23rd.com/contact-us"
@@ -218,13 +218,16 @@
     "orgShort": "24th",
     "orgType": "LD",
     "orgWeb": "",
+    "orgFbPage": "",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
     "orgEndorsements2016": "http://wa24ld.com/wp/24th-ld-endorsements/"
   },
   {
     "orgShort": "25th",
     "orgType": "LD",
-    "orgWeb": "",
-    "orgFbPage": "",
+    "orgWeb": "http://25dems.org/",
+    "orgFbPage": "https://www.facebook.com/25dems",
     "orgFbGroup": "",
     "orgTwAlias": "",
     "orgEndorsements2016": "http://25dems.org/2016%20Endorsement/2016%20Endorsements.html"

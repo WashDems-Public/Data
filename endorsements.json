@@ -65,16 +65,6 @@
         "candidates": 
         [
           { 
-            "candName": "David McDevitt",
-            "candPhotoURL": "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-1/c8.0.160.160/p160x160/13237761_1756310661278326_6403407456474802835_n.jpg?oh=25e5339c4ce5575ead605664681a40f1&oe=58358989",
-            "candWeb": "http://mcdevittforcongress.com/",
-            "candFbPage": "https://www.facebook.com/DavidMMcDevittMBAJD",
-            "candTwAlias": "",
-            "candVol": "",
-            "candDonate": "",
-            "candEndorsements": "http://mcdevittforcongress.com/home/about-david/945-2/"
-          },
-          { 
             "candName": "Jim Moeller",
             "candPhotoURL": "https://pbs.twimg.com/profile_images/657327740895408128/q-7-7VvH_400x400.png",
             "candWeb": "http://jimmoeller.org/",
@@ -83,22 +73,6 @@
             "candVol": "",
             "candDonate": "",
             "candEndorsements": "http://jimmoeller.org/endorsements/"
-          }
-        ]
-      },
-      {
-        "posName": "United States Representative Congressional District No. 4",
-        "candidates": 
-        [
-          { 
-            "candName": "Doug McKinley",
-            "candPhotoURL": "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-1/c4.0.160.160/p160x160/13418926_1021717204542379_5959925524361887402_n.jpg?oh=6cf8c99a31dda810a3f38e6654619296&oe=583681D7",
-            "candWeb": "http://vote4mckinley.nationbuilder.com/",
-            "candFbPage": "https://www.facebook.com/vote4mckinley",
-            "candTwAlias": "doug_mckinley",
-            "candVol": "",
-            "candDonate": "",
-            "candEndorsements": ""
           }
         ]
       },
@@ -149,16 +123,6 @@
             "candEndorsements": "http://www.pramilaforcongress.com/endorsements/"
           },
           { 
-            "candName": "Joe McDermott",
-            "candPhotoURL": "https://pbs.twimg.com/profile_images/2439543402/fofmqk3mcsned8qlzfm6_400x400.jpeg",
-            "candWeb": "http://joemcdermott.org/",
-            "candFbPage": "https://www.facebook.com/JoeMcDermottWA",
-            "candTwAlias": "JoeMcDermottWA",
-            "candVol": "",
-            "candDonate": "",
-            "candEndorsements": ""
-          },
-          { 
             "candName": "Brady Piñero Walkinshaw",
             "candPhotoURL": "https://pbs.twimg.com/profile_images/458768870375837696/Hw5ualq2_400x400.jpeg",
             "candWeb": "http://bradywalkinshaw.com/",
@@ -175,24 +139,14 @@
         "candidates": 
         [
           { 
-            "candName": "Santiago Ramos",
-            "candPhotoURL": "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-1/p160x160/13267958_1613493995644872_6963900364289964575_n.jpg?oh=03ce05a7ba2dedfba049c3f85b7dca75&oe=57EFB6E0",
-            "candWeb": "http://ramosforcongress.com/",
-            "candFbPage": "https://www.facebook.com/RamosForCongress/",
-            "candTwAlias": "",
-            "candVol": "",
+            "candName": "Tony Ventrella",
+            "candPhotoURL": "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-1/p160x160/13418959_1618694771779296_1292240116110582605_n.jpg",
+            "candWeb": "http://www.teamventrella.com/",
+            "candFbPage": "https://www.facebook.com/teamventrella/",
+            "candTwAlias": "TeamVentrella",
+            "candVol": "http://www.teamventrella.com/join-us/",
             "candDonate": "",
             "candEndorsements": "http://ramosforcongress.com/view-endorsements"
-          },
-          { 
-            "candName": "Alida Skold",
-            "candPhotoURL": "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-1/p160x160/13006735_100294360381584_5369218264147181757_n.jpg?oh=48c62d783c7230fab7875332965e21e2&oe=57ED0963",
-            "candWeb": "http://alidaskoldforcongress.com/",
-            "candFbPage": "https://www.facebook.com/SkoldforCongress",
-            "candTwAlias": "",
-            "candVol": "",
-            "candDonate": "",
-            "candEndorsements": ""
           }
         ]
       },
@@ -269,21 +223,6 @@
               "LD30",
               "King"
             ]
-          },
-          {
-            "candName": "Karen Fraser",
-            "candPhotoURL": "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-1/c0.0.160.160/p160x160/12079070_1485437048418214_9017554702282334256_n.jpg?oh=adaa4f7e0563e197c37bae3441074b5f&oe=57EB1282",
-            "candWeb": "http://www.karenfraserforltgovernor.com/",
-            "candFbPage": "https://www.facebook.com/KarenFraserForLtGovernor",
-            "candTwAlias": "",
-            "candVol": "http://www.karenfraserforltgovernor.com/volunteer",
-            "candDonate": "http://karenfraserforwa.nationbuilder.com/donate",
-            "candEndorsements": "http://www.karenfraserforltgovernor.com/endorsements",
-            "candEndorsingOrgs":
-            [
-              "LD05",
-              "Spokane"
-            ]
           }
         ]
       },
@@ -356,16 +295,6 @@
             "candVol": "",
             "candDonate": "",
             "candEndorsements": "http://www.patmccarthy.org/endorsements"
-          },
-          { 
-            "candName": "Jeff Sprung",
-            "candPhotoURL": "https://pbs.twimg.com/profile_images/673649222126702593/UnVjnopr_400x400.jpg",
-            "candWeb": "http://www.JeffSprung.com/",
-            "candFbPage": "https://www.facebook.com/JeffSprungForWashingtonStateAuditor/",
-            "candTwAlias": "JeffSprung",
-            "candVol": "http://www.jeffsprung.com/participate.html",
-            "candDonate": "http://www.jeffsprung.com/contribute.html",
-            "candEndorsements": "http://www.jeffsprung.com/endorsements.html"
           }
         ]
       },
@@ -408,16 +337,6 @@
             "candVol": "",
             "candDonate": "",
             "candEndorsements": "http://www.chrisreykdal.com/endorse"
-          },
-                    { 
-            "candName": "",
-            "candPhotoURL": "",
-            "candWeb": "",
-            "candFbPage": "",
-            "candTwAlias": "",
-            "candVol": "",
-            "candDonate": "",
-            "candEndorsements": ""
           }
         ]
       },
@@ -434,16 +353,6 @@
             "candVol": "",
             "candDonate": "",
             "candEndorsements": "http://hilaryfranz.com/endorsements/"
-          },
-          { 
-            "candName": "Dave Upthegrove",
-            "candPhotoURL": "https://pbs.twimg.com/profile_images/438612578/headshot2_400x400.JPG",
-            "candWeb": "http://upthegrove.nationbuilder.com/",
-            "candFbPage": "https://www.facebook.com/Upthegrove4CPL",
-            "candTwAlias": "DaveUpthegrove",
-            "candVol": "",
-            "candDonate": "",
-            "candEndorsements": "http://upthegrove.nationbuilder.com/dave_upthegrove_endorsements"
           }
         ]
       },

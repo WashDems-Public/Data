@@ -316,10 +316,10 @@
   {
     "orgShort": "35th",
     "orgType": "LD",
-    "orgWeb": "",
+    "orgWeb": "http://35thdemocrats.org/",
     "orgFbPage": "",
-    "orgFbGroup": "",
-    "orgTwAlias": "",
+    "orgFbGroup": "https://www.facebook.com/groups/111480962257268/",
+    "orgTwAlias": "35thLD",
     "orgEndorsements2016": "https://www.facebook.com/groups/111480962257268/permalink/1085373958201292/"
   },
   {
@@ -335,17 +335,17 @@
   {
     "orgShort": "37th",
     "orgType": "LD",
-    "orgWeb": "",
-    "orgFbPage": "",
+    "orgWeb": "http://37dems.org/",
+    "orgFbPage": "https://www.facebook.com/37thDistrictDemocrats",
     "orgFbGroup": "",
-    "orgTwAlias": "",
+    "orgTwAlias": "37dems",
     "orgEndorsements2016": "http://37dems.org/index.php?page=display&id=87"
   },
   {
     "orgShort": "38th",
     "orgType": "LD",
-    "orgWeb": "",
-    "orgFbPage": "",
+    "orgWeb": "http://wp.ld38.wa-democrats.net/",
+    "orgFbPage": "https://www.facebook.com/38th-Legislative-District-Washington-State-Democrats-463695267113569/",
     "orgFbGroup": "",
     "orgTwAlias": "",
     "orgEndorsements2016": "http://wp.ld38.wa-democrats.net/2016-candidate-endorsements-round-one/"
@@ -353,19 +353,19 @@
   {
     "orgShort": "39th",
     "orgType": "LD",
-    "orgWeb": "",
-    "orgFbPage": "",
+    "orgWeb": "http://39thdems.org/",
+    "orgFbPage": "https://www.facebook.com/39th-Legislative-District-Democrats-of-WA-160869757308610/",
     "orgFbGroup": "",
-    "orgTwAlias": "",
+    "orgTwAlias": "39thLDDO",
     "orgEndorsements2016": ""
   },
   {
     "orgShort": "40th",
     "orgType": "LD",
-    "orgWeb": "",
-    "orgFbPage": "",
+    "orgWeb": "http://www.40thdems.org/",
+    "orgFbPage": "https://www.facebook.com/40thDems",
     "orgFbGroup": "",
-    "orgTwAlias": "",
+    "orgTwAlias": "40thDems",
     "orgEndorsements2016": "http://www.40thdems.org/blog/2016/6/28/40th-district-democrats-endorsements"
   },
   {
@@ -383,8 +383,8 @@
   {
     "orgShort": "42nd",
     "orgType": "LD",
-    "orgWeb": "",
-    "orgFbPage": "",
+    "orgWeb": "http://42dems.org/",
+    "orgFbPage": "https://www.facebook.com/42ndLDdems/",
     "orgFbGroup": "",
     "orgTwAlias": "",
     "orgEndorsements2016": "http://wp.42dems.org/?p=231"
@@ -404,19 +404,19 @@
   {
     "orgShort": "44th",
     "orgType": "LD",
-    "orgWeb": "",
+    "orgWeb": "http://www.44thdems.org/",
     "orgFbPage": "",
-    "orgFbGroup": "",
+    "orgFbGroup": "https://www.facebook.com/groups/48652234491/",
     "orgTwAlias": "",
     "orgEndorsements2016": "http://www.44thdems.org/node/155"
   },
   {
     "orgShort": "45th",
     "orgType": "LD",
-    "orgWeb": "",
-    "orgFbPage": "",
+    "orgWeb": "https://www.45thdemocrats.org/",
+    "orgFbPage": "https://www.facebook.com/45thDemocrats",
     "orgFbGroup": "",
-    "orgTwAlias": "",
+    "orgTwAlias": "45thDemocrats",
     "orgEndorsements2016": "https://www.45thdemocrats.org/endorsements/"
   },
   {
@@ -432,26 +432,26 @@
   {
     "orgShort": "47th",
     "orgType": "LD",
-    "orgWeb": "",
-    "orgFbPage": "",
+    "orgWeb": "http://www.47thdistrictdemocrats.com/",
+    "orgFbPage": "https://www.facebook.com/47thdistrictdemocrats/",
     "orgFbGroup": "",
-    "orgTwAlias": "",
+    "orgTwAlias": "WA47Dems",
     "orgEndorsements2016": "http://www.47thdistrictdemocrats.com/quotes.html"
   },
   {
     "orgShort": "48th",
     "orgType": "LD",
-    "orgWeb": "",
-    "orgFbPage": "",
+    "orgWeb": "https://48thdems.org/",
+    "orgFbPage": "https://www.facebook.com/48dems/",
     "orgFbGroup": "",
-    "orgTwAlias": "",
+    "orgTwAlias": "48LDDemocrats",
     "orgEndorsements2016": "https://48thdems.org/"
   },
   {
     "orgShort": "49th",
     "orgType": "LD",
-    "orgWeb": "",
-    "orgFbPage": "",
+    "orgWeb": "http://clarkcountydems.com/49th-legislative-district-democrats/",
+    "orgFbPage": "https://www.facebook.com/49thLegislativeDistrictWA",
     "orgFbGroup": "",
     "orgTwAlias": "",
     "orgEndorsements2016": "http://clarkcountydems.com/49-cand"

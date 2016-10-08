@@ -550,7 +550,7 @@
     "orgShort": "Franklin",
     "orgType": "County",
     "orgWeb": "",
-    "orgFbPage": "",
+    "orgFbPage": "https://www.facebook.com/FranklinCountyWADems",
     "orgFbGroup": "",
     "orgTwAlias": "",
     "orgEndorsements2016": "https://www.facebook.com/FranklinCountyWADems/posts/10154210428025435"
@@ -568,7 +568,7 @@
     "orgShort": "Grant",
     "orgType": "County",
     "orgWeb": "",
-    "orgFbPage": "",
+    "orgFbPage": "https://www.facebook.com/Grant-County-Democrats-WA-216469621745758",
     "orgFbGroup": "",
     "orgTwAlias": "",
     "orgEndorsements2016": ""
@@ -576,7 +576,7 @@
   {
     "orgShort": "Grays Harbor",
     "orgType": "County",
-    "orgWeb": "",
+    "orgWeb": "http://www.ghdemocrats.org/",
     "orgFbPage": "",
     "orgFbGroup": "",
     "orgTwAlias": "",
@@ -585,8 +585,8 @@
   {
     "orgShort": "Island",
     "orgType": "County",
-    "orgWeb": "",
-    "orgFbPage": "",
+    "orgWeb": "https://islandcountydemocrats.wordpress.com/",
+    "orgFbPage": "https://www.facebook.com/IslandCountyDemocrats",
     "orgFbGroup": "",
     "orgTwAlias": "",
     "orgEndorsements2016": "https://islandcountydemocrats.wordpress.com/"
@@ -594,8 +594,8 @@
   {
     "orgShort": "Jefferson",
     "orgType": "County",
-    "orgWeb": "",
-    "orgFbPage": "",
+    "orgWeb": "http://jeffcodemocrats.com/",
+    "orgFbPage": "https://www.facebook.com/jeffcodemocrats",
     "orgFbGroup": "",
     "orgTwAlias": "",
     "orgEndorsements2016": "http://jeffcodemocrats.com/"
@@ -615,8 +615,8 @@
   {
     "orgShort": "Kitsap",
     "orgType": "County",
-    "orgWeb": "",
-    "orgFbPage": "",
+    "orgWeb": "http://www.kitsapdemocrats.com/",
+    "orgFbPage": "https://www.facebook.com/kitsapcountydemocrats",
     "orgFbGroup": "",
     "orgTwAlias": "",
     "orgEndorsements2016": "http://www.kitsapdemocrats.com/endorsements/"
@@ -624,10 +624,10 @@
   {
     "orgShort": "Kittitas",
     "orgType": "County",
-    "orgWeb": "",
-    "orgFbPage": "",
-    "orgFbGroup": "",
-    "orgTwAlias": "",
+    "orgWeb": "http://kittitasdemocrats.org/",
+    "orgFbPage": "https://www.facebook.com/kittitasdemocrats",
+    "orgFbGroup": "https://www.facebook.com/groups/64754815024/",
+    "orgTwAlias": "kittcodems",
     "orgEndorsements2016": "https://www.facebook.com/kittitasdemocrats/posts/1800365530185082 "
   },
   {

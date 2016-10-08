@@ -633,17 +633,17 @@
   {
     "orgShort": "Klickitat",
     "orgType": "County",
-    "orgWeb": "",
-    "orgFbPage": "",
-    "orgFbGroup": "",
+    "orgWeb": "http://klickitatdemocrats.org/",
+    "orgFbPage": "https://www.facebook.com/klickitatdemocrats",
+    "orgFbGroup": "https://www.facebook.com/groups/107842586037601/",
     "orgTwAlias": "",
     "orgEndorsements2016": "http://klickitatdemocrats.org/wp2/august-3-primary-endorsements/"
   },
   {
     "orgShort": "Lewis",
     "orgType": "County",
-    "orgWeb": "",
-    "orgFbPage": "",
+    "orgWeb": "http://lewiscountydemocrats.org/",
+    "orgFbPage": "https://www.facebook.com/www.lewiscountydemocrats.org",
     "orgFbGroup": "",
     "orgTwAlias": "",
     "orgEndorsements2016": ""
@@ -652,7 +652,7 @@
     "orgShort": "Lincoln",
     "orgType": "County",
     "orgWeb": "",
-    "orgFbPage": "",
+    "orgFbPage": "https://www.facebook.com/lincolncountywa.dems",
     "orgFbGroup": "",
     "orgTwAlias": "",
     "orgEndorsements2016": ""
@@ -660,17 +660,17 @@
   {
     "orgShort": "Mason",
     "orgType": "County",
-    "orgWeb": "",
-    "orgFbPage": "",
+    "orgWeb": "http://www.masoncountydemocrats.com/",
+    "orgFbPage": "https://www.facebook.com/Mason-County-Democrats-288589567623",
     "orgFbGroup": "",
-    "orgTwAlias": "",
+    "orgTwAlias": "MasonCoDemocrat",
     "orgEndorsements2016": ""
   },
   {
     "orgShort": "Okanogan",
     "orgType": "County",
-    "orgWeb": "",
-    "orgFbPage": "",
+    "orgWeb": "http://www.okanogan.wa-democrats.net/",
+    "orgFbPage": "https://www.facebook.com/Okanogan-County-Democrats-396430083779914",
     "orgFbGroup": "",
     "orgTwAlias": "",
     "orgEndorsements2016": ""
@@ -678,8 +678,8 @@
   {
     "orgShort": "Pacific",
     "orgType": "County",
-    "orgWeb": "",
-    "orgFbPage": "",
+    "orgWeb": "http://www.pacificcountydemocrats.com/",
+    "orgFbPage": "https://www.facebook.com/Pacific-County-Democrats-195835297108769",
     "orgFbGroup": "",
     "orgTwAlias": "",
     "orgEndorsements2016": "http://www.pacificcountydemocrats.com/"
@@ -687,8 +687,8 @@
   {
     "orgShort": "Pend Oreille",
     "orgType": "County",
-    "orgWeb": "",
-    "orgFbPage": "",
+    "orgWeb": "http://www.podemocrats.org/",
+    "orgFbPage": "https://www.facebook.com/pendoreillecountydemocrats",
     "orgFbGroup": "",
     "orgTwAlias": "",
     "orgEndorsements2016": "http://wp.podemocrats.org/"
@@ -696,10 +696,10 @@
   {
     "orgShort": "Pierce",
     "orgType": "County",
-    "orgWeb": "",
-    "orgFbPage": "",
+    "orgWeb": "http://www.piercecountydems.org/",
+    "orgFbPage": "https://www.facebook.com/piercecountydems/",
     "orgFbGroup": "",
-    "orgTwAlias": "",
+    "orgTwAlias": "piercedems",
     "orgEndorsements2016": "http://www.piercecountydems.org/endorsements"
   },
   {

@@ -469,8 +469,8 @@
     "orgShort": "Asotin",
     "orgType": "County",
     "orgWeb": "http://www.asotindemocrats.com/",
-    "orgFbPage": "",
-    "orgFbGroup": "",
+    "orgFbPage": "https://www.facebook.com/Asotin-County-2016-2017-Democratic-Party-1127195420663719",
+    "orgFbGroup": "https://www.facebook.com/groups/298794850207806/",
     "orgTwAlias": "",
     "orgEndorsements2016": ""
   },
@@ -478,7 +478,7 @@
     "orgShort": "Benton",
     "orgType": "County",
     "orgWeb": "http://bencodems.org/",
-    "orgFbPage": "",
+    "orgFbPage": "https://www.facebook.com/Benton-County-WA-Democrats-217681951576663",
     "orgFbGroup": "",
     "orgTwAlias": "",
     "orgEndorsements2016": "https://www.facebook.com/permalink.php?story_fbid=1235762083101973&id=217681951576663"
@@ -486,17 +486,17 @@
   {
     "orgShort": "Chelan",
     "orgType": "County",
-    "orgWeb": "",
-    "orgFbPage": "",
+    "orgWeb": "http://www.chelancountydemocrats.org/",
+    "orgFbPage": "https://www.facebook.com/ChelanDems",
     "orgFbGroup": "",
-    "orgTwAlias": "",
+    "orgTwAlias": "NCWDemocrats",
     "orgEndorsements2016": ""
   },
   {
     "orgShort": "Clallam",
     "orgType": "County",
-    "orgWeb": "",
-    "orgFbPage": "",
+    "orgWeb": "http://www.clallamdemocrats.org/",
+    "orgFbPage": "https://www.facebook.com/clallamdemocrats",
     "orgFbGroup": "",
     "orgTwAlias": "",
     "orgEndorsements2016": "http://www.clallamdemocrats.org/endorsements.html"
@@ -504,17 +504,17 @@
   {
     "orgShort": "Clark",
     "orgType": "County",
-    "orgWeb": "",
-    "orgFbPage": "",
+    "orgWeb": "http://clarkcountydems.com/",
+    "orgFbPage": "https://www.facebook.com/ClarkCountyDems",
     "orgFbGroup": "",
-    "orgTwAlias": "",
+    "orgTwAlias": "ClarkCoDemParty",
     "orgEndorsements2016": "http://clarkcountydems.com/2016-candidates/"
   },
   {
     "orgShort": "Columbia",
     "orgType": "County",
     "orgWeb": "",
-    "orgFbPage": "",
+    "orgFbPage": "https://www.facebook.com/Columbia-County-Democrats-298820466867850",
     "orgFbGroup": "",
     "orgTwAlias": "",
     "orgEndorsements2016": ""
@@ -531,8 +531,8 @@
   {
     "orgShort": "Douglas",
     "orgType": "County",
-    "orgWeb": "",
-    "orgFbPage": "",
+    "orgWeb": "http://www.douglascountydems.com/",
+    "orgFbPage": "https://www.facebook.com/DouglasCountyDemsWA",
     "orgFbGroup": "",
     "orgTwAlias": "",
     "orgEndorsements2016": ""

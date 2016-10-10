@@ -705,26 +705,26 @@
   {
     "orgShort": "San Juan",
     "orgType": "County",
-    "orgWeb": "",
-    "orgFbPage": "",
+    "orgWeb": "http://sjdemocrats.org/",
+    "orgFbPage": "https://www.facebook.com/San-Juan-County-WA-Democrats-710973952268643/",
     "orgFbGroup": "",
     "orgTwAlias": "",
-    "orgEndorsements2016": ""
+    "orgEndorsements2016": "http://sjdemocrats.org/endorsements/"
   },
   {
     "orgShort": "Skagit",
     "orgType": "County",
-    "orgWeb": "",
-    "orgFbPage": "",
+    "orgWeb": "http://www.skagitdemocrats.org/",
+    "orgFbPage": "https://www.facebook.com/skagitdemocrats",
     "orgFbGroup": "",
-    "orgTwAlias": "",
-    "orgEndorsements2016": "https://www.facebook.com/skagitdemocrats/photos/a.656164904413965.1073741834.158708310826296/1221088507921599/?type=3&theater"
+    "orgTwAlias": "skagitdemocrats",
+    "orgEndorsements2016": "http://www.skagitdemocrats.org/wp-content/uploads/2016/08/SkagitDemsEndorsements_8.13.16.pdf"
   },
   {
     "orgShort": "Skamania",
     "orgType": "County",
-    "orgWeb": "",
-    "orgFbPage": "",
+    "orgWeb": "http://skamania.wa-democrats.net/wp/",
+    "orgFbPage": "https://www.facebook.com/SkamaniaDemocrats",
     "orgFbGroup": "",
     "orgTwAlias": "",
     "orgEndorsements2016": ""
@@ -732,10 +732,10 @@
   {
     "orgShort": "Snohomish",
     "orgType": "County",
-    "orgWeb": "",
-    "orgFbPage": "",
+    "orgWeb": "http://snocodems.org/",
+    "orgFbPage": "https://www.facebook.com/SCDCC/",
     "orgFbGroup": "",
-    "orgTwAlias": "",
+    "orgTwAlias": "Sno_Co_Dems",
     "orgEndorsements2016": "http://snocodems.org/"
   },
   {
@@ -751,8 +751,8 @@
   {
     "orgShort": "Stevens",
     "orgType": "County",
-    "orgWeb": "",
-    "orgFbPage": "",
+    "orgWeb": "http://stevenscountydemocrats.org/",
+    "orgFbPage": "https://www.facebook.com/StevensCountyDemocrats",
     "orgFbGroup": "",
     "orgTwAlias": "",
     "orgEndorsements2016": ""
@@ -760,17 +760,17 @@
   {
     "orgShort": "Thurston",
     "orgType": "County",
-    "orgWeb": "",
-    "orgFbPage": "",
+    "orgWeb": "http://www.thurstondemocrats.org/",
+    "orgFbPage": "https://www.facebook.com/ThurstonCountyDemocrats",
     "orgFbGroup": "",
-    "orgTwAlias": "",
+    "orgTwAlias": "Thurstondems",
     "orgEndorsements2016": "http://www.thurstondemocrats.org/content/current-campaigns"
   },
   {
     "orgShort": "Wahkiakum",
     "orgType": "County",
     "orgWeb": "",
-    "orgFbPage": "",
+    "orgFbPage": "https://www.facebook.com/Wahkiakum-County-Democrats-1668255803423641",
     "orgFbGroup": "",
     "orgTwAlias": "",
     "orgEndorsements2016": ""
@@ -778,37 +778,37 @@
   {
     "orgShort": "Walla Walla",
     "orgType": "County",
-    "orgWeb": "",
-    "orgFbPage": "",
+    "orgWeb": "http://wallawalla.wa-democrats.net/",
+    "orgFbPage": "https://www.facebook.com/WallaWallaDemocrats",
     "orgFbGroup": "",
     "orgTwAlias": "",
-    "orgEndorsements2016": "http://wallawalla.wa-democrats.net/"
+    "orgEndorsements2016": "http://wallawalla.wa-democrats.net/?p=118"
   },
   {
     "orgShort": "Whatcom",
     "orgType": "County",
-    "orgWeb": "",
-    "orgFbPage": "",
+    "orgWeb": "http://www.whatcomdemocrats.com/",
+    "orgFbPage": "https://www.facebook.com/Whatcomdems/",
     "orgFbGroup": "",
-    "orgTwAlias": "",
+    "orgTwAlias": "WhatcomDems",
     "orgEndorsements2016": "http://www.whatcomdemocrats.com/story/2016-06-03/2016-endorsements"
   },
   {
     "orgShort": "Whitman",
     "orgType": "County",
-    "orgWeb": "",
+    "orgWeb": "http://www.whitmandemocrats.com/",
     "orgFbPage": "",
-    "orgFbGroup": "",
-    "orgTwAlias": "",
+    "orgFbGroup": "https://www.facebook.com/groups/WhitmanDemocats/",
+    "orgTwAlias": "WhitmanCDems",
     "orgEndorsements2016": ""
   },
   {
     "orgShort": "Yakima",
     "orgType": "County",
-    "orgWeb": "",
-    "orgFbPage": "",
+    "orgWeb": "http://www.yakimademocrats.com/",
+    "orgFbPage": "https://www.facebook.com/yakimademocrats/",
     "orgFbGroup": "",
-    "orgTwAlias": "",
+    "orgTwAlias": "yakdems",
     "orgEndorsements2016": "https://www.facebook.com/yakimademocrats/posts/993581154096770"
   }
 ]

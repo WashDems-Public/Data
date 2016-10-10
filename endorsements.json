@@ -384,6 +384,22 @@
     "positions": 
     [ 
       {
+        "posName": "Justice Position No. 1",
+        "candidates": 
+        [
+          { 
+            "candName": "Mary Yu",
+            "candPhotoURL": "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-1/c0.0.160.160/p160x160/12140605_1200545589959355_7704657079046089929_n.jpg?oh=ac23d814ed55f93a90a55e333a17038e&oe=58A0A96D",
+            "candWeb": "http://justicemaryyu.com/",
+            "candFbPage": "https://www.facebook.com/JMaryYu/",
+            "candTwAlias": "JudgeMaryYu",
+            "candVol": "",
+            "candDonate": "",
+            "candEndorsements": "http://justicemaryyu.com/endorsements/"
+          }
+        ]
+      },
+      {
         "posName": "Justice Position No. 5",
         "candidates": 
         [
@@ -396,6 +412,22 @@
             "candVol": "",
             "candDonate": "",
             "candEndorsements": "http://chiefjusticemadsen.org/endorsements.php"
+          }
+        ]
+      },
+      {
+        "posName": "Justice Position No. 6",
+        "candidates": 
+        [
+          { 
+            "candName": "Charlie Wiggins",
+            "candPhotoURL": "",
+            "candWeb": "http://www.justicecharliewiggins.com/",
+            "candFbPage": "https://www.facebook.com/reelectjusticecharliewiggins",
+            "candTwAlias": "",
+            "candVol": "",
+            "candDonate": "",
+            "candEndorsements": "http://www.justicecharliewiggins.com/endorsements"
           }
         ]
       }

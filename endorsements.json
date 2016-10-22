@@ -195,7 +195,7 @@
         [
           { 
             "candName": "Jay Inslee",
-            "candPhotoURL": "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-1/p160x160/13681089_1617206288592216_5044871110765944313_n.jpg?oh=aa95ce4f4299397f561c0f0660cde5f5&oe=58220162",
+            "candPhotoURL": "2016_inslee.jpg",
             "candWeb": "http://www.JayInslee.com/",
             "candFbPage": "https://www.facebook.com/jayinslee",
             "candTwAlias": "JayInslee",
@@ -247,42 +247,6 @@
         ]
       },
       {
-        "posName": "Treasurer",
-        "candidates": 
-        [
-          { 
-            "candName": "John Paul Comerford",
-            "candPhotoURL": "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-1/c0.0.160.160/p160x160/13315456_577916925716474_3086660613859375717_n.png?oh=885b692e964ea9a1716240e06976e320&oe=57F5C673",
-            "candWeb": "http://www.johnpaul2016.com/",
-            "candFbPage": "https://www.facebook.com/johnpaulcomerfordfortreasurer",
-            "candTwAlias": "",
-            "candVol": "",
-            "candDonate": "",
-            "candEndorsements": "http://www.johnpaul2016.com/endorsements"
-          },
-          { 
-            "candName": "Alec Fisken",
-            "candPhotoURL": "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-1/c32.0.160.160/p160x160/12985492_141210916276437_7733210086527572165_n.jpg?oh=f47e938cb4597bdf381f3295a76a7d08&oe=57E967A4",
-            "candWeb": "http://fiskenfortreasurer.com/",
-            "candFbPage": "https://www.facebook.com/Alec-Fisken-for-Treasurer-133403550390507",
-            "candTwAlias": "",
-            "candVol": "",
-            "candDonate": "",
-            "candEndorsements": "http://fiskenfortreasurer.com/endorsements-2/"
-          },
-          { 
-            "candName": "Marko Liias",
-            "candPhotoURL": "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-1/p160x160/10295741_10152241103488751_972173593115660966_n.jpg?oh=a906b5fe017bbda961126f36064a94ae&oe=57FBD4C4",
-            "candWeb": "http://markoliias.com/",
-            "candFbPage": "https://www.facebook.com/markoliiaspage",
-            "candTwAlias": "MarkoLiias",
-            "candVol": "",
-            "candDonate": "",
-            "candEndorsements": "http://markoliias.com/supporters/"
-          }
-        ]
-      },
-      {
         "posName": "Auditor",
         "candidates": 
         [
@@ -330,7 +294,7 @@
           },
           { 
             "candName": "Chris Reykdal",
-            "candPhotoURL": "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-1/c40.0.160.160/p160x160/13432314_10155146374229852_97465300919831966_n.jpg?oh=6037af1bff04bd032633d6ace82cf0f3&oe=57F76D93",
+            "candPhotoURL": "2016_reykdal.jpg",
             "candWeb": "http://www.chrisreykdal.com/",
             "candFbPage": "https://www.facebook.com/chris4wakids/",
             "candTwAlias": "ChrisReykdal",
@@ -389,7 +353,7 @@
         [
           { 
             "candName": "Mary Yu",
-            "candPhotoURL": "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-1/c0.0.160.160/p160x160/12140605_1200545589959355_7704657079046089929_n.jpg?oh=ac23d814ed55f93a90a55e333a17038e&oe=58A0A96D",
+            "candPhotoURL": "2016_yu.jpg",
             "candWeb": "http://justicemaryyu.com/",
             "candFbPage": "https://www.facebook.com/JMaryYu/",
             "candTwAlias": "JudgeMaryYu",

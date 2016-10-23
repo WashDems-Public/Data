@@ -402,39 +402,23 @@
     "groupLevelID": "County"
   },
   {
-    "groupLevelName": "City of Seattle",
-    "groupLevelID": "CitySeattle",
+    "groupLevelName": "Regional",
+    "groupLevelID": "Regional",
     "positions": 
     [ 
       {
-        "posName": "City of Seattle Initiative Mesure No. 123",
+        "posName": "Sound Transit Proposition Number 1: Light-Rail, Commuter-Rail, and Bus Service Expansion",
         "candidates": 
         [
           { 
-            "candName": "No",
-            "candPhotoURL": "https://scontent-ord1-1.xx.fbcdn.net/v/t1.0-1/p160x160/13083237_576704562504089_2352031560100351534_n.jpg?oh=c68b9f3ec4f78928e6174d1f0029d876&oe=57F3031C",
-            "candWeb": "http://voteno123.com/",
-            "candFbPage": "https://www.facebook.com/voteno123/",
-            "candTwAlias": "",
+            "candName": "Approved",
+            "candPhotoURL": "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/13659216_10155124503934465_2901779077179564990_n.png?oh=6e06f3af4be14265f716266af3c7839e&oe=58A97145",
+            "candWeb": "http://masstransitnow.com/",
+            "candFbPage": "https://www.facebook.com/masstransitnow",
+            "candTwAlias": "masstransitnow",
             "candVol": "",
             "candDonate": "",
-            "candEndorsements": "http://voteno123.com/endorsements/"
-          }
-        ]
-      },
-      {
-        "posName": "City of Seattle Proposition No. 1: Property Tax Levy Renewal for Affordable Housing",
-        "candidates": 
-        [
-          { 
-            "candName": "Yes",
-            "candPhotoURL": "https://scontent-ord1-1.xx.fbcdn.net/v/t1.0-1/p160x160/13062306_10153811532689678_5234899470406708821_n.jpg?oh=a377b8d4a7c58e43ac365508839569ae&oe=57F44534",
-            "candWeb": "http://yesforhomes.com/",
-            "candFbPage": "https://www.facebook.com/Yes-on-Prop-1-Support-the-Seattle-Housing-Levy-130863759677/",
-            "candTwAlias": "",
-            "candVol": "",
-            "candDonate": "",
-            "candEndorsements": "http://yesforhomes.com/endorsements/"
+            "candEndorsements": "http://masstransitnow.com/endorsements/"
           }
         ]
       }

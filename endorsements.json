@@ -10,7 +10,7 @@
         [
           { 
             "candName": "Patty Murray",
-            "candPhotoURL": "https://pbs.twimg.com/profile_images/480194036355977217/TM2ndWdt_400x400.jpeg",
+            "candPhotoURL": "2016_murray.jpeg",
             "candWeb": "http://www.pattymurray.com/",
             "candFbPage": "https://www.facebook.com/pattymurray/",
             "candTwAlias": "MurrayCampaign",
@@ -66,7 +66,7 @@
         [
           { 
             "candName": "Jim Moeller",
-            "candPhotoURL": "https://pbs.twimg.com/profile_images/657327740895408128/q-7-7VvH_400x400.png",
+            "candPhotoURL": "2016_moeller.png",
             "candWeb": "http://jimmoeller.org/",
             "candFbPage": "https://www.facebook.com/ElectJimMoeller",
             "candTwAlias": "JimMoeller",
@@ -82,7 +82,7 @@
         [
           { 
             "candName": "Joe Pakootas",
-            "candPhotoURL": "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-1/p160x160/10273502_644735105615212_1110226887523554426_n.jpg?oh=7458428e869ffa4bf3805b413306d9f1&oe=58314F21",
+            "candPhotoURL": "2016_pakootas.jpg",
             "candWeb": "http://www.pakootasforcongress.com/",
             "candFbPage": "https://www.facebook.com/pakootasforcongress/",
             "candTwAlias": "",
@@ -98,7 +98,7 @@
         [
           { 
             "candName": "Derek Kilmer",
-            "candPhotoURL": "https://pbs.twimg.com/profile_images/421696421880807425/OEIMhE-C_400x400.jpeg",
+            "candPhotoURL": "2016_kilmer.jpeg",
             "candWeb": "http://www.derekkilmer.com/",
             "candFbPage": "https://www.facebook.com/Elect.Derek.Kilmer/",
             "candTwAlias": "derekkilmer",
@@ -114,7 +114,7 @@
         [
           { 
             "candName": "Pramila Jayapal",
-            "candPhotoURL": "https://pbs.twimg.com/profile_images/738630887076548608/ThbEBcw0_400x400.jpg",
+            "candPhotoURL": "2016_jayapal.jpg",
             "candWeb": "http://www.pramilaforcongress.com/",
             "candFbPage": "https://www.facebook.com/pramila.jayapal",
             "candTwAlias": "PramilaJayapal",
@@ -124,7 +124,7 @@
           },
           { 
             "candName": "Brady Piñero Walkinshaw",
-            "candPhotoURL": "https://pbs.twimg.com/profile_images/458768870375837696/Hw5ualq2_400x400.jpeg",
+            "candPhotoURL": "2016_walkinshaw.jpeg",
             "candWeb": "http://bradywalkinshaw.com/",
             "candFbPage": "https://www.facebook.com/brady.p.walkinshaw/",
             "candTwAlias": "BradyWalkinshaw",
@@ -156,7 +156,7 @@
         [
           { 
             "candName": "Adam Smith",
-            "candPhotoURL": "https://pbs.twimg.com/profile_images/282562652/smith_400x400.jpg",
+            "candPhotoURL": "2016_smith.jpg",
             "candWeb": "http://www.electadamsmith.com/",
             "candFbPage": "https://www.facebook.com/adamsmithforcongress",
             "candTwAlias": "electadamsmith",
@@ -172,7 +172,7 @@
         [
           { 
             "candName": "Denny Heck",
-            "candPhotoURL": "https://pbs.twimg.com/profile_images/1718418123/Denny_Heck_final_400x400.jpg",
+            "candPhotoURL": "2016_heck.jpg",
             "candWeb": "http://www.dennyheckforcongress.com/",
             "candFbPage": "https://www.facebook.com/DennyHeckforCongress",
             "candTwAlias": "DennyHeck",
@@ -211,7 +211,7 @@
         [
           { 
             "candName": "Cyrus Habib",
-            "candPhotoURL": "https://pbs.twimg.com/profile_images/753813288526356481/XhhCoGpZ_400x400.jpg",
+            "candPhotoURL": "2016_habib.jpg",
             "candWeb": "http://cyrushabib.com/",
             "candFbPage": "https://www.facebook.com/Cyrus-Habib-for-Lt-Governor-347384975292728/",
             "candTwAlias": "CyrusHabib",
@@ -232,7 +232,7 @@
         [
           { 
             "candName": "Tina Podlodowski",
-            "candPhotoURL": "https://pbs.twimg.com/profile_images/752589230128263169/SI0nqQRK_400x400.jpg",
+            "candPhotoURL": "2016_podlodowski.jpg",
             "candWeb": "http://www.votersfortina.com/",
             "candFbPage": "https://www.facebook.com/votersfortina",
             "candTwAlias": "VotersForTina",
@@ -252,7 +252,7 @@
         [
           { 
             "candName": "Pat (Patrice) McCarthy",
-            "candPhotoURL": "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-1/p160x160/13600323_887447811382517_6981323282717146481_n.jpg?oh=cf286cd0f563b5357bd480ea560f59ad&oe=5831E610",
+            "candPhotoURL": "2016_mccarthy.jpg",
             "candWeb": "http://www.patmccarthy.org/",
             "candFbPage": "https://www.facebook.com/patmccarthywa/",
             "candTwAlias": "",
@@ -268,7 +268,7 @@
         [
           { 
             "candName": "Bob Ferguson",
-            "candPhotoURL": "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-1/p160x160/13267755_1071059539632080_1881035824209407810_n.jpg?oh=d1121427ddcce71df539b3a0abb68e99&oe=58297AD4",
+            "candPhotoURL": "2016_ferguson.jpg",
             "candWeb": "http://electbobferguson.com/",
             "candFbPage": "https://www.facebook.com/bobfergusonforAG/",
             "candTwAlias": "",
@@ -284,7 +284,7 @@
         [
           { 
             "candName": "Erin Jones",
-            "candPhotoURL": "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-1/c0.61.160.160/p160x160/11095516_928417447209169_8671209499139710554_n.jpg?oh=6bdce4e6e3585985f96ffafe64d448c6&oe=58353BDC",
+            "candPhotoURL": "2016_jones.jpg",
             "candWeb": "http://www.erinjones2016.org/",
             "candFbPage": "https://www.facebook.com/ErinJones2016/",
             "candTwAlias": "",

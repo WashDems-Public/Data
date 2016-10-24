@@ -26,7 +26,7 @@
         [
           { 
             "candName": "No",
-            "candPhotoURL": "",
+            "candPhotoURL": "2016_1464_no.jpg",
             "candWeb": "",
             "candFbPage": "",
             "candTwAlias": "",
@@ -42,13 +42,13 @@
         [
           { 
             "candName": "Yes",
-            "candPhotoURL": "",
-            "candWeb": "",
-            "candFbPage": "",
-            "candTwAlias": "",
+            "candPhotoURL": "2016_1464_yes.png",
+            "candWeb": "http://gunresponsibility.org/solution/extreme-risk-protection-orders/",
+            "candFbPage": "https://www.facebook.com/AllianceforGunResponsibility/",
+            "candTwAlias": "WaGunResponsib",
             "candVol": "",
             "candDonate": "",
-            "candEndorsements": ""
+            "candEndorsements": "http://gunresponsibility.org/organizations/"
           }
         ]
       },
@@ -58,13 +58,13 @@
         [
           { 
             "candName": "Yes",
-            "candPhotoURL": "",
-            "candWeb": "",
-            "candFbPage": "",
+            "candPhotoURL": "2016_1501_yes.jpg",
+            "candWeb": "http://www.yeson1501.com/",
+            "candFbPage": "https://www.facebook.com/Yes-on-I-1501-1174413845973565/",
             "candTwAlias": "",
             "candVol": "",
             "candDonate": "",
-            "candEndorsements": ""
+            "candEndorsements": "http://www.yeson1501.com/endorsements/"
           }
         ]
       }

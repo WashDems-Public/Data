@@ -71,6 +71,10 @@
     ]
   },
   {
+    "groupLevelName": "County Ballot Measures",
+    "groupLevelID": "CountyInitiatives"
+  },
+  {
     "groupLevelName": "Federal: President and VP",
     "groupLevelID": "USPresident",
     "positions": 

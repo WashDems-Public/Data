@@ -1,5 +1,76 @@
 [
   {
+    "groupLevelName": "Initiatives",
+    "groupLevelID": "Initiatives",
+    "positions": 
+    [ 
+      {
+        "posName": "I-1433",
+        "candidates": 
+        [
+          { 
+            "candName": "Yes",
+            "candPhotoURL": "2016_1433_yes.jpg",
+            "candWeb": "http://www.raiseupwa.com/",
+            "candFbPage": "https://www.facebook.com/RaiseUpWA",
+            "candTwAlias": "Raise_Up_WA",
+            "candVol": "",
+            "candDonate": "",
+            "candEndorsements": "http://www.raiseupwa.com/endorsements/"
+          }
+        ]
+      },
+      {
+        "posName": "I-1464",
+        "candidates": 
+        [
+          { 
+            "candName": "No",
+            "candPhotoURL": "",
+            "candWeb": "",
+            "candFbPage": "",
+            "candTwAlias": "",
+            "candVol": "",
+            "candDonate": "",
+            "candEndorsements": ""
+          }
+        ]
+      },
+      {
+        "posName": "I-1491",
+        "candidates": 
+        [
+          { 
+            "candName": "Yes",
+            "candPhotoURL": "",
+            "candWeb": "",
+            "candFbPage": "",
+            "candTwAlias": "",
+            "candVol": "",
+            "candDonate": "",
+            "candEndorsements": ""
+          }
+        ]
+      },
+      {
+        "posName": "I-1501",
+        "candidates": 
+        [
+          { 
+            "candName": "Yes",
+            "candPhotoURL": "",
+            "candWeb": "",
+            "candFbPage": "",
+            "candTwAlias": "",
+            "candVol": "",
+            "candDonate": "",
+            "candEndorsements": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
     "groupLevelName": "Federal: Senate",
     "groupLevelID": "USSen",
     "positions": 

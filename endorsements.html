@@ -116,7 +116,7 @@ function changeText() {
           } catch (err) { }
             
           // If county or LD, point to further down
-          if ( (dataObj[iGroup].groupLevelID == "WALeg") || (dataObj[iGroup].groupLevelID == "County") ) { 
+          if ( (dataObj[iGroup].groupLevelID == "WALeg") || (dataObj[iGroup].groupLevelID == "County") || (dataObj[iGroup].groupLevelID == "CountyInitiatives") ) { 
             strInfo += "<p>For these endorsements, visit your <a href='#local'>local County and LD Democratic organizations</a></p>";
           }
 

@@ -71,6 +71,29 @@
     ]
   },
   {
+    "groupLevelName": "Federal: President and VP",
+    "groupLevelID": "USPresident",
+    "positions": 
+    [ 
+      {
+        "posName": "United States President and Vice President",
+        "candidates": 
+        [
+          { 
+            "candName": "Hillary Clinton / Tim Kaine",
+            "candPhotoURL": "2016_murray.jpeg",
+            "candWeb": "https://www.hillaryclinton.com/",
+            "candFbPage": "https://www.facebook.com/hillaryclinton",
+            "candTwAlias": "HillaryClinton",
+            "candVol": "",
+            "candDonate": "",
+            "candEndorsements": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
     "groupLevelName": "Federal: Senate",
     "groupLevelID": "USSen",
     "positions": 
@@ -272,7 +295,7 @@
             "candTwAlias": "JayInslee",
             "candVol": "http://www.jayinslee.com/engage-folder/join",
             "candDonate": "https://secure.jayinslee.com/",
-            "candEndorsements": ""
+            "candEndorsements": "http://www.jayinslee.com/meet/endorsements2016"
           }
         ]
       },

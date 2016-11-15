@@ -760,7 +760,7 @@
   {
     "orgShort": "Thurston",
     "orgType": "County",
-    "orgWeb": "http://www.thurstondemocrats.org/",
+,    "orgWeb": "http://www.thurstondemocrats.org/",
     "orgFbPage": "https://www.facebook.com/ThurstonCountyDemocrats",
     "orgFbGroup": "",
     "orgTwAlias": "Thurstondems",
@@ -810,5 +810,10 @@
     "orgFbGroup": "",
     "orgTwAlias": "yakdems",
     "orgEndorsements2016": "https://www.facebook.com/yakimademocrats/posts/993581154096770"
+  },
+  {
+    "orgShort": "Washington",
+    "org Type": "State Young",
+    "orgWeb": "http://www.ydwa.org/"
   }
 ]

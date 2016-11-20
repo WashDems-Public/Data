@@ -10,7 +10,7 @@
         [
           { 
             "candName": "Yes",
-            "candPhotoURL": "images/2016_1433_yes.jpg",
+            "candPhotoURL": "images/2016/2016_1433_yes.jpg",
             "candWeb": "http://www.raiseupwa.com/",
             "candFbPage": "https://www.facebook.com/RaiseUpWA",
             "candTwAlias": "Raise_Up_WA",
@@ -26,7 +26,7 @@
         [
           { 
             "candName": "No",
-            "candPhotoURL": "images/2016_1464_no.jpg",
+            "candPhotoURL": "images/2016/2016_1464_no.jpg",
             "candWeb": "",
             "candFbPage": "",
             "candTwAlias": "",
@@ -42,7 +42,7 @@
         [
           { 
             "candName": "Yes",
-            "candPhotoURL": "images/2016_1491_yes.png",
+            "candPhotoURL": "images/2016/2016_1491_yes.png",
             "candWeb": "http://gunresponsibility.org/solution/extreme-risk-protection-orders/",
             "candFbPage": "https://www.facebook.com/AllianceforGunResponsibility/",
             "candTwAlias": "WaGunResponsib",
@@ -58,7 +58,7 @@
         [
           { 
             "candName": "Yes",
-            "candPhotoURL": "images/2016_1501_yes.jpg",
+            "candPhotoURL": "images/2016/2016_1501_yes.jpg",
             "candWeb": "http://www.yeson1501.com/",
             "candFbPage": "https://www.facebook.com/Yes-on-I-1501-1174413845973565/",
             "candTwAlias": "",
@@ -85,7 +85,7 @@
         [
           { 
             "candName": "Hillary Clinton / Tim Kaine",
-            "candPhotoURL": "2016_clinton.jpg",
+            "candPhotoURL": "images/2016/2016_clinton.jpg",
             "candWeb": "https://www.hillaryclinton.com/",
             "candFbPage": "https://www.facebook.com/hillaryclinton",
             "candTwAlias": "HillaryClinton",
@@ -108,7 +108,7 @@
         [
           { 
             "candName": "Patty Murray",
-            "candPhotoURL": "2016_murray.jpeg",
+            "candPhotoURL": "images/2016/2016_murray.jpeg",
             "candWeb": "http://www.pattymurray.com/",
             "candFbPage": "https://www.facebook.com/pattymurray/",
             "candTwAlias": "MurrayCampaign",
@@ -132,7 +132,7 @@
         [
           { 
             "candName": "Suzan DelBene",
-            "candPhotoURL": "2016_delbene.jpg",
+            "candPhotoURL": "images/2016/2016_delbene.jpg",
             "candWeb": "http://www.delbeneforcongress.com/",
             "candFbPage": "https://www.facebook.com/SuzanDelBene/",
             "candTwAlias": "SuzanDelBene",
@@ -148,7 +148,7 @@
         [
           { 
             "candName": "Rick Larsen",
-            "candPhotoURL": "2016_larsen.jpg",
+            "candPhotoURL": "images/2016/2016_larsen.jpg",
             "candWeb": "http://www.ricklarsen.org/",
             "candFbPage": "https://www.facebook.com/Rick-Larsen-20809300888/",
             "candTwAlias": "LarsenRick",
@@ -164,7 +164,7 @@
         [
           { 
             "candName": "Jim Moeller",
-            "candPhotoURL": "2016_moeller.png",
+            "candPhotoURL": "images/2016/2016_moeller.png",
             "candWeb": "http://jimmoeller.org/",
             "candFbPage": "https://www.facebook.com/ElectJimMoeller",
             "candTwAlias": "JimMoeller",
@@ -180,7 +180,7 @@
         [
           { 
             "candName": "Joe Pakootas",
-            "candPhotoURL": "2016_pakootas.jpg",
+            "candPhotoURL": "images/2016/2016_pakootas.jpg",
             "candWeb": "http://www.pakootasforcongress.com/",
             "candFbPage": "https://www.facebook.com/pakootasforcongress/",
             "candTwAlias": "",
@@ -196,7 +196,7 @@
         [
           { 
             "candName": "Derek Kilmer",
-            "candPhotoURL": "2016_kilmer.jpeg",
+            "candPhotoURL": "images/2016/2016_kilmer.jpeg",
             "candWeb": "http://www.derekkilmer.com/",
             "candFbPage": "https://www.facebook.com/Elect.Derek.Kilmer/",
             "candTwAlias": "derekkilmer",
@@ -212,7 +212,7 @@
         [
           { 
             "candName": "Pramila Jayapal",
-            "candPhotoURL": "2016_jayapal.jpg",
+            "candPhotoURL": "images/2016/2016_jayapal.jpg",
             "candWeb": "http://www.pramilaforcongress.com/",
             "candFbPage": "https://www.facebook.com/pramila.jayapal",
             "candTwAlias": "PramilaJayapal",
@@ -222,7 +222,7 @@
           },
           { 
             "candName": "Brady Piñero Walkinshaw",
-            "candPhotoURL": "2016_walkinshaw.jpeg",
+            "candPhotoURL": "images/2016/2016_walkinshaw.jpeg",
             "candWeb": "http://bradywalkinshaw.com/",
             "candFbPage": "https://www.facebook.com/brady.p.walkinshaw/",
             "candTwAlias": "BradyWalkinshaw",
@@ -238,7 +238,7 @@
         [
           { 
             "candName": "Tony Ventrella",
-            "candPhotoURL": "2016_ventrella.jpg",
+            "candPhotoURL": "images/2016/2016_ventrella.jpg",
             "candWeb": "http://www.teamventrella.com/",
             "candFbPage": "https://www.facebook.com/teamventrella/",
             "candTwAlias": "TeamVentrella",
@@ -254,7 +254,7 @@
         [
           { 
             "candName": "Adam Smith",
-            "candPhotoURL": "2016_smith.jpg",
+            "candPhotoURL": "images/2016/2016_smith.jpg",
             "candWeb": "http://www.electadamsmith.com/",
             "candFbPage": "https://www.facebook.com/adamsmithforcongress",
             "candTwAlias": "electadamsmith",
@@ -270,7 +270,7 @@
         [
           { 
             "candName": "Denny Heck",
-            "candPhotoURL": "2016_heck.jpg",
+            "candPhotoURL": "images/2016/2016_heck.jpg",
             "candWeb": "http://www.dennyheckforcongress.com/",
             "candFbPage": "https://www.facebook.com/DennyHeckforCongress",
             "candTwAlias": "DennyHeck",
@@ -293,7 +293,7 @@
         [
           { 
             "candName": "Jay Inslee",
-            "candPhotoURL": "2016_inslee_3.jpg",
+            "candPhotoURL": "images/2016/2016_inslee_3.jpg",
             "candWeb": "http://www.JayInslee.com/",
             "candFbPage": "https://www.facebook.com/jayinslee",
             "candTwAlias": "JayInslee",
@@ -309,7 +309,7 @@
         [
           { 
             "candName": "Cyrus Habib",
-            "candPhotoURL": "2016_habib.jpg",
+            "candPhotoURL": "images/2016/2016_habib.jpg",
             "candWeb": "http://cyrushabib.com/",
             "candFbPage": "https://www.facebook.com/Cyrus-Habib-for-Lt-Governor-347384975292728/",
             "candTwAlias": "CyrusHabib",
@@ -330,7 +330,7 @@
         [
           { 
             "candName": "Tina Podlodowski",
-            "candPhotoURL": "2016_podlodowski.jpg",
+            "candPhotoURL": "images/2016/2016_podlodowski.jpg",
             "candWeb": "http://www.votersfortina.com/",
             "candFbPage": "https://www.facebook.com/votersfortina",
             "candTwAlias": "VotersForTina",
@@ -350,7 +350,7 @@
         [
           { 
             "candName": "Pat (Patrice) McCarthy",
-            "candPhotoURL": "2016_mccarthy.jpg",
+            "candPhotoURL": "images/2016/2016_mccarthy.jpg",
             "candWeb": "http://www.patmccarthy.org/",
             "candFbPage": "https://www.facebook.com/patmccarthywa/",
             "candTwAlias": "",
@@ -366,7 +366,7 @@
         [
           { 
             "candName": "Bob Ferguson",
-            "candPhotoURL": "2016_ferguson.jpg",
+            "candPhotoURL": "images/2016/2016_ferguson.jpg",
             "candWeb": "http://electbobferguson.com/",
             "candFbPage": "https://www.facebook.com/bobfergusonforAG/",
             "candTwAlias": "",
@@ -382,7 +382,7 @@
         [
           { 
             "candName": "Erin Jones",
-            "candPhotoURL": "2016_jones.jpg",
+            "candPhotoURL": "images/2016/2016_jones.jpg",
             "candWeb": "http://www.erinjones2016.org/",
             "candFbPage": "https://www.facebook.com/ErinJones2016/",
             "candTwAlias": "ErinJonesIn2016",
@@ -392,7 +392,7 @@
           },
           { 
             "candName": "Chris Reykdal",
-            "candPhotoURL": "2016_reykdal.jpg",
+            "candPhotoURL": "images/2016/2016_reykdal.jpg",
             "candWeb": "http://www.chrisreykdal.com/",
             "candFbPage": "https://www.facebook.com/chris4wakids/",
             "candTwAlias": "ChrisReykdal",
@@ -408,7 +408,7 @@
         [
           { 
             "candName": "Hilary Franz",
-            "candPhotoURL": "2016_franz.jpg",
+            "candPhotoURL": "images/2016/2016_franz.jpg",
             "candWeb": "http://hilaryfranz.com/",
             "candFbPage": "https://www.facebook.com/Hilary-Franz-499984396876222/",
             "candTwAlias": "Hilary_Franz",
@@ -424,7 +424,7 @@
         [
           { 
             "candName": "Mike Kreidler",
-            "candPhotoURL": "2016_kreidler.jpg",
+            "candPhotoURL": "images/2016/2016_kreidler.jpg",
             "candWeb": "http://mikekreidler.com/",
             "candFbPage": "https://www.facebook.com/ReElectMikeKreidler",
             "candTwAlias": "MikeKreidler",
@@ -451,7 +451,7 @@
         [
           { 
             "candName": "Mary Yu",
-            "candPhotoURL": "2016_yu.jpg",
+            "candPhotoURL": "images/2016/2016_yu.jpg",
             "candWeb": "http://justicemaryyu.com/",
             "candFbPage": "https://www.facebook.com/JMaryYu/",
             "candTwAlias": "JudgeMaryYu",
@@ -467,7 +467,7 @@
         [
           { 
             "candName": "Barbara Madsen",
-            "candPhotoURL": "2016_madsen.jpg",
+            "candPhotoURL": "images/2016/2016_madsen.jpg",
             "candWeb": "http://www.ChiefJusticeMadsen.org/",
             "candFbPage": "https://www.facebook.com/Chief-Justice-Barbara-Madsen-103814642987735/",
             "candTwAlias": "ChiefBarbara",
@@ -483,7 +483,7 @@
         [
           { 
             "candName": "Charlie Wiggins",
-            "candPhotoURL": "2016_wiggins.jpg",
+            "candPhotoURL": "images/2016/2016_wiggins.jpg",
             "candWeb": "http://www.justicecharliewiggins.com/",
             "candFbPage": "https://www.facebook.com/reelectjusticecharliewiggins",
             "candTwAlias": "",

@@ -10,7 +10,7 @@
         [
           { 
             "candName": "Yes",
-            "candPhotoURL": "2016_1433_yes.jpg",
+            "candPhotoURL": "images/2016_1433_yes.jpg",
             "candWeb": "http://www.raiseupwa.com/",
             "candFbPage": "https://www.facebook.com/RaiseUpWA",
             "candTwAlias": "Raise_Up_WA",
@@ -26,7 +26,7 @@
         [
           { 
             "candName": "No",
-            "candPhotoURL": "2016_1464_no.jpg",
+            "candPhotoURL": "images/2016_1464_no.jpg",
             "candWeb": "",
             "candFbPage": "",
             "candTwAlias": "",

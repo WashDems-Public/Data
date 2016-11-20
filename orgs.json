@@ -813,8 +813,9 @@
   },
   {
     "orgShort": "Washington",
-    "org Type": "State Young",
+    "orgType": "State Young",
     "orgWeb": "http://www.ydwa.org/",
+    "orgFbPage": "https://www.facebook.com/YoungDemsWA",
     "orgTwAlias": "ydwa"
   }
 ]

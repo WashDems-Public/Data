@@ -58,18 +58,22 @@ function changeText() {
 
           strInfo += "<p>";
           
-          // Event Date+Time+:
-          strInfo += dataObj[iEvent].eventDate + " " + dataObj[iEvent].eventStartTime;
-          // enable eventEndTime to be optional
-          try {
-            if ( dataObj[iEvent].eventEndTime.length > 0 ) {
-              strInfo += " to " + dataObj[iEvent].eventEndTime + ": ";
-            } else {
+          // Event Date and Time:
+          strInfo += dataObj[iEvent].eventDate;
+          // If not rendering mini, add the time:
+          if (strRender != "mini") { 
+            strInfo += " " + dataObj[iEvent].eventStartTime;
+            // enable eventEndTime to be optional
+            try {
+              if ( dataObj[iEvent].eventEndTime.length > 0 ) {
+                strInfo += " to " + dataObj[iEvent].eventEndTime + ": ";
+              } else {
+                strInfo += ": ";
+              } // end if+else
+            } catch (err) {
               strInfo += ": ";
-            } // end if+else
-          } catch (err) {
-            strInfo += ": ";
-          }
+            } // end try+catch
+          } // end if not rendering mini
 
           // Start bold
           strInfo += "<b>";
@@ -96,11 +100,11 @@ function changeText() {
           // End bold
           strInfo += "</b>";
           
+          // Event Location
+          
           // If not rendering mini, add the location name
           if (strRender != "mini") {
-            // Event Location
             strInfo += " at " + dataObj[iEvent].eventLocationName + " ";
-            strInfo += "</p>";
           } // end if mini
           
           // if rendering full, add the full location address
@@ -112,7 +116,10 @@ function changeText() {
             } catch (err) {
             } // end try+catch
           } // end if rendering full
-                
+
+          // Close the event listing
+          strInfo += "</p>";
+          
         } // next event
         
       } catch (err) {

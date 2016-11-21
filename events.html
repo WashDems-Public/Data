@@ -81,10 +81,15 @@ function changeText() {
           // Event hosting organization
           // TODO: Need to support candidates, electeds, allied organizations, etc.
           // TODO: Would be great to easily hyperlink to organization
-          strInfo += dataObj[iEvent].eventOrgShort + " " + dataObj[iEvent].eventOrgType + " Democrats "; 
-
-          // Event Title (and hyperlink) - If  the event has a web page, hyperlink the event title
-          // enable eventWeb to be optional
+          if (strRender != "mini") {
+            strInfo += dataObj[iEvent].eventOrgShort + " " + dataObj[iEvent].eventOrgType + " Democrats "; 
+          } else {
+            strInfo += dataObj[iEvent].eventOrgShort + " " + dataObj[iEvent].eventOrgType + " Dems "; 
+          }
+          
+          // Event Title (and hyperlink)
+          // If  the event has a web page, hyperlink the event title
+          // Uses try+catch to enable eventWeb to be optional
           try { 
             if ( dataObj[iEvent].eventWeb.length > 0 ) {
               strInfo += "<a href='" + dataObj[iEvent].eventWeb + "'>";

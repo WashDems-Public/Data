@@ -15,10 +15,28 @@ function toggleDisplay (dv) {
   // alert(dv.style.value);
 }
 
+// For parsing QueryString parameters
+function getParameterByName(name, url) {
+    if (!url) {
+      url = window.location.href;
+    }
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+  
 function changeText() {
   document.getElementById('pInfo').innerHTML = 'Loading requested data...';
   
   // alert("Loading requested data...");
+  
+  // Parse the QueryString param WidgetView
+  var strWidgetView = "";
+  strWidgetView = getParameterByName("WidgetView");
+  alert(strWidgetView");
   
   var request = new XMLHttpRequest();
   request.onreadystatechange = function () {

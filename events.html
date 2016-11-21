@@ -36,21 +36,34 @@ function changeText() {
         // for each position write a smaller header
         for (iEvent = 0; iEvent < dataObj.length; iEvent++) {
 
-          strInfo += "<div>";
-          strInfo += dataObj[iEvent].eventDate + " " + dataObj[iEvent].eventStartTime + " ";
+          strInfo += "<p>";
+          
+          // Event Date+Time+:
+          strInfo += dataObj[iEvent].eventDate + " " + dataObj[iEvent].eventStartTime;
+          if ( dataObj[iEvent].eventEndTime.length > 0 ( {
+            strInfo += " to " + dataObj[iEvent].eventEndTime + ": ";
+          } else {
+            strInfo += ": ";
+          } // end if+else
+
+          // Event hosting organization
+          // TODO: Need to support candidates, electeds, allied organizations, etc.
+          // TODO: Would be great to easily hyperlink to organization
           strInfo += dataObj[iEvent].eventOrgShort + " " + dataObj[iEvent].eventOrgType + " Democrats "; 
 
+          // Event Title (and hyperlink)
           // If there the event has a web URL, hyperlink the event title to this
           if ( dataObj[iEvent].eventWeb.length > 0 ) {
             strInfo += "<a href='" + dataObj[iEvent].eventWeb + "'>";
-          } // end if
-          strInfo += dataObj[iEvent].eventTitle + " ";
-          if ( dataObj[iEvent].eventWeb.length > 0 ) {
-            strInfo += "</a>";
-          } // end if
+            strInfo += dataObj[iEvent].eventTitle;
+            strInfo += "</a> ";
+          } else {
+            strInfo += dataObj[iEvent].eventTitle + " ";
+          } // end if+else
 
+          // Event Location
           strInfo += " at " + dataObj[iEvent].eventLocationName + " ";
-          strInfo += "</div>";
+          strInfo += "</p>";
                 
           /* old example
           // Show endorsements link if  present

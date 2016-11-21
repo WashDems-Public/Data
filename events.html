@@ -18,7 +18,7 @@ function toggleDisplay (dv) {
 function changeText() {
   document.getElementById('pInfo').innerHTML = 'Loading requested data...';
   
-  alert("Loading requested data...");
+  // alert("Loading requested data...");
   
   var request = new XMLHttpRequest();
   request.onreadystatechange = function () {
@@ -28,8 +28,7 @@ function changeText() {
       // alert(request.responseText);
       var dataObj = JSON.parse(request.responseText);
 
-      alert("Data parsed");
-      alert("Found " + dataObj.length + " events");
+      // alert("Data parsed.  Found " + dataObj.length + " events");
       
       var strInfo = "";
       
@@ -79,12 +78,12 @@ function changeText() {
 <h1>Local Democratic Party Events</h1>
 
 <p style="font-size:smaller">
-  TODO: Intro text goes here
+  Below is a list of locale events that may be of interest to local Democratic party activists 
 </p>
 
 <p id="pInfo">Loading data...</p>
 
-<p>
+<p style="font-size:smaller">
   Paid for by the Washington State Democrats<br />
   PO Box 4027, Seattle, WA 98194, (206) 583-0664<br />
   Chair Jaxon Ravens, <a href="http://www.wa-democrats.org" target='_blank'>http://www.wa-democrats.org</a><br />

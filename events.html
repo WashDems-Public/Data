@@ -34,9 +34,9 @@ function changeText() {
   // alert("Loading requested data...");
   
   // Parse the QueryString param WidgetView
-  var strWidgetView = "";
-  strWidgetView = getParameterByName("WidgetView");
-  alert(strWidgetView);
+  var strRender = "";
+  strRender = getParameterByName("render");
+  // alert(strRender);
   
   var request = new XMLHttpRequest();
   request.onreadystatechange = function () {
@@ -96,9 +96,22 @@ function changeText() {
           // End bold
           strInfo += "</b>";
           
-          // Event Location
-          strInfo += " at " + dataObj[iEvent].eventLocationName + " ";
-          strInfo += "</p>";
+          // If not rendering mini, add the location name
+          if (strRender != "mini") {
+            // Event Location
+            strInfo += " at " + dataObj[iEvent].eventLocationName + " ";
+            strInfo += "</p>";
+          } // end if mini
+          
+          // if rendering full, add the full location address
+          if (strRender == "full") {
+            try {
+              strInfo += "<br />"
+              strInfo += "&nbsp; " + dataObj[iEvent].eventLocationStreet + "<br />";
+              strInfo += "&nbsp; " + dataObj[iEvent].eventLocationCity + ", " + dataObj[iEvent].eventLocationST + " " + dataObj[iEvent].eventLocationZip; 
+            } catch (err) {
+            } // end try+catch
+          } // end if rendering full
                 
         } // next event
         

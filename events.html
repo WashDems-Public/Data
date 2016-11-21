@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Local Democratic Party Events</title>
+
+<script type="text/javascript">
+
+function toggleDisplay (dv) {
+  // alert(dv.id.toString());
+  if (document.getElementById(dv.id.toString()).style.display == "none") {
+    document.getElementById(dv.id.toString()).style.display = "inline";
+  } else {
+    document.getElementById(dv.id.toString()).style.display = "none";
+  }
+  // alert(dv.style.value);
+}
+
+function changeText() {
+  document.getElementById('pInfo').innerHTML = 'Loading requested data...';
+  
+  var request = new XMLHttpRequest();
+  request.onreadystatechange = function () {
+    var DONE = this.DONE || 4;
+    if (this.readyState === DONE){
+      // alert(this.readyState);
+      // alert(request.responseText);
+      var dataObj = JSON.parse(request.responseText);
+        
+      try {
+        // for each position write a smaller header
+        for (iEvent = 0; iEvent < dataObj.length; iEvent++) {
+
+          strInfo += "<div>" + dataObj[iEvent].eventTitle + "</div>";
+                
+          /* old example
+          // Show endorsements link if  present
+          try {
+            strInfo += "<td>";
+            if ( tmpCandidate.candEndorsements.length > 0 ) {
+              strInfo += "<td><a href='" + tmpCandidate.candEndorsements + "' target='_blank'>" + "Endorsements" + "</a></td>";
+            } else { strInfo += "<td></td>"; }
+
+            strInfo += "</td>";
+          } catch (err) { 
+            strInfo += "<td></td>";
+          }
+          
+          */
+
+        } // next event
+        
+      } catch (err) {
+        
+      }
+          
+      document.getElementById('pInfo').innerHTML = strInfo;
+    }
+  };
+  request.open('GET', 'endorsements.json', true);
+  request.setRequestHeader('X-Requested-With', 'XMLHttpRequest');  // Tells server that this call is made for ajax purposes.
+  request.send(null);  // No data needs to be sent along with the request.
+
+  document.getElementById('pInfo').innerHTML = 'Rendering requested data...';
+  
+}
+</script>
+
+</head>
+
+<body onload="changeText()" style="font-family:Arial">
+
+<h1>Local Democratic Party Events</h1>
+
+<p style="font-size:smaller">
+  TODO: Intro text goes here
+</p>
+
+<p id="pInfo">Loading data...</p>
+
+<p>
+  Paid for by the Washington State Democrats<br />
+  PO Box 4027, Seattle, WA 98194, (206) 583-0664<br />
+  Chair Jaxon Ravens, <a href="http://www.wa-democrats.org" target='_blank'>http://www.wa-democrats.org</a><br />
+  Not authorized by any candidate or candidate's committee<br />
+</p>
+
+</body>
+</html> 

@@ -18,6 +18,8 @@ function toggleDisplay (dv) {
 function changeText() {
   document.getElementById('pInfo').innerHTML = 'Loading requested data...';
   
+  alert("Loading requested data...");
+  
   var request = new XMLHttpRequest();
   request.onreadystatechange = function () {
     var DONE = this.DONE || 4;
@@ -26,6 +28,8 @@ function changeText() {
       // alert(request.responseText);
       var dataObj = JSON.parse(request.responseText);
         
+      alert("Data parsed");
+      alert("Found " + dataObj.length + " events");
       try {
         // for each position write a smaller header
         for (iEvent = 0; iEvent < dataObj.length; iEvent++) {

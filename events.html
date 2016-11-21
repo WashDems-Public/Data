@@ -32,14 +32,17 @@ function changeText() {
       
       var strInfo = "";
       
+      // try to render the events list
       try {
-        // for each position write a smaller header
+        
+        // for each event
         for (iEvent = 0; iEvent < dataObj.length; iEvent++) {
 
           strInfo += "<p>";
           
           // Event Date+Time+:
           strInfo += dataObj[iEvent].eventDate + " " + dataObj[iEvent].eventStartTime;
+          // enable eventEndTime to be optional
           try {
             if ( dataObj[iEvent].eventEndTime.length > 0 ) {
               strInfo += " to " + dataObj[iEvent].eventEndTime + ": ";
@@ -47,15 +50,19 @@ function changeText() {
               strInfo += ": ";
             } // end if+else
           } catch (err) {
+            strInfo += ": ";
           }
 
+          // Start bold
+          strInfo += "<b>";
+          
           // Event hosting organization
           // TODO: Need to support candidates, electeds, allied organizations, etc.
           // TODO: Would be great to easily hyperlink to organization
           strInfo += dataObj[iEvent].eventOrgShort + " " + dataObj[iEvent].eventOrgType + " Democrats "; 
 
-          // Event Title (and hyperlink)
-          // If there the event has a web URL, hyperlink the event title to this
+          // Event Title (and hyperlink) - If  the event has a web page, hyperlink the event title
+          // enable eventWeb to be optional
           try { 
             if ( dataObj[iEvent].eventWeb.length > 0 ) {
               strInfo += "<a href='" + dataObj[iEvent].eventWeb + "'>";
@@ -68,6 +75,9 @@ function changeText() {
             strInfo += dataObj[iEvent].eventTitle + " ";
           }
 
+          // End bold
+          strInfo += "</b>";
+          
           // Event Location
           strInfo += " at " + dataObj[iEvent].eventLocationName + " ";
           strInfo += "</p>";
@@ -76,7 +86,7 @@ function changeText() {
         
       } catch (err) {
         
-      }
+      } // end catch for rendering the events list
           
       document.getElementById('pInfo').innerHTML = strInfo;
     }

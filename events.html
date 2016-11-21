@@ -40,11 +40,14 @@ function changeText() {
           
           // Event Date+Time+:
           strInfo += dataObj[iEvent].eventDate + " " + dataObj[iEvent].eventStartTime;
-          if ( dataObj[iEvent].eventEndTime.length > 0 ) {
-            strInfo += " to " + dataObj[iEvent].eventEndTime + ": ";
-          } else {
-            strInfo += ": ";
-          } // end if+else
+          try {
+            if ( dataObj[iEvent].eventEndTime.length > 0 ) {
+              strInfo += " to " + dataObj[iEvent].eventEndTime + ": ";
+            } else {
+              strInfo += ": ";
+            } // end if+else
+          } catch (err) {
+          }
 
           // Event hosting organization
           // TODO: Need to support candidates, electeds, allied organizations, etc.
@@ -53,33 +56,22 @@ function changeText() {
 
           // Event Title (and hyperlink)
           // If there the event has a web URL, hyperlink the event title to this
-          if ( dataObj[iEvent].eventWeb.length > 0 ) {
-            strInfo += "<a href='" + dataObj[iEvent].eventWeb + "'>";
-            strInfo += dataObj[iEvent].eventTitle;
-            strInfo += "</a> ";
-          } else {
+          try { 
+            if ( dataObj[iEvent].eventWeb.length > 0 ) {
+              strInfo += "<a href='" + dataObj[iEvent].eventWeb + "'>";
+              strInfo += dataObj[iEvent].eventTitle;
+              strInfo += "</a> ";
+            } else {
+              strInfo += dataObj[iEvent].eventTitle + " ";
+            } // end if+else
+          } catch (err) {
             strInfo += dataObj[iEvent].eventTitle + " ";
-          } // end if+else
+          }
 
           // Event Location
           strInfo += " at " + dataObj[iEvent].eventLocationName + " ";
           strInfo += "</p>";
                 
-          /* old example
-          // Show endorsements link if  present
-          try {
-            strInfo += "<td>";
-            if ( tmpCandidate.candEndorsements.length > 0 ) {
-              strInfo += "<td><a href='" + tmpCandidate.candEndorsements + "' target='_blank'>" + "Endorsements" + "</a></td>";
-            } else { strInfo += "<td></td>"; }
-
-            strInfo += "</td>";
-          } catch (err) { 
-            strInfo += "<td></td>";
-          }
-          
-          */
-
         } // next event
         
       } catch (err) {

@@ -56,7 +56,7 @@ function changeText() {
       document.getElementById('pInfo').innerHTML = strInfo;
     }
   };
-  request.open('GET', 'endorsements.json', true);
+  request.open('GET', 'events.json', true);
   request.setRequestHeader('X-Requested-With', 'XMLHttpRequest');  // Tells server that this call is made for ajax purposes.
   request.send(null);  // No data needs to be sent along with the request.
 

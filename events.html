@@ -36,7 +36,21 @@ function changeText() {
         // for each position write a smaller header
         for (iEvent = 0; iEvent < dataObj.length; iEvent++) {
 
-          strInfo += "<div>" + dataObj[iEvent].eventTitle + "</div>";
+          strInfo += "<div>";
+          strInfo += dataObj[iEvent].eventDate + " " + dataObj[iEvent].eventStartTime + " ";
+          strInfo += dataObj[iEvent].eventOrgShort + " " + dataObj[iEvent].eventOrgType + " Democrats "; 
+
+          // If there the event has a web URL, hyperlink the event title to this
+          if ( dataObj[iEvent].eventWeb.length > 0 ) {
+            strInfo += "<a href='" + dataObj[iEvent].eventWeb + "'>";
+          } // end if
+          strInfo += dataObj[iEvent].eventTitle + " ";
+          if ( dataObj[iEvent].eventWeb.length > 0 ) {
+            strInfo += "</a>";
+          } // end if
+
+          strInfo += " at " + dataObj[iEvent].eventLocationName + " ";
+          strInfo += "</div>";
                 
           /* old example
           // Show endorsements link if  present

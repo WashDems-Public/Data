@@ -56,7 +56,7 @@ function changeText() {
         // for each event
         for (iEvent = 0; iEvent < dataObj.length; iEvent++) {
 
-          strInfo += "<p>";
+          strInfo += "<div>";
           
           // Event Date and Time:
           strInfo += dataObj[iEvent].eventDate;
@@ -66,15 +66,15 @@ function changeText() {
             // enable eventEndTime to be optional
             try {
               if ( dataObj[iEvent].eventEndTime.length > 0 ) {
-                strInfo += " to " + dataObj[iEvent].eventEndTime + ": ";
-              } else {
-                strInfo += ": ";
+                strInfo += " to " + dataObj[iEvent].eventEndTime;
               } // end if+else
             } catch (err) {
-              strInfo += ": ";
             } // end try+catch
           } // end if not rendering mini
 
+          // add colon and space after date
+          strInfo += ": ";
+          
           // Start bold
           strInfo += "<b>";
           
@@ -112,13 +112,18 @@ function changeText() {
             try {
               strInfo += "<br />"
               strInfo += "&nbsp; " + dataObj[iEvent].eventLocationStreet + "<br />";
-              strInfo += "&nbsp; " + dataObj[iEvent].eventLocationCity + ", " + dataObj[iEvent].eventLocationST + " " + dataObj[iEvent].eventLocationZip; 
+              strInfo += "&nbsp; " + dataObj[iEvent].eventLocationCity + ", " + dataObj[iEvent].eventLocationST + " " + dataObj[iEvent].eventLocationZip + "<br />"; 
             } catch (err) {
             } // end try+catch
           } // end if rendering full
 
           // Close the event listing
-          strInfo += "</p>";
+          strInfo += "</div>";
+          
+          // if rendering full, add a line break between events
+          if (strRender == "full") {
+            strInfo += "<div>&nbsp;</div>";
+          } // end if
           
         } // next event
         

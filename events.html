@@ -27,9 +27,12 @@ function changeText() {
       // alert(this.readyState);
       // alert(request.responseText);
       var dataObj = JSON.parse(request.responseText);
-        
+
       alert("Data parsed");
       alert("Found " + dataObj.length + " events");
+      
+      var strInfo = "";
+      
       try {
         // for each position write a smaller header
         for (iEvent = 0; iEvent < dataObj.length; iEvent++) {

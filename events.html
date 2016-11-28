@@ -33,7 +33,7 @@ function changeText() {
   
   // alert("Loading requested data...");
   
-  // Parse the QueryString param WidgetView
+  // Parse the QueryString param render
   var strRender = "";
   strRender = getParameterByName("render");
   // alert(strRender);
@@ -154,6 +154,10 @@ function changeText() {
 
 <h1>Local Democratic Party Events</h1>
 
+<p style="font-size:smaller">
+  View: <a href="?render=mini">Mini</a> | <a href="">Default</a> | <a href="?render=full">Full</a>
+</p>
+  
 <p style="font-size:smaller">
   Below is a list of local events that may be of interest to local Democratic party activists
 </p>

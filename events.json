@@ -11,7 +11,7 @@
     "eventLocationST": "WA",
     "eventLocationZip": "98366",
     "eventWeb": "http://26d.org/wp/archives/33238",
-    "eventFbWeb": "https://www.facebook.com/events/1820194431584330/",
+    "eventFbId": "1820194431584330",
     "eventDescription": "Bylaws and amendments will be adopted.  During this meeting we will be electing the following positions: Chair, Vice Chair (Kitsap), Vice Chair (Pierce), State Committeeman, State Committeewoman, Secretary, Treasurer, Additional Executive Board Members and three delegates to the Pierce County Democrats Central Committee E-Board.  We will also be conducting new business in determining meeting dates and place, and a monthly new candidate training."
   },
   {
@@ -26,7 +26,7 @@
     "eventLocationST": "WA",
     "eventLocationZip": "98901",
     "eventWeb": "http://www.yakimademocrats.com/tc-events/ycd-celebrate-the-holidays/",
-    "eventFbWeb": "https://www.facebook.com/events/1811175945791682/",
+    "eventFbId": "1811175945791682",
     "eventDescription": "The Yakima County Democrats will provide the main course, so please RSVP for an adequate count."
   },
   {
@@ -71,5 +71,20 @@
     "eventLocationZip": "98277",
     "eventWeb": "http://whidbeyislanddemocrats.org/HolidayGathering2016/",
     "eventDescription": "Celebrate with something completely different this year — New Orleans Cuisine, Live Music, a little bit dressy, and dancing!  Entertainment will feature Valetta Faye singing with the CNATTU Just-N-Tyme Band.  Shake off the holiday blues, enjoy some traditional holiday spirit with friends and neighbors, and get lucky with our mini-raffle.  Tickets are $40 at the door, or RSVP and buy on line for a discount."
+  },
+  {
+    "eventDate": "Sat, 12/17",
+    "eventStartTime": "6:00 PM",
+    "eventEndTime": "8:00 PM",
+    "eventOrgShort": "43rd",
+    "eventOrgType": "LD",
+    "eventTitle": "Holiday Party",
+    "eventLocationName": "Home of Jessica Trupin",
+    "eventLocationStreet": "4519 Densmore Ave N",
+    "eventLocationCity": "Seattle",
+    "eventLocationST": "WA",
+    "eventLocationZip": "98103",
+    "eventWeb": "https://43rddems.ngpvanhost.com/form/-3353081054800508928",
+    "eventDescription": "Come and enjoy great company, music, food, wine, non-alcoholic beverages, and we'll hear a few speeches from electeds and community leaders. You won't want to miss this!"
   }
 ]

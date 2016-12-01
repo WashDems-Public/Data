@@ -81,11 +81,22 @@ function changeText() {
           // Event hosting organization
           // TODO: Need to support candidates, electeds, allied organizations, etc.
           // TODO: Would be great to easily hyperlink to organization
-          if (strRender != "mini") {
-            strInfo += dataObj[iEvent].eventOrgShort + " " + dataObj[iEvent].eventOrgType + " Democrats "; 
-          } else {
-            strInfo += dataObj[iEvent].eventOrgShort + " " + dataObj[iEvent].eventOrgType + " Dems "; 
-          }
+          switch ( dataObj[iEvent].eventOrgType ) {
+            case "Ally":
+              strInfo += dataObj[iEvent].eventOrgShort;
+              break;
+            case "LD":
+            case "County":
+              if (strRender != "mini") {
+                strInfo += dataObj[iEvent].eventOrgShort + " " + dataObj[iEvent].eventOrgType + " Democrats "; 
+              } else {
+                strInfo += dataObj[iEvent].eventOrgShort + " " + dataObj[iEvent].eventOrgType + " Dems "; 
+              } // end if+else
+              break;
+            default:
+              strInfo += dataObj[iEvent].eventOrgShort;
+              break;
+          } // end switch on eventOrgType
           
           // Event Title (and hyperlink)
           // If  the event has a web page, hyperlink the event title

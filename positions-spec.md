@@ -5,27 +5,28 @@ This document describes the fields in the positions.json file.
 Below is an example of an object from the positions.json file:
 ``` JSON
 {
-  "posTerm": { "next": "2019" },
+  "posTermNext": "2017",
   "posCounty": "King",
   "posJurisdiction": "City of Kirkland",
   "posIncumbent": 
   {
-    "first": "Dave",
-    "last": "Asher",
-    "email": "dasher@kirklandwa.gov",
-    "phone": "",
+    "first": "Jay",
+    "last": "Arnold",
+    "email": "jarnold@kirklandwa.gov",
+    "phone": "425-587-3001",
     "party": "",
     "contactId": ""
   }
 }
 ```
 
-### posTerm
-(Required) An object representing the term of the position
-* start (optional) - Year when the position was most recently previously elected 
-* next (required) - Year when the position will be next up for election
+### posTermStart
+(Optional) Year when the position was most recently previously elected
 
-### posTerm
+### posTermNext
+(Required) Year when the position will be next up for election
+
+### posTermLength
 (Optional) The number of years the position is elected for
 
 ### posCounty

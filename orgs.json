@@ -27,12 +27,18 @@
     "orgShort": "03rd",
     "orgType": "LD",
     "orgWeb": "http://thirdld.org/",
+    "orgFbPage": "https://www.facebook.com/3rdLD",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
     "orgEndorsements2016": "http://thirdld.org/endorsed-candidates"
   },
   {
     "orgShort": "04th",
     "orgType": "LD",
     "orgWeb": "",
+    "orgFbPage": "",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
     "orgEndorsements2016": ""
   },
   {
@@ -40,36 +46,54 @@
     "orgType": "LD",
     "orgFull": "5th District Democrats",
     "orgWeb": "http://www.5thdistrictdems.com/",
+    "orgFbPage": "https://www.facebook.com/5thdems/",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
     "orgEndorsements2016": "http://www.5thdistrictdems.com/?t2t_feature=endorsements"
   },
   {
     "orgShort": "06th",
     "orgType": "LD",
     "orgWeb": "",
+    "orgFbPage": "",
+    "orgFbGroup": "https://www.facebook.com/groups/189844541052163/",
+    "orgTwAlias": "",
     "orgEndorsements2016": ""
   },
   {
     "orgShort": "07th",
     "orgType": "LD",
     "orgWeb": "",
+    "orgFbPage": "",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
     "orgEndorsements2016": ""
   },
   {
     "orgShort": "08th",
     "orgType": "LD",
-    "orgWeb": "",
-    "orgEndorsements2016": ""
+    "orgWeb": "http://wa8thld-dems.blogspot.com/ ",
+    "orgFbPage": "https://www.facebook.com/DemocratsOfThe8thLDWA",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
+    "orgEndorsements2016": "http://wa8thld-dems.blogspot.com/2016/10/latest-8th-legislative-district.html"
   },
   {
     "orgShort": "09th",
     "orgType": "LD",
     "orgWeb": "",
+    "orgFbPage": "",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
     "orgEndorsements2016": "https://www.facebook.com/FranklinCountyWADems/posts/10154210428025435"
   },
   {
     "orgShort": "10th",
     "orgType": "LD",
     "orgWeb": "",
+    "orgFbPage": "",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
     "orgEndorsements2016": "https://islandcountydemocrats.wordpress.com/"
   },
   {
@@ -86,84 +110,126 @@
     "orgShort": "12th",
     "orgType": "LD",
     "orgWeb": "",
-    "orgEndorsements2016": ""
+    "orgFbPage": "",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
+    "orgEndorsements2016": "http://www.douglascountydems.com/candidates-endorsements"
   },
   {
     "orgShort": "13th",
     "orgType": "LD",
     "orgWeb": "",
+    "orgFbPage": "",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
     "orgEndorsements2016": ""
   },
   {
     "orgShort": "14th",
     "orgType": "LD",
-    "orgWeb": "",
+    "orgWeb": "http://ld14.wa-democrats.net/",
+    "orgFbPage": "",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
     "orgEndorsements2016": "http://klickitatdemocrats.org/wp2/august-3-primary-endorsements/"
   },
   {
     "orgShort": "15th",
     "orgType": "LD",
     "orgWeb": "",
+    "orgFbPage": "",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
     "orgEndorsements2016": ""
   },
   {
     "orgShort": "16th",
     "orgType": "LD",
     "orgWeb": "",
+    "orgFbPage": "",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
     "orgEndorsements2016": "https://www.facebook.com/WADems16LD/posts/10153929562317795"
   },
   {
     "orgShort": "17th",
     "orgType": "LD",
     "orgWeb": "",
+    "orgFbPage": "",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
     "orgEndorsements2016": "http://clarkcountydems.com/17-cand"
   },
   {
     "orgShort": "18th",
     "orgType": "LD",
-    "orgWeb": "",
+    "orgWeb": "http://clarkcountydems.com/18th-legislative-district-democrats/",
+    "orgFbPage": "https://www.facebook.com/WA18dems",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
     "orgEndorsements2016": "http://clarkcountydems.com/18-cand"
   },
   {
     "orgShort": "19th",
     "orgType": "LD",
     "orgWeb": "",
+    "orgFbPage": "https://www.facebook.com/19thLegislativeDistrict/",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
     "orgEndorsements2016": "https://www.facebook.com/19thLegislativeDistrict/posts/961445783972125"
   },
   {
     "orgShort": "20th",
     "orgType": "LD",
-    "orgWeb": "",
+    "orgWeb": "http://ld20.wa-democrats.net/",
+    "orgFbPage": "https://www.facebook.com/20thLegislativeDistrictDemocratsWA",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
     "orgEndorsements2016": ""
   },
   {
     "orgShort": "21st",
     "orgType": "LD",
-    "orgWeb": "",
+    "orgWeb": "http://21dems.org/",
+    "orgFbPage": "",
+    "orgFbGroup": "https://www.facebook.com/groups/49768531934/",
+    "orgTwAlias": "21Dems",
     "orgEndorsements2016": "http://21dems.org/?page_id=207"
   },
   {
     "orgShort": "22nd",
     "orgType": "LD",
-    "orgWeb": "",
+    "orgWeb": "http://www.thurstondemocrats.org/LD22",
+    "orgFbPage": "https://www.facebook.com/22nd.Democrats/",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
     "orgEndorsements2016": "http://www.thurstondemocrats.org/content/current-campaigns"
   },
   {
     "orgShort": "23rd",
     "orgType": "LD",
-    "orgWeb": "",
+    "orgWeb": "http://www.kitsap23rd.com/",
+    "orgFbPage": "https://www.facebook.com/23rdLegislativeDistrictDemocrats",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
     "orgEndorsements2016": "http://www.kitsap23rd.com/contact-us"
   },
   {
     "orgShort": "24th",
     "orgType": "LD",
     "orgWeb": "",
+    "orgFbPage": "",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
     "orgEndorsements2016": "http://wa24ld.com/wp/24th-ld-endorsements/"
   },
   {
     "orgShort": "25th",
     "orgType": "LD",
-    "orgWeb": "",
+    "orgWeb": "http://25dems.org/",
+    "orgFbPage": "https://www.facebook.com/25dems",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
     "orgEndorsements2016": "http://25dems.org/2016%20Endorsement/2016%20Endorsements.html"
   },
   {
@@ -180,55 +246,82 @@
   {
     "orgShort": "27th",
     "orgType": "LD",
-    "orgWeb": "",
+    "orgWeb": "http://www.27thDems.org/",
+    "orgFbPage": "https://www.facebook.com/27thdems",
+    "orgFbGroup": "https://www.facebook.com/groups/WA27thDems/",
+    "orgTwAlias": "",
     "orgEndorsements2016": "http://www.27thdems.org/index.php/endorsements"
   },
   {
     "orgShort": "28th",
     "orgType": "LD",
-    "orgWeb": "",
+    "orgWeb": "http://28thlddems.wixsite.com/28th-district-dems",
+    "orgFbPage": "https://www.facebook.com/28thlddems",
+    "orgFbGroup": "https://www.facebook.com/groups/443568002393841/",
+    "orgTwAlias": "28LDDems",
     "orgEndorsements2016": "http://28thlddems.wix.com/28th-district-dems#!endorsements/xq5ek"
   },
   {
     "orgShort": "29th",
     "orgType": "LD",
     "orgWeb": "",
+    "orgFbPage": "https://www.facebook.com/DemocratsWA29thDistrict/",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
     "orgEndorsements2016": "http://ld29.wa-democrats.net/wp/endorsements-2016"
   },
   {
     "orgShort": "30th",
     "orgType": "LD",
-    "orgWeb": "",
+    "orgWeb": "http://30thdemswa.org/",
+    "orgFbPage": "https://www.facebook.com/30thdemswa",
+    "orgFbGroup": "",
+    "orgTwAlias": "30thdemswa",
     "orgEndorsements2016": "http://www.30thdemswa.org/endorsements.php"
   },
   {
     "orgShort": "31st",
     "orgType": "LD",
-    "orgWeb": "",
+    "orgWeb": "http://www.31stdistrictdemocrats.org/",
+    "orgFbPage": "",
+    "orgFbGroup": "https://www.facebook.com/groups/31stLDDemocrats/",
+    "orgTwAlias": "31stDems",
     "orgEndorsements2016": "http://www.31stdistrictdemocrats.org/styled-7/index.html"
   },
   {
     "orgShort": "32nd",
     "orgType": "LD",
-    "orgWeb": "",
+    "orgWeb": "http://32democrats.org/",
+    "orgFbPage": "",
+    "orgFbGroup": "https://www.facebook.com/groups/44677644405/",
+    "orgTwAlias": "32dems",
     "orgEndorsements2016": "http://32democrats.org/"
   },
   {
     "orgShort": "33rd",
     "orgType": "LD",
-    "orgWeb": "",
-    "orgEndorsements2016": "http://33rddistrictdemocrats.org/"
+    "orgWeb": "http://33rddistrictdemocrats.org/",
+    "orgFbPage": "https://www.facebook.com/33rddemocrats",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
+    "orgEndorsements2016": "http://33rddistrictdemocrats.org/candidates-endorsements/"
   },
   {
     "orgShort": "34th",
     "orgType": "LD",
-    "orgWeb": "",
+    "orgWeb": "http://www.34dems.org/",
+    "orgFbPage": "https://www.facebook.com/34dems/",
+    "orgFbGroup": "",
+    "orgTwAlias": "34dems",
     "orgEndorsements2016": "http://www.34dems.org/endorsements"
   },
   {
     "orgShort": "35th",
     "orgType": "LD",
-    "orgWeb": "",
+    "orgWeb": "http://35thdemocrats.org/",
+    "orgFbPage": "",
+    "orgFbGroup": "https://www.facebook.com/groups/111480962257268/",
+    "orgTwAlias": "35thLD",
     "orgEndorsements2016": "https://www.facebook.com/groups/111480962257268/permalink/1085373958201292/"
   },
   {
@@ -244,25 +337,37 @@
   {
     "orgShort": "37th",
     "orgType": "LD",
-    "orgWeb": "",
+    "orgWeb": "http://37dems.org/",
+    "orgFbPage": "https://www.facebook.com/37thDistrictDemocrats",
+    "orgFbGroup": "",
+    "orgTwAlias": "37dems",
     "orgEndorsements2016": "http://37dems.org/index.php?page=display&id=87"
   },
   {
     "orgShort": "38th",
     "orgType": "LD",
-    "orgWeb": "",
+    "orgWeb": "http://wp.ld38.wa-democrats.net/",
+    "orgFbPage": "https://www.facebook.com/38th-Legislative-District-Washington-State-Democrats-463695267113569/",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
     "orgEndorsements2016": "http://wp.ld38.wa-democrats.net/2016-candidate-endorsements-round-one/"
   },
   {
     "orgShort": "39th",
     "orgType": "LD",
-    "orgWeb": "",
+    "orgWeb": "http://39thdems.org/",
+    "orgFbPage": "https://www.facebook.com/39th-Legislative-District-Democrats-of-WA-160869757308610/",
+    "orgFbGroup": "",
+    "orgTwAlias": "39thLDDO",
     "orgEndorsements2016": ""
   },
   {
     "orgShort": "40th",
     "orgType": "LD",
-    "orgWeb": "",
+    "orgWeb": "http://www.40thdems.org/",
+    "orgFbPage": "https://www.facebook.com/40thDems",
+    "orgFbGroup": "",
+    "orgTwAlias": "40thDems",
     "orgEndorsements2016": "http://www.40thdems.org/blog/2016/6/28/40th-district-democrats-endorsements"
   },
   {
@@ -280,7 +385,10 @@
   {
     "orgShort": "42nd",
     "orgType": "LD",
-    "orgWeb": "",
+    "orgWeb": "http://42dems.org/",
+    "orgFbPage": "https://www.facebook.com/42ndLDdems/",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
     "orgEndorsements2016": "http://wp.42dems.org/?p=231"
   },
   {
@@ -298,13 +406,19 @@
   {
     "orgShort": "44th",
     "orgType": "LD",
-    "orgWeb": "",
+    "orgWeb": "http://www.44thdems.org/",
+    "orgFbPage": "",
+    "orgFbGroup": "https://www.facebook.com/groups/48652234491/",
+    "orgTwAlias": "",
     "orgEndorsements2016": "http://www.44thdems.org/node/155"
   },
   {
     "orgShort": "45th",
     "orgType": "LD",
-    "orgWeb": "",
+    "orgWeb": "https://www.45thdemocrats.org/",
+    "orgFbPage": "https://www.facebook.com/45thDemocrats",
+    "orgFbGroup": "",
+    "orgTwAlias": "45thDemocrats",
     "orgEndorsements2016": "https://www.45thdemocrats.org/endorsements/"
   },
   {
@@ -320,115 +434,172 @@
   {
     "orgShort": "47th",
     "orgType": "LD",
-    "orgWeb": "",
+    "orgWeb": "http://www.47thdistrictdemocrats.com/",
+    "orgFbPage": "https://www.facebook.com/47thdistrictdemocrats/",
+    "orgFbGroup": "",
+    "orgTwAlias": "WA47Dems",
     "orgEndorsements2016": "http://www.47thdistrictdemocrats.com/quotes.html"
   },
   {
     "orgShort": "48th",
     "orgType": "LD",
-    "orgWeb": "",
+    "orgWeb": "https://48thdems.org/",
+    "orgFbPage": "https://www.facebook.com/48dems/",
+    "orgFbGroup": "",
+    "orgTwAlias": "48LDDemocrats",
     "orgEndorsements2016": "https://48thdems.org/"
   },
   {
     "orgShort": "49th",
     "orgType": "LD",
-    "orgWeb": "",
+    "orgWeb": "http://clarkcountydems.com/49th-legislative-district-democrats/",
+    "orgFbPage": "https://www.facebook.com/49thLegislativeDistrictWA",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
     "orgEndorsements2016": "http://clarkcountydems.com/49-cand"
   },
   {
     "orgShort": "Adams",
     "orgType": "County",
     "orgWeb": "",
+    "orgFbPage": "",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
     "orgEndorsements2016": ""
   },
   {
     "orgShort": "Asotin",
     "orgType": "County",
-    "orgWeb": "",
+    "orgWeb": "http://www.asotindemocrats.com/",
+    "orgFbPage": "https://www.facebook.com/Asotin-County-2016-2017-Democratic-Party-1127195420663719",
+    "orgFbGroup": "https://www.facebook.com/groups/298794850207806/",
+    "orgTwAlias": "",
     "orgEndorsements2016": ""
   },
   {
     "orgShort": "Benton",
     "orgType": "County",
-    "orgWeb": "",
+    "orgWeb": "http://bencodems.org/",
+    "orgFbPage": "https://www.facebook.com/Benton-County-WA-Democrats-217681951576663",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
     "orgEndorsements2016": "https://www.facebook.com/permalink.php?story_fbid=1235762083101973&id=217681951576663"
   },
   {
     "orgShort": "Chelan",
     "orgType": "County",
-    "orgWeb": "",
-    "orgEndorsements2016": ""
+    "orgWeb": "http://www.chelancountydemocrats.org/",
+    "orgFbPage": "https://www.facebook.com/ChelanDems",
+    "orgFbGroup": "",
+    "orgTwAlias": "NCWDemocrats",
+    "orgEndorsements2016": "http://www.chelancountydemocrats.org/events/2016-endorsements/"
   },
   {
     "orgShort": "Clallam",
     "orgType": "County",
-    "orgWeb": "",
+    "orgWeb": "http://www.clallamdemocrats.org/",
+    "orgFbPage": "https://www.facebook.com/clallamdemocrats",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
     "orgEndorsements2016": "http://www.clallamdemocrats.org/endorsements.html"
   },
   {
     "orgShort": "Clark",
     "orgType": "County",
-    "orgWeb": "",
+    "orgWeb": "http://clarkcountydems.com/",
+    "orgFbPage": "https://www.facebook.com/ClarkCountyDems",
+    "orgFbGroup": "",
+    "orgTwAlias": "ClarkCoDemParty",
     "orgEndorsements2016": "http://clarkcountydems.com/2016-candidates/"
   },
   {
     "orgShort": "Columbia",
     "orgType": "County",
     "orgWeb": "",
+    "orgFbPage": "https://www.facebook.com/Columbia-County-Democrats-298820466867850",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
     "orgEndorsements2016": ""
   },
   {
     "orgShort": "Cowlitz",
     "orgType": "County",
     "orgWeb": "",
+    "orgFbPage": "",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
     "orgEndorsements2016": "http://cowlitz.wa-democrats.net/endorsements-3/"
   },
   {
     "orgShort": "Douglas",
     "orgType": "County",
-    "orgWeb": "",
-    "orgEndorsements2016": ""
+    "orgWeb": "http://www.douglascountydems.com/",
+    "orgFbPage": "https://www.facebook.com/DouglasCountyDemsWA",
+    "orgFbGroup": "",
+    "orgTwAlias": "NCWDemocrats",
+    "orgEndorsements2016": "http://www.douglascountydems.com/candidates-endorsements"
   },
   {
     "orgShort": "Ferry",
     "orgType": "County",
     "orgWeb": "",
+    "orgFbPage": "",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
     "orgEndorsements2016": ""
   },
   {
     "orgShort": "Franklin",
     "orgType": "County",
     "orgWeb": "",
+    "orgFbPage": "https://www.facebook.com/FranklinCountyWADems",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
     "orgEndorsements2016": "https://www.facebook.com/FranklinCountyWADems/posts/10154210428025435"
   },
   {
     "orgShort": "Garfield",
     "orgType": "County",
     "orgWeb": "",
+    "orgFbPage": "",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
     "orgEndorsements2016": ""
   },
   {
     "orgShort": "Grant",
     "orgType": "County",
     "orgWeb": "",
+    "orgFbPage": "https://www.facebook.com/Grant-County-Democrats-WA-216469621745758",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
     "orgEndorsements2016": ""
   },
   {
     "orgShort": "Grays Harbor",
     "orgType": "County",
-    "orgWeb": "",
+    "orgWeb": "http://www.ghdemocrats.org/",
+    "orgFbPage": "",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
     "orgEndorsements2016": "http://www.ghdemocrats.org/ghc-democrat-endorments"
   },
   {
     "orgShort": "Island",
     "orgType": "County",
-    "orgWeb": "",
+    "orgWeb": "https://islandcountydemocrats.wordpress.com/",
+    "orgFbPage": "https://www.facebook.com/IslandCountyDemocrats",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
     "orgEndorsements2016": "https://islandcountydemocrats.wordpress.com/"
   },
   {
     "orgShort": "Jefferson",
     "orgType": "County",
-    "orgWeb": "",
+    "orgWeb": "http://jeffcodemocrats.com/",
+    "orgFbPage": "https://www.facebook.com/jeffcodemocrats",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
     "orgEndorsements2016": "http://jeffcodemocrats.com/"
   },
   {
@@ -446,85 +617,127 @@
   {
     "orgShort": "Kitsap",
     "orgType": "County",
-    "orgWeb": "",
+    "orgWeb": "http://www.kitsapdemocrats.com/",
+    "orgFbPage": "https://www.facebook.com/kitsapcountydemocrats",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
     "orgEndorsements2016": "http://www.kitsapdemocrats.com/endorsements/"
   },
   {
     "orgShort": "Kittitas",
     "orgType": "County",
-    "orgWeb": "",
+    "orgWeb": "http://kittitasdemocrats.org/",
+    "orgFbPage": "https://www.facebook.com/kittitasdemocrats",
+    "orgFbGroup": "https://www.facebook.com/groups/64754815024/",
+    "orgTwAlias": "kittcodems",
     "orgEndorsements2016": "https://www.facebook.com/kittitasdemocrats/posts/1800365530185082 "
   },
   {
     "orgShort": "Klickitat",
     "orgType": "County",
-    "orgWeb": "",
+    "orgWeb": "http://klickitatdemocrats.org/",
+    "orgFbPage": "https://www.facebook.com/klickitatdemocrats",
+    "orgFbGroup": "https://www.facebook.com/groups/107842586037601/",
+    "orgTwAlias": "",
     "orgEndorsements2016": "http://klickitatdemocrats.org/wp2/august-3-primary-endorsements/"
   },
   {
     "orgShort": "Lewis",
     "orgType": "County",
-    "orgWeb": "",
-    "orgEndorsements2016": ""
+    "orgWeb": "http://lewiscountydemocrats.org/",
+    "orgFbPage": "https://www.facebook.com/www.lewiscountydemocrats.org",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
+    "orgEndorsements2016": "http://lewiscountydemocrats.org/lcdcc-2016-election-endorsements/"
   },
   {
     "orgShort": "Lincoln",
     "orgType": "County",
     "orgWeb": "",
+    "orgFbPage": "https://www.facebook.com/lincolncountywa.dems",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
     "orgEndorsements2016": ""
   },
   {
     "orgShort": "Mason",
     "orgType": "County",
-    "orgWeb": "",
+    "orgWeb": "http://www.masoncountydemocrats.com/",
+    "orgFbPage": "https://www.facebook.com/Mason-County-Democrats-288589567623",
+    "orgFbGroup": "",
+    "orgTwAlias": "MasonCoDemocrat",
     "orgEndorsements2016": ""
   },
   {
     "orgShort": "Okanogan",
     "orgType": "County",
-    "orgWeb": "",
+    "orgWeb": "http://www.okanogan.wa-democrats.net/",
+    "orgFbPage": "https://www.facebook.com/Okanogan-County-Democrats-396430083779914",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
     "orgEndorsements2016": ""
   },
   {
     "orgShort": "Pacific",
     "orgType": "County",
-    "orgWeb": "",
+    "orgWeb": "http://www.pacificcountydemocrats.com/",
+    "orgFbPage": "https://www.facebook.com/Pacific-County-Democrats-195835297108769",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
     "orgEndorsements2016": "http://www.pacificcountydemocrats.com/"
   },
   {
     "orgShort": "Pend Oreille",
     "orgType": "County",
-    "orgWeb": "",
+    "orgWeb": "http://www.podemocrats.org/",
+    "orgFbPage": "https://www.facebook.com/pendoreillecountydemocrats",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
     "orgEndorsements2016": "http://wp.podemocrats.org/"
   },
   {
     "orgShort": "Pierce",
     "orgType": "County",
-    "orgWeb": "",
+    "orgWeb": "http://www.piercecountydems.org/",
+    "orgFbPage": "https://www.facebook.com/piercecountydems/",
+    "orgFbGroup": "",
+    "orgTwAlias": "piercedems",
     "orgEndorsements2016": "http://www.piercecountydems.org/endorsements"
   },
   {
     "orgShort": "San Juan",
     "orgType": "County",
-    "orgWeb": "",
-    "orgEndorsements2016": ""
+    "orgWeb": "http://sjdemocrats.org/",
+    "orgFbPage": "https://www.facebook.com/San-Juan-County-WA-Democrats-710973952268643/",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
+    "orgEndorsements2016": "http://sjdemocrats.org/endorsements/"
   },
   {
     "orgShort": "Skagit",
     "orgType": "County",
-    "orgWeb": "",
-    "orgEndorsements2016": "https://www.facebook.com/skagitdemocrats/photos/a.656164904413965.1073741834.158708310826296/1221088507921599/?type=3&theater"
+    "orgWeb": "http://www.skagitdemocrats.org/",
+    "orgFbPage": "https://www.facebook.com/skagitdemocrats",
+    "orgFbGroup": "",
+    "orgTwAlias": "skagitdemocrats",
+    "orgEndorsements2016": "hhttp://www.skagitdemocrats.org/wp-content/uploads/2016/10/SkagitDemsEndorsements_10.8.16.pdf"
   },
   {
     "orgShort": "Skamania",
     "orgType": "County",
-    "orgWeb": "",
+    "orgWeb": "http://skamania.wa-democrats.net/wp/",
+    "orgFbPage": "https://www.facebook.com/SkamaniaDemocrats",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
     "orgEndorsements2016": ""
   },
   {
     "orgShort": "Snohomish",
     "orgType": "County",
-    "orgWeb": "",
+    "orgWeb": "http://snocodems.org/",
+    "orgFbPage": "https://www.facebook.com/SCDCC/",
+    "orgFbGroup": "",
+    "orgTwAlias": "Sno_Co_Dems",
     "orgEndorsements2016": "http://snocodems.org/"
   },
   {
@@ -540,43 +753,71 @@
   {
     "orgShort": "Stevens",
     "orgType": "County",
-    "orgWeb": "",
+    "orgWeb": "http://stevenscountydemocrats.org/",
+    "orgFbPage": "https://www.facebook.com/StevensCountyDemocrats",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
     "orgEndorsements2016": ""
   },
   {
     "orgShort": "Thurston",
     "orgType": "County",
-    "orgWeb": "",
+    "orgWeb": "http://www.thurstondemocrats.org/",
+    "orgFbPage": "https://www.facebook.com/ThurstonCountyDemocrats",
+    "orgFbGroup": "",
+    "orgTwAlias": "Thurstondems",
     "orgEndorsements2016": "http://www.thurstondemocrats.org/content/current-campaigns"
   },
   {
     "orgShort": "Wahkiakum",
     "orgType": "County",
     "orgWeb": "",
+    "orgFbPage": "https://www.facebook.com/Wahkiakum-County-Democrats-1668255803423641",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
     "orgEndorsements2016": ""
   },
   {
     "orgShort": "Walla Walla",
     "orgType": "County",
-    "orgWeb": "",
-    "orgEndorsements2016": "http://wallawalla.wa-democrats.net/"
+    "orgWeb": "http://wallawalla.wa-democrats.net/",
+    "orgFbPage": "https://www.facebook.com/WallaWallaDemocrats",
+    "orgFbGroup": "",
+    "orgTwAlias": "",
+    "orgEndorsements2016": "http://wallawalla.wa-democrats.net/?p=118"
   },
   {
     "orgShort": "Whatcom",
     "orgType": "County",
-    "orgWeb": "",
+    "orgWeb": "http://www.whatcomdemocrats.com/",
+    "orgFbPage": "https://www.facebook.com/Whatcomdems/",
+    "orgFbGroup": "",
+    "orgTwAlias": "WhatcomDems",
     "orgEndorsements2016": "http://www.whatcomdemocrats.com/story/2016-06-03/2016-endorsements"
   },
   {
     "orgShort": "Whitman",
     "orgType": "County",
-    "orgWeb": "",
+    "orgWeb": "http://www.whitmandemocrats.com/",
+    "orgFbPage": "",
+    "orgFbGroup": "https://www.facebook.com/groups/WhitmanDemocats/",
+    "orgTwAlias": "WhitmanCDems",
     "orgEndorsements2016": ""
   },
   {
     "orgShort": "Yakima",
     "orgType": "County",
-    "orgWeb": "",
+    "orgWeb": "http://www.yakimademocrats.com/",
+    "orgFbPage": "https://www.facebook.com/yakimademocrats/",
+    "orgFbGroup": "",
+    "orgTwAlias": "yakdems",
     "orgEndorsements2016": "https://www.facebook.com/yakimademocrats/posts/993581154096770"
+  },
+  {
+    "orgShort": "Washington",
+    "orgType": "State Young",
+    "orgWeb": "http://www.ydwa.org/",
+    "orgFbPage": "https://www.facebook.com/YoungDemsWA",
+    "orgTwAlias": "ydwa"
   }
 ]

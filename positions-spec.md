@@ -28,6 +28,9 @@ Below is an example of an object from the positions.json file:
   "posTermNext": "2017",
   "posCounty": "King",
   "posJurisdiction": "City of Kirkland",
+  "posTitle": "Councilmember",
+  "posDistrict": "",
+  "posSlot": "1",
   "posIncumbent": 
   {
     "first": "Jay",
@@ -55,8 +58,16 @@ Below is an example of an object from the positions.json file:
 ### posJurisdiction
 (Required) The jurisdiction for the elected office
 
-### pos...
-// TODO: Finish based on data
+### posTitle
+(Required) The title for the elected official (ex: Governor, Councilmember, etc.)
+
+### posDistrict
+(Optional) If the jurisdiction is split into multiple geographic districts.  
+A common example of this is the Washington State Senate being split into 49 geographic districts.
+
+### posSlot
+(Optional) If there are multiple positions elected from the same jurisdiction (and district)
+A common example of this is the Washington State House having two slots per legislative district.
 
 ### posIncumbent
 (Optional) An object representing the incument hosting this position

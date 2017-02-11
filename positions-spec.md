@@ -1,6 +1,26 @@
 ## Positions
 This document describes the fields in the positions.json file.
 
+### Goals
+Below are some goals for this effort to collect a list of elected positions:
+* Human AND machine readable
+* Anyone can suggest edits (or file issues)
+* Relatively "flat" - Data can be represented as a single table
+
+Below are some features intentionally NOT in the initial scope:
+* Geospatial data - Geospatial data like shape files can be kept separately and joined by jurisdiction (and possibly district)
+* Non-public contact info - `contactId`could be used as a reference into another system that might store non-public contact info
+
+### Use Cases / Scenarios
+Below are some possible use cases / scenarios:
+* Identify positions up for election in a given year
+* Identify elected incumbents to support or challenge (including party affiliation and/or past support)
+
+### Style
+All fields are treated as text strings
+* Years should use four digits
+* Proper nouns should be capitalized
+
 ### Example
 Below is an example of an object from the positions.json file:
 ``` JSON

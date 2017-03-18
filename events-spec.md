@@ -20,6 +20,7 @@ The project maintainers are using a [public GitHub repository](https://github.co
 * **Code**: Open source (MIT License) HTML and JavaScript on GitHub: 
   [View](https://washdems-public.github.io/Data/events.html)
   | [Edit](https://github.com/WashDems-Public/Data/blob/gh-pages/events.html)
+* **Discussion**: [Slack #events-calendar](https://washdems.slack.com/messages/C27GEDBGT/details/) channel
 * **Bugs/Issues**: [GitHub Issues](https://github.com/WashDems-Public/Data/issues)
 
 ## Project Goals

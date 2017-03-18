@@ -132,5 +132,19 @@
     "eventLocationZip": "",
     "eventWeb": "",
     "eventDescription": "Washington State Democratic Central Committee (WSDCC) spring meetings in Walla Walla"
-  }
+  },
+  {
+    "eventDate": "Sat, 4/29",
+    "eventStartTime": "6:00 PM",
+    "eventOrgShort": "NPI",
+    "eventOrgType": "Ally",
+    "eventTitle": "2017 Spring Fundraising Gala",
+    "eventLocationName": "Mercer Island Community & Event Center",
+    "eventLocationStreet": "8236 SE 24th St.",
+    "eventLocationCity": "Mercer Island",
+    "eventLocationST": "WA",
+    "eventLocationZip": "98040",
+    "eventWeb": "https://www.nwprogressive.org/gala/",
+    "eventDescription": "Reception starts at 6 PM, main program at 7 PM.  Full dinner buffet with vegetarian choices; beer and wine available from cash bar"
+  }  
 ]

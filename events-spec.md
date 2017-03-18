@@ -1,7 +1,13 @@
 # Events Calendar (Orgs)
 
-A public calendar of events of potential interest to Democratic party activists.  
-The calendar may include events from: local Democratic party organizations, 
+A public calendar of events of potential interest to Democratic party activists, candidates, and elected officials.
+The calendar may include events from: local Democratic party organizations, candidates, elected officials, and allied organizations.
+
+## Contents
+* [Project Goals](#project-goals)
+  * [v1.0 Feature Goals](#v10-feature-goals)
+  * [vNext Feature Goals](#vnext-feature-goals)
+* [Events Data Schema](#events-data-schema) 
 
 ## Project Goals
 
@@ -9,7 +15,7 @@ The calendar may include events from: local Democratic party organizations,
  * Democratic activists, party leaders, candidates, elected officials, and staff can
  * Democratic party organizations, candidates, and elected officials can suggest an event to add
  
-### Feature Goals for v1.0
+### v1.0 Feature Goals
 
 #### Event display
 * [X] Event title, date, time, location, title
@@ -35,7 +41,8 @@ The calendar may include events from: local Democratic party organizations,
 * [ ] Add events from a filtered view to Microsoft Outlook
 * [ ] Add events from a filtered view to iPhone calendar
 
-### Feature Goals for vNext
+
+### vNext Feature Goals
 
 #### Event display
 * [ ] Event organization hyperlinks to that organization if in [Orgs JSON](https://washdems-public.github.io/Data/orgs.json)
@@ -46,7 +53,7 @@ The calendar may include events from: local Democratic party organizations,
 
 
 ## Events Data Schema
-This document describes the fields in the orgs.json file.
+This section describes the fields in the orgs.json file.
 
 ### eventDate
 (Required) The day and date on which the event takes place.  (ex: "Thu, 12/1")
@@ -56,3 +63,45 @@ This document describes the fields in the orgs.json file.
 
 ### eventEndTime
 (Optional) The time at which the event ends.  
+
+### eventOrgShort
+(Required) Short name for the organization hosting.  
+See [Orgs Spec](https://github.com/WashDems-Public/Data/blob/gh-pages/orgs-spec.md#orgshort)
+
+### eventOrgType
+(Required) A descriptor of the organization type.  (ex: "LD", "County", "State", "Ally")
+See [Orgs Spec](https://github.com/WashDems-Public/Data/blob/gh-pages/orgs-spec.md#orgtype)
+
+### eventTitle
+(Required) A title for the event.  
+Please do NOT include the name of the organization hosting the event.
+
+### eventLocationName
+(Required) Name of the location where the event will be held. 
+(ex: "Yakima County Democrats office", 
+"Mercer Island Community Center", 
+"Home of John Smith")
+
+### eventLocationStreet
+(Optional) Street address for the event location. (ex: "123 Main St.")
+
+### eventLocationCity
+(Optional) City for the event location (ex: "Wenatchee")
+
+### eventLocationST
+(Optional) Two-letter state abberviation for the event location (ex: "WA")
+
+### eventLocationZip
+(Optional) ZIP code for the event location (ex: "98040")
+
+### eventWeb
+(Required) Web address where visitors can find more information about this event.
+
+### eventFbId
+(Optional) Facebook ID for this event (ex: "1811175945791682")
+
+### eventDescription
+(Optional) Additional details about this event. 
+(ex: "Doors open at 6pm and program starts at 7pm", 
+"Dinner will be served", 
+"Suggested $20 donation")

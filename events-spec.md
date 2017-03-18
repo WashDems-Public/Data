@@ -4,16 +4,29 @@ A public calendar of events of potential interest to Democratic party activists,
 The calendar may include events from: local Democratic party organizations, candidates, elected officials, and allied organizations.
 
 ## Contents
+* [Getting Involved](#getting-involved)
 * [Project Goals](#project-goals)
   * [v1.0 Feature Goals](#v10-feature-goals)
   * [vNext Feature Goals](#vnext-feature-goals)
 * [Events Data Schema](#events-data-schema) 
 
+## Getting Involved
+The project maintainers are using a [public GitHub repository](https://github.com/WashDems-Public/Data) for data, code, and discussion:
+* **Specification/Plan**: https://github.com/WashDems-Public/Data/blob/gh-pages/events-spec.md
+* **Prototype**: https://washdems-public.github.io/Data/events.html
+* **Data**: Open, public JSON data on GitHub: 
+  [View](https://washdems-public.github.io/Data/events.json) 
+  | [Edit](https://github.com/WashDems-Public/Data/blob/gh-pages/events.json)
+* **Code**: Open source (MIT License) HTML and JavaScript on GitHub: 
+  [View](https://washdems-public.github.io/Data/events.html)
+  | [Edit](https://github.com/WashDems-Public/Data/blob/gh-pages/events.html)
+* **Bugs/Issues**: [GitHub Issues](https://github.com/WashDems-Public/Data/issues)
+
 ## Project Goals
 
- * Democratic activists, potential activists, candidates, and elected officials can find an upcoming event
- * Democratic activists, party leaders, candidates, elected officials, and staff can
- * Democratic party organizations, candidates, and elected officials can suggest an event to add
+* Democratic activists, potential activists, candidates, and elected officials can find an upcoming event
+* Democratic activists, party leaders, candidates, elected officials, and staff can
+* Democratic party organizations, candidates, and elected officials can suggest an event to add
  
 ### v1.0 Feature Goals
 

@@ -103,10 +103,26 @@
     "eventDescription": "Come and enjoy great company, music, food, wine, non-alcoholic beverages, and we'll hear a few speeches from electeds and community leaders. You won't want to miss this!"
   },
   {
+    "eventDate": "Sat, 3/18",
+    "eventStartTime": "10:00 AM",
+    "eventEndTime": "12:00 PM",
+    "eventOrgShort": "27th",
+    "eventOrgType": "LD",
+    "eventTitle": "Coffee with Chair Lynda Foster",
+    "eventLocationName": "B Sharp Coffee House",
+    "eventLocationStreet": "706 Opera Alley",
+    "eventLocationCity": "Tacoma",
+    "eventLocationST": "WA",
+    "eventLocationZip": "98402",
+    "eventWeb": "https://www.facebook.com/events/393822487652566/",
+    "eventFbId": "393822487652566",
+    "eventDescription": "These are intended to space for anyone to show up and talk about anything on their mind"
+  },
+  {
     "eventDate": "Sat, 4/22",
     "eventStartTime": "1:00 PM",
     "eventEndTime": "5:00 PM",
-    "eventOrgShort": "Washington",
+    "eventOrgShort": "WA",
     "eventOrgType": "State",
     "eventTitle": "WSDCC Meetings",
     "eventLocationName": "Walla Walla",

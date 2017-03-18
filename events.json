@@ -17,6 +17,22 @@
   },
   {
     "eventDate": "Sat, 3/18",
+    "eventStartTime": "2:00 PM",
+    "eventEndTime": "4:00 PM",
+    "eventOrgShort": "3rd",
+    "eventOrgType": "CD",
+    "eventTitle": "Local Party Politics 101",
+    "eventLocationName": "Camas Public Library",
+    "eventLocationStreet": "625 NE 4th Ave.",
+    "eventLocationCity": "Camas",
+    "eventLocationST": "WA",
+    "eventLocationZip": "98607",
+    "eventWeb": "https://www.facebook.com/events/706707589499205/",
+    "eventFbId": "706707589499205",
+    "eventDescription": "Learn how to get involved and organized politically with WA Dems Exec. Board member Justin Oberg"
+  },
+  {
+    "eventDate": "Sat, 3/18",
     "eventStartTime": "4:00 PM",
     "eventEndTime": "9:00 PM",
     "eventOrgShort": "Pacific",

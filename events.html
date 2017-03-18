@@ -87,6 +87,7 @@ function changeText() {
               break;
             case "LD":
             case "County":
+            case "State":
               if (strRender != "mini") {
                 strInfo += dataObj[iEvent].eventOrgShort + " " + dataObj[iEvent].eventOrgType + " Democrats "; 
               } else {
@@ -94,7 +95,7 @@ function changeText() {
               } // end if+else
               break;
             default:
-              strInfo += dataObj[iEvent].eventOrgShort;
+              strInfo += dataObj[iEvent].eventOrgShort + " ";
               break;
           } // end switch on eventOrgType
           
@@ -176,9 +177,6 @@ function changeText() {
 <p id="pInfo">Loading data...</p>
 
 <p style="font-size:smaller">
-  Paid for by the Washington State Democrats<br />
-  PO Box 4027, Seattle, WA 98194, (206) 583-0664<br />
-  Chair Jaxon Ravens, <a href="http://www.wa-democrats.org" target='_blank'>http://www.wa-democrats.org</a><br />
   Not authorized by any candidate or candidate's committee<br />
 </p>
 

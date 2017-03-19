@@ -1,4 +1,4 @@
-# Events Calendar (Orgs)
+# Events Calendar
 
 A public calendar of events of potential interest to Democratic party activists, candidates, and elected officials.
 The calendar may include events from: local Democratic party organizations, candidates, elected officials, and allied organizations.
@@ -8,6 +8,7 @@ The calendar may include events from: local Democratic party organizations, cand
 * [Project Goals](#project-goals)
   * [v1.0 Feature Goals](#v10-feature-goals)
   * [vNext Feature Goals](#vnext-feature-goals)
+* [Event Listing Policy](#event-listing-policy) (DRAFT)
 * [Events Data Schema](#events-data-schema) 
 
 ## Getting Involved
@@ -26,7 +27,7 @@ The project maintainers are using a [public GitHub repository](https://github.co
 ## Project Goals
 
 * Democratic activists, potential activists, candidates, and elected officials can find an upcoming event
-* Democratic activists, party leaders, candidates, elected officials, and staff can
+* Democratic activists, party leaders, candidates, elected officials, and staff have a single, central source for events
 * Democratic party organizations, candidates, and elected officials can suggest an event to add
  
 ### v1.0 Feature Goals
@@ -64,6 +65,27 @@ The project maintainers are using a [public GitHub repository](https://github.co
 #### Filters
 * [ ] Organization
   * [ ] Filtering to a geographic organization (ex: LD or County) includes events within that LD or County
+
+
+## Event Listing Policy
+Below is a DRAFT event listing policy.  
+SHOULD, MAY, and SHOULD NOT are intended to have meanings as described in IETF [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt).
+
+These events SHOULD be listed:
+* (Non-recurring) events hosted by local Democratic party organizations
+* (Non-recurring) events for Democratic candidates
+* (Non-recurring) events for Democratic elected officials
+* (Non-recurring) events for non-partisan candidates who are endorsed by a preponderance of local Democratic party organizations
+* (Non-recurring) events for ballot measure positions endorsed by a preponderance of local Democratic party organizations
+
+These events MAY be listed:
+* Recurring events with specific agendas (ex: monthly meeting with a panel, endorsements vote, officer elections, etc.)
+* Recurring events with a special guest (ex: weekly campaign phone bank joined by a special guest)
+* Events for non-partisan candidates who have previously been endorsed by a local Democratic organization but not endorsed this cycle
+
+These events SHOULD NOT be listed:
+* Recurring Democratic organization business meetings or board meetings without agendas specific to that meeting
+* Campaign events for non-partisan candidates who have never been endorsed by a local Democratic organization
 
 
 ## Events Data Schema

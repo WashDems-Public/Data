@@ -48,6 +48,21 @@
     "eventDescription": "4pm: Social Hour, 5pm: Dinner and Program.  Includes: Live Auction, Silent Auction, Raffle, Speakers, and Pacific County Democrat of the Year"
   },
   {
+    "eventDate": "Fri, 4/7",
+    "eventStartTime": "4:00 PM",
+    "eventOrgShort": "WA State",
+    "eventOrgType": "Young",
+    "eventTitle": "Convention 2017",
+    "eventLocationName": "Red Lion Hotel Olympia",
+    "eventLocationStreet": "2300 Evergreen Park Dr. SW",
+    "eventLocationCity": "Olympia",
+    "eventLocationST": "WA",
+    "eventLocationZip": "98502",
+    "eventWeb": "http://ydwa.org/events/ydwa-convention-2017-in-olympia/",
+    "eventFbId": "1498456823528419",
+    "eventDescription": "Awards Banquet Keynote Speaker is WA Attorney General Bob Ferguson"
+  },
+  {
     "eventDate": "Sat, 4/22",
     "eventStartTime": "1:00 PM",
     "eventEndTime": "5:00 PM",

@@ -40,7 +40,7 @@ The project maintainers are using a [public GitHub repository](https://github.co
 * [X] Default list of events
 * [X] Mini list of events for embedding in a web widget
 * [X] Full list of events for embedding in a web page
-* [ ] Calendar view of events #66
+* [ ] Calendar view of events [#66](https://github.com/WashDems-Public/Data/issues/66)
 
 #### Filters
 * [ ] Date
@@ -49,17 +49,17 @@ The project maintainers are using a [public GitHub repository](https://github.co
   * [ ] Past event
 * [ ] Organization
   * [X] All orgs
-  * [ ] Single selected organization #67
+  * [ ] Single selected organization [#67](https://github.com/WashDems-Public/Data/issues/67)
 
 #### Export
-* [ ] Add a single event to your calendar #69
+* [ ] Add a single event to your calendar [#69](https://github.com/WashDems-Public/Data/issues/69)
   * [ ] Google Calendar
   * [ ] Microsoft Outlook
   * [ ] iPhone calendar
-* [ ] Add events from a filtered view to your calendar #70
-  * [ ] Google Calendar
-  * [ ] Microsoft Outlook
-  * [ ] iPhone calendar
+* [ ] Add events from a filtered view to your calendar [#70](https://github.com/WashDems-Public/Data/issues/70)
+  * [ ] Google Calendar
+  * [ ] Microsoft Outlook
+  * [ ] iPhone calendar
 
 
 ### vNext Feature Goals
@@ -69,12 +69,11 @@ The project maintainers are using a [public GitHub repository](https://github.co
 
 #### Filters
 * [ ] Organization
-  * [ ] Filtering to a geographic organization (ex: LD or County) includes events within that LD or County #68
+  * [ ] Filtering to a geographic organization (ex: LD or County) includes events within that LD or County [#68](https://github.com/WashDems-Public/Data/issues/68)
   
 #### Export
-* [ ] WordPress plug-in or module for displaying a view on the events calendar #59
+* [ ] WordPress plug-in or module for displaying a view on the events calendar [#59](https://github.com/WashDems-Public/Data/issues/59)
 
-#
 
 ## Event Listing Policy
 Below is a DRAFT event listing policy.  

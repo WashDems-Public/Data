@@ -34,27 +34,32 @@ The project maintainers are using a [public GitHub repository](https://github.co
 
 #### Event display
 * [X] Event title, date, time, location, title
-* [ ] Event title hyperlinks to more info about the event
+* [X] Event title hyperlinks to more info about the event
 
 #### Views
 * [X] Default list of events
 * [X] Mini list of events for embedding in a web widget
 * [X] Full list of events for embedding in a web page
-* [ ] Calendar view of events
+* [ ] Calendar view of events #66
 
 #### Filters
 * [ ] Date
-  * [ ] All events
+  * [X] All events
   * [ ] Upcoming events
   * [ ] Past event
 * [ ] Organization
-  * [ ] All orgs
-  * [ ] Single selected organization
+  * [X] All orgs
+  * [ ] Single selected organization #67
 
 #### Export
-* [ ] Add events from a filtered view to Google Calendar
-* [ ] Add events from a filtered view to Microsoft Outlook
-* [ ] Add events from a filtered view to iPhone calendar
+* [ ] Add a single event to your calendar #69
+  * [ ] Google Calendar
+  * [ ] Microsoft Outlook
+  * [ ] iPhone calendar
+* [ ] Add events from a filtered view to your calendar #70
+  * [ ] Google Calendar
+  * [ ] Microsoft Outlook
+  * [ ] iPhone calendar
 
 
 ### vNext Feature Goals
@@ -64,8 +69,12 @@ The project maintainers are using a [public GitHub repository](https://github.co
 
 #### Filters
 * [ ] Organization
-  * [ ] Filtering to a geographic organization (ex: LD or County) includes events within that LD or County
+  * [ ] Filtering to a geographic organization (ex: LD or County) includes events within that LD or County #68
+  
+#### Export
+* [ ] WordPress plug-in or module for displaying a view on the events calendar #59
 
+#
 
 ## Event Listing Policy
 Below is a DRAFT event listing policy.  

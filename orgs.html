@@ -86,6 +86,7 @@ function getOrgHTMLfromJSONObject(objOrg) {
       // Try to add the org's ARCHIVED Bylias IF orgBylasArchive length > 0
       try {
         if (objOrg.orgBylawsArchive.length > 0) {
+          strReturn += " "; // adds a space between "Bylaws" and "(Archived)"
           strReturn += "(" + "<a href='" + objOrg.orgBylawsArchive + "'>"  + "Archived" + "</a>" + ")";
         }
       } catch (err) {
@@ -113,6 +114,7 @@ function getOrgHTMLfromJSONObject(objOrg) {
     }
     strReturn += "</td>";
   }
+  /* Hide 2016 endorsements
   // Try to add the org's 2016 Endorsements link  IF length > 0
   try {
     if (objOrg.orgEndorsements2016.length > 0) {
@@ -121,6 +123,7 @@ function getOrgHTMLfromJSONObject(objOrg) {
   } catch (err) {
     strReturn += "<td></td>";
   }
+  */
   // Close the table row
   strReturn += "</tr>";
   return strReturn ;
@@ -147,7 +150,9 @@ function changeText() {
         strOrgsList += "<td><b>Events</b></td>";
         strOrgsList += "<td><b>PCOs</b></td>";
         strOrgsList += "<td><b>Bylaws</b></td>";
+        <!-- Hide 2016 endorsements
         strOrgsList += "<td><b>2016 Endorsements</b></td>";
+        -->
         strOrgsList += "</tr>";
         // alert ( typeof dataObj ); 
         // alert (dataObj.toString() )

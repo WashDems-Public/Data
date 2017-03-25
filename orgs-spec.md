@@ -25,6 +25,12 @@ This document describes the fields in the orgs.json file.
 ### orgOfficers
 (Optional) URL to the organization's list of officers
 
+### orgEvents
+(Optional) URL to the organization's events calendar
+
+### orgPCOs
+(Optional) URL to the organization's list of PCOs
+
 ### orgBylaws
 (Optional) URL to the organization's governing documents such as a charter, bylaws, or standing rules
 

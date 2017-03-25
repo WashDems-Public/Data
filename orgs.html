@@ -59,6 +59,26 @@ function getOrgHTMLfromJSONObject(objOrg) {
   } catch (err) {
     strReturn += "<td></td>";
   }
+  // Try to add the org's Events IF orgEvents length > 0
+  try {
+    if (objOrg.orgEvents.length > 0) {
+      strReturn += "<td>" + "<a href='" + objOrg.orgEvents + "'>"  + "Events" + "</a>" + "</td>";
+    } else {
+      strReturn += "<td></td>";
+    }
+  } catch (err) {
+    strReturn += "<td></td>";
+  }
+  // Try to add the org's PCOs IF orgPCOs length > 0
+  try {
+    if (objOrg.orgPCOs.length > 0) {
+      strReturn += "<td>" + "<a href='" + objOrg.orgPCOs + "'>"  + "PCOs" + "</a>" + "</td>";
+    } else {
+      strReturn += "<td></td>";
+    }
+  } catch (err) {
+    strReturn += "<td></td>";
+  }
   // Try to add the org's Bylaws IF orgBylaws length > 0
   try {
     if (objOrg.orgBylaws.length > 0) {
@@ -124,6 +144,8 @@ function changeText() {
         strOrgsList += "<td><b>Facebook group</b></td>";
         strOrgsList += "<td><b>Twitter</b></td>";
         strOrgsList += "<td><b>Officers</b></td>";
+        strOrgsList += "<td><b>Events</b></td>";
+        strOrgsList += "<td><b>PCOs</b></td>";
         strOrgsList += "<td><b>Bylaws</b></td>";
         strOrgsList += "<td><b>2016 Endorsements</b></td>";
         strOrgsList += "</tr>";

@@ -28,12 +28,8 @@ This document describes the fields in the orgs.json file.
 ### orgBylaws
 (Optional) URL to the organization's governing documents such as a charter, bylaws, or standing rules
 
+### orgBylawsArchive
+(Optional) URL to an archived copy of the organization's governing documents
+
 ### orgEndorsements2016
 (Optional) URL to the organization's list of endorsed candidates and ballot measures for 2016
-
-
-
-
-
-
-

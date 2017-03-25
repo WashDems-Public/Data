@@ -52,7 +52,7 @@ function getOrgHTMLfromJSONObject(objOrg) {
   // Try to add the org's Officers IF orgOfficers length > 0
   try {
     if (objOrg.orgOfficers.length > 0) {
-      strReturn += "<td>" + "<a href='" + objOrg.orgOfficers + "'>"  + objOrg.orgOfficers + "</a>" + "</td>";
+      strReturn += "<td>" + "<a href='" + objOrg.orgOfficers + "'>"  + "Officers" + "</a>" + "</td>";
     } else {
       strReturn += "<td></td>";
     }
@@ -62,12 +62,36 @@ function getOrgHTMLfromJSONObject(objOrg) {
   // Try to add the org's Bylaws IF orgBylaws length > 0
   try {
     if (objOrg.orgBylaws.length > 0) {
-      strReturn += "<td>" + "<a href='" + objOrg.orgBylaws + "'>"  + objOrg.orgBylaws + "</a>" + "</td>";
+      strReturn += "<td>" + "<a href='" + objOrg.orgBylaws + "'>"  + "Bylaws" + "</a>";
+      // Try to add the org's ARCHIVED Bylias IF orgBylasArchive length > 0
+      try {
+        if (objOrg.orgBylawsArchive.length > 0) {
+          strReturn += "(" + "<a href='" + objOrg.orgBylawsArchive + "'>"  + "Archived" + "</a>" + ")";
+        }
+      } catch (err) {
+      }
+      strReturn += "</td>";
     } else {
-      strReturn += "<td></td>";
+      strReturn += "<td>";
+      // Try to add the org's ARCHIVED Bylias IF orgBylasArchive length > 0
+      try {
+        if (objOrg.orgBylawsArchive.length > 0) {
+          strReturn += "(" + "<a href='" + objOrg.orgBylawsArchive + "'>"  + "Archived" + "</a>" + ")";
+        }
+      } catch (err) {
+      }
+      strReturn += "</td>";
     }
   } catch (err) {
-    strReturn += "<td></td>";
+    strReturn += "<td>";
+    // Try to add the org's ARCHIVED Bylias IF orgBylasArchive length > 0
+    try {
+      if (objOrg.orgBylawsArchive.length > 0) {
+        strReturn += "(" + "<a href='" + objOrg.orgBylawsArchive + "'>"  + "Archived" + "</a>" + ")";
+      }
+    } catch (err) {
+    }
+    strReturn += "</td>";
   }
   // Try to add the org's 2016 Endorsements link  IF length > 0
   try {

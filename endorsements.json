@@ -1,5 +1,103 @@
 [
   {
+    "groupLevelName": "Initiatives",
+    "groupLevelID": "Initiatives",
+    "positions": 
+    [ 
+      {
+        "posName": "I-1433",
+        "candidates": 
+        [
+          { 
+            "candName": "Yes",
+            "candPhotoURL": "images/2016/2016_1433_yes.jpg",
+            "candWeb": "http://www.raiseupwa.com/",
+            "candFbPage": "https://www.facebook.com/RaiseUpWA",
+            "candTwAlias": "Raise_Up_WA",
+            "candVol": "",
+            "candDonate": "",
+            "candEndorsements": "http://www.raiseupwa.com/endorsements/"
+          }
+        ]
+      },
+      {
+        "posName": "I-1464",
+        "candidates": 
+        [
+          { 
+            "candName": "No",
+            "candPhotoURL": "images/2016/2016_1464_no.jpg",
+            "candWeb": "",
+            "candFbPage": "",
+            "candTwAlias": "",
+            "candVol": "",
+            "candDonate": "",
+            "candEndorsements": ""
+          }
+        ]
+      },
+      {
+        "posName": "I-1491",
+        "candidates": 
+        [
+          { 
+            "candName": "Yes",
+            "candPhotoURL": "images/2016/2016_1491_yes.png",
+            "candWeb": "http://gunresponsibility.org/solution/extreme-risk-protection-orders/",
+            "candFbPage": "https://www.facebook.com/AllianceforGunResponsibility/",
+            "candTwAlias": "WaGunResponsib",
+            "candVol": "",
+            "candDonate": "",
+            "candEndorsements": "http://gunresponsibility.org/organizations/"
+          }
+        ]
+      },
+      {
+        "posName": "I-1501",
+        "candidates": 
+        [
+          { 
+            "candName": "Yes",
+            "candPhotoURL": "images/2016/2016_1501_yes.jpg",
+            "candWeb": "http://www.yeson1501.com/",
+            "candFbPage": "https://www.facebook.com/Yes-on-I-1501-1174413845973565/",
+            "candTwAlias": "",
+            "candVol": "",
+            "candDonate": "",
+            "candEndorsements": "http://www.yeson1501.com/endorsements/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "groupLevelName": "County Ballot Measures",
+    "groupLevelID": "CountyInitiatives"
+  },
+  {
+    "groupLevelName": "Federal: President and VP",
+    "groupLevelID": "USPresident",
+    "positions": 
+    [ 
+      {
+        "posName": "United States President and Vice President",
+        "candidates": 
+        [
+          { 
+            "candName": "Hillary Clinton / Tim Kaine",
+            "candPhotoURL": "images/2016/2016_clinton.jpg",
+            "candWeb": "https://www.hillaryclinton.com/",
+            "candFbPage": "https://www.facebook.com/hillaryclinton",
+            "candTwAlias": "HillaryClinton",
+            "candVol": "",
+            "candDonate": "",
+            "candEndorsements": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
     "groupLevelName": "Federal: Senate",
     "groupLevelID": "USSen",
     "positions": 
@@ -10,7 +108,7 @@
         [
           { 
             "candName": "Patty Murray",
-            "candPhotoURL": "https://pbs.twimg.com/profile_images/480194036355977217/TM2ndWdt_400x400.jpeg",
+            "candPhotoURL": "images/2016/2016_murray.jpeg",
             "candWeb": "http://www.pattymurray.com/",
             "candFbPage": "https://www.facebook.com/pattymurray/",
             "candTwAlias": "MurrayCampaign",
@@ -34,7 +132,7 @@
         [
           { 
             "candName": "Suzan DelBene",
-            "candPhotoURL": "https://pbs.twimg.com/profile_images/752966682709069824/m89AjgE6_400x400.jpg",
+            "candPhotoURL": "images/2016/2016_delbene.jpg",
             "candWeb": "http://www.delbeneforcongress.com/",
             "candFbPage": "https://www.facebook.com/SuzanDelBene/",
             "candTwAlias": "SuzanDelBene",
@@ -50,7 +148,7 @@
         [
           { 
             "candName": "Rick Larsen",
-            "candPhotoURL": "https://pbs.twimg.com/profile_images/710150125545332736/fTIbKE3__400x400.jpg",
+            "candPhotoURL": "images/2016/2016_larsen.jpg",
             "candWeb": "http://www.ricklarsen.org/",
             "candFbPage": "https://www.facebook.com/Rick-Larsen-20809300888/",
             "candTwAlias": "LarsenRick",
@@ -66,7 +164,7 @@
         [
           { 
             "candName": "Jim Moeller",
-            "candPhotoURL": "https://pbs.twimg.com/profile_images/657327740895408128/q-7-7VvH_400x400.png",
+            "candPhotoURL": "images/2016/2016_moeller.png",
             "candWeb": "http://jimmoeller.org/",
             "candFbPage": "https://www.facebook.com/ElectJimMoeller",
             "candTwAlias": "JimMoeller",
@@ -82,7 +180,7 @@
         [
           { 
             "candName": "Joe Pakootas",
-            "candPhotoURL": "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-1/p160x160/10273502_644735105615212_1110226887523554426_n.jpg?oh=7458428e869ffa4bf3805b413306d9f1&oe=58314F21",
+            "candPhotoURL": "images/2016/2016_pakootas.jpg",
             "candWeb": "http://www.pakootasforcongress.com/",
             "candFbPage": "https://www.facebook.com/pakootasforcongress/",
             "candTwAlias": "",
@@ -98,7 +196,7 @@
         [
           { 
             "candName": "Derek Kilmer",
-            "candPhotoURL": "https://pbs.twimg.com/profile_images/421696421880807425/OEIMhE-C_400x400.jpeg",
+            "candPhotoURL": "images/2016/2016_kilmer.jpeg",
             "candWeb": "http://www.derekkilmer.com/",
             "candFbPage": "https://www.facebook.com/Elect.Derek.Kilmer/",
             "candTwAlias": "derekkilmer",
@@ -114,7 +212,7 @@
         [
           { 
             "candName": "Pramila Jayapal",
-            "candPhotoURL": "https://pbs.twimg.com/profile_images/738630887076548608/ThbEBcw0_400x400.jpg",
+            "candPhotoURL": "images/2016/2016_jayapal.jpg",
             "candWeb": "http://www.pramilaforcongress.com/",
             "candFbPage": "https://www.facebook.com/pramila.jayapal",
             "candTwAlias": "PramilaJayapal",
@@ -124,7 +222,7 @@
           },
           { 
             "candName": "Brady Piñero Walkinshaw",
-            "candPhotoURL": "https://pbs.twimg.com/profile_images/458768870375837696/Hw5ualq2_400x400.jpeg",
+            "candPhotoURL": "images/2016/2016_walkinshaw.jpeg",
             "candWeb": "http://bradywalkinshaw.com/",
             "candFbPage": "https://www.facebook.com/brady.p.walkinshaw/",
             "candTwAlias": "BradyWalkinshaw",
@@ -140,7 +238,7 @@
         [
           { 
             "candName": "Tony Ventrella",
-            "candPhotoURL": "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-1/p160x160/13418959_1618694771779296_1292240116110582605_n.jpg",
+            "candPhotoURL": "images/2016/2016_ventrella.jpg",
             "candWeb": "http://www.teamventrella.com/",
             "candFbPage": "https://www.facebook.com/teamventrella/",
             "candTwAlias": "TeamVentrella",
@@ -156,7 +254,7 @@
         [
           { 
             "candName": "Adam Smith",
-            "candPhotoURL": "https://pbs.twimg.com/profile_images/282562652/smith_400x400.jpg",
+            "candPhotoURL": "images/2016/2016_smith.jpg",
             "candWeb": "http://www.electadamsmith.com/",
             "candFbPage": "https://www.facebook.com/adamsmithforcongress",
             "candTwAlias": "electadamsmith",
@@ -172,7 +270,7 @@
         [
           { 
             "candName": "Denny Heck",
-            "candPhotoURL": "https://pbs.twimg.com/profile_images/1718418123/Denny_Heck_final_400x400.jpg",
+            "candPhotoURL": "images/2016/2016_heck.jpg",
             "candWeb": "http://www.dennyheckforcongress.com/",
             "candFbPage": "https://www.facebook.com/DennyHeckforCongress",
             "candTwAlias": "DennyHeck",
@@ -195,13 +293,13 @@
         [
           { 
             "candName": "Jay Inslee",
-            "candPhotoURL": "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-1/p160x160/13681089_1617206288592216_5044871110765944313_n.jpg?oh=aa95ce4f4299397f561c0f0660cde5f5&oe=58220162",
+            "candPhotoURL": "images/2016/2016_inslee_3.jpg",
             "candWeb": "http://www.JayInslee.com/",
             "candFbPage": "https://www.facebook.com/jayinslee",
             "candTwAlias": "JayInslee",
             "candVol": "http://www.jayinslee.com/engage-folder/join",
             "candDonate": "https://secure.jayinslee.com/",
-            "candEndorsements": ""
+            "candEndorsements": "http://www.jayinslee.com/meet/endorsements2016"
           }
         ]
       },
@@ -211,7 +309,7 @@
         [
           { 
             "candName": "Cyrus Habib",
-            "candPhotoURL": "https://pbs.twimg.com/profile_images/753813288526356481/XhhCoGpZ_400x400.jpg",
+            "candPhotoURL": "images/2016/2016_habib.jpg",
             "candWeb": "http://cyrushabib.com/",
             "candFbPage": "https://www.facebook.com/Cyrus-Habib-for-Lt-Governor-347384975292728/",
             "candTwAlias": "CyrusHabib",
@@ -232,7 +330,7 @@
         [
           { 
             "candName": "Tina Podlodowski",
-            "candPhotoURL": "https://pbs.twimg.com/profile_images/752589230128263169/SI0nqQRK_400x400.jpg",
+            "candPhotoURL": "images/2016/2016_podlodowski.jpg",
             "candWeb": "http://www.votersfortina.com/",
             "candFbPage": "https://www.facebook.com/votersfortina",
             "candTwAlias": "VotersForTina",
@@ -247,48 +345,12 @@
         ]
       },
       {
-        "posName": "Treasurer",
-        "candidates": 
-        [
-          { 
-            "candName": "John Paul Comerford",
-            "candPhotoURL": "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-1/c0.0.160.160/p160x160/13315456_577916925716474_3086660613859375717_n.png?oh=885b692e964ea9a1716240e06976e320&oe=57F5C673",
-            "candWeb": "http://www.johnpaul2016.com/",
-            "candFbPage": "https://www.facebook.com/johnpaulcomerfordfortreasurer",
-            "candTwAlias": "",
-            "candVol": "",
-            "candDonate": "",
-            "candEndorsements": "http://www.johnpaul2016.com/endorsements"
-          },
-          { 
-            "candName": "Alec Fisken",
-            "candPhotoURL": "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-1/c32.0.160.160/p160x160/12985492_141210916276437_7733210086527572165_n.jpg?oh=f47e938cb4597bdf381f3295a76a7d08&oe=57E967A4",
-            "candWeb": "http://fiskenfortreasurer.com/",
-            "candFbPage": "https://www.facebook.com/Alec-Fisken-for-Treasurer-133403550390507",
-            "candTwAlias": "",
-            "candVol": "",
-            "candDonate": "",
-            "candEndorsements": "http://fiskenfortreasurer.com/endorsements-2/"
-          },
-          { 
-            "candName": "Marko Liias",
-            "candPhotoURL": "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-1/p160x160/10295741_10152241103488751_972173593115660966_n.jpg?oh=a906b5fe017bbda961126f36064a94ae&oe=57FBD4C4",
-            "candWeb": "http://markoliias.com/",
-            "candFbPage": "https://www.facebook.com/markoliiaspage",
-            "candTwAlias": "MarkoLiias",
-            "candVol": "",
-            "candDonate": "",
-            "candEndorsements": "http://markoliias.com/supporters/"
-          }
-        ]
-      },
-      {
         "posName": "Auditor",
         "candidates": 
         [
           { 
             "candName": "Pat (Patrice) McCarthy",
-            "candPhotoURL": "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-1/p160x160/13600323_887447811382517_6981323282717146481_n.jpg?oh=cf286cd0f563b5357bd480ea560f59ad&oe=5831E610",
+            "candPhotoURL": "images/2016/2016_mccarthy.jpg",
             "candWeb": "http://www.patmccarthy.org/",
             "candFbPage": "https://www.facebook.com/patmccarthywa/",
             "candTwAlias": "",
@@ -304,7 +366,7 @@
         [
           { 
             "candName": "Bob Ferguson",
-            "candPhotoURL": "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-1/p160x160/13267755_1071059539632080_1881035824209407810_n.jpg?oh=d1121427ddcce71df539b3a0abb68e99&oe=58297AD4",
+            "candPhotoURL": "images/2016/2016_ferguson.jpg",
             "candWeb": "http://electbobferguson.com/",
             "candFbPage": "https://www.facebook.com/bobfergusonforAG/",
             "candTwAlias": "",
@@ -320,17 +382,17 @@
         [
           { 
             "candName": "Erin Jones",
-            "candPhotoURL": "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-1/c0.61.160.160/p160x160/11095516_928417447209169_8671209499139710554_n.jpg?oh=6bdce4e6e3585985f96ffafe64d448c6&oe=58353BDC",
+            "candPhotoURL": "images/2016/2016_jones.jpg",
             "candWeb": "http://www.erinjones2016.org/",
             "candFbPage": "https://www.facebook.com/ErinJones2016/",
-            "candTwAlias": "",
+            "candTwAlias": "ErinJonesIn2016",
             "candVol": "",
             "candDonate": "",
             "candEndorsements": "http://www.erinjones2016.org/erin-jones-endorsements"
           },
           { 
             "candName": "Chris Reykdal",
-            "candPhotoURL": "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-1/c40.0.160.160/p160x160/13432314_10155146374229852_97465300919831966_n.jpg?oh=6037af1bff04bd032633d6ace82cf0f3&oe=57F76D93",
+            "candPhotoURL": "images/2016/2016_reykdal.jpg",
             "candWeb": "http://www.chrisreykdal.com/",
             "candFbPage": "https://www.facebook.com/chris4wakids/",
             "candTwAlias": "ChrisReykdal",
@@ -346,10 +408,10 @@
         [
           { 
             "candName": "Hilary Franz",
-            "candPhotoURL": "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-1/p160x160/13096184_499984446876217_5872362703376143321_n.jpg?oh=adb73ae4c81c81b72c91c5b5be8ce709&oe=58282AB8",
+            "candPhotoURL": "images/2016/2016_franz.jpg",
             "candWeb": "http://hilaryfranz.com/",
             "candFbPage": "https://www.facebook.com/Hilary-Franz-499984396876222/",
-            "candTwAlias": "",
+            "candTwAlias": "Hilary_Franz",
             "candVol": "",
             "candDonate": "",
             "candEndorsements": "http://hilaryfranz.com/endorsements/"
@@ -362,7 +424,7 @@
         [
           { 
             "candName": "Mike Kreidler",
-            "candPhotoURL": "https://pbs.twimg.com/profile_images/644293178669928456/55051hfm_400x400.jpg",
+            "candPhotoURL": "images/2016/2016_kreidler.jpg",
             "candWeb": "http://mikekreidler.com/",
             "candFbPage": "https://www.facebook.com/ReElectMikeKreidler",
             "candTwAlias": "MikeKreidler",
@@ -384,18 +446,50 @@
     "positions": 
     [ 
       {
+        "posName": "Justice Position No. 1",
+        "candidates": 
+        [
+          { 
+            "candName": "Mary Yu",
+            "candPhotoURL": "images/2016/2016_yu.jpg",
+            "candWeb": "http://justicemaryyu.com/",
+            "candFbPage": "https://www.facebook.com/JMaryYu/",
+            "candTwAlias": "JudgeMaryYu",
+            "candVol": "",
+            "candDonate": "",
+            "candEndorsements": "http://justicemaryyu.com/endorsements/"
+          }
+        ]
+      },
+      {
         "posName": "Justice Position No. 5",
         "candidates": 
         [
           { 
             "candName": "Barbara Madsen",
-            "candPhotoURL": "https://scontent-ord1-1.xx.fbcdn.net/v/t1.0-1/c0.25.150.150/24580_104228662946333_5148083_n.jpg?oh=96f6ffba211864ff25a8b627f39d046a&oe=582F68F5",
+            "candPhotoURL": "images/2016/2016_madsen.jpg",
             "candWeb": "http://www.ChiefJusticeMadsen.org/",
             "candFbPage": "https://www.facebook.com/Chief-Justice-Barbara-Madsen-103814642987735/",
             "candTwAlias": "ChiefBarbara",
             "candVol": "",
             "candDonate": "",
             "candEndorsements": "http://chiefjusticemadsen.org/endorsements.php"
+          }
+        ]
+      },
+      {
+        "posName": "Justice Position No. 6",
+        "candidates": 
+        [
+          { 
+            "candName": "Charlie Wiggins",
+            "candPhotoURL": "images/2016/2016_wiggins.jpg",
+            "candWeb": "http://www.justicecharliewiggins.com/",
+            "candFbPage": "https://www.facebook.com/reelectjusticecharliewiggins",
+            "candTwAlias": "",
+            "candVol": "",
+            "candDonate": "",
+            "candEndorsements": "http://www.justicecharliewiggins.com/endorsements"
           }
         ]
       }
@@ -406,39 +500,23 @@
     "groupLevelID": "County"
   },
   {
-    "groupLevelName": "City of Seattle",
-    "groupLevelID": "CitySeattle",
+    "groupLevelName": "Regional",
+    "groupLevelID": "Regional",
     "positions": 
     [ 
       {
-        "posName": "City of Seattle Initiative Mesure No. 123",
+        "posName": "Sound Transit Proposition Number 1: Light-Rail, Commuter-Rail, and Bus Service Expansion",
         "candidates": 
         [
           { 
-            "candName": "No",
-            "candPhotoURL": "https://scontent-ord1-1.xx.fbcdn.net/v/t1.0-1/p160x160/13083237_576704562504089_2352031560100351534_n.jpg?oh=c68b9f3ec4f78928e6174d1f0029d876&oe=57F3031C",
-            "candWeb": "http://voteno123.com/",
-            "candFbPage": "https://www.facebook.com/voteno123/",
-            "candTwAlias": "",
+            "candName": "Approved",
+            "candPhotoURL": "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/13659216_10155124503934465_2901779077179564990_n.png?oh=6e06f3af4be14265f716266af3c7839e&oe=58A97145",
+            "candWeb": "http://masstransitnow.com/",
+            "candFbPage": "https://www.facebook.com/masstransitnow",
+            "candTwAlias": "MassTransitNow",
             "candVol": "",
             "candDonate": "",
-            "candEndorsements": "http://voteno123.com/endorsements/"
-          }
-        ]
-      },
-      {
-        "posName": "City of Seattle Proposition No. 1: Property Tax Levy Renewal for Affordable Housing",
-        "candidates": 
-        [
-          { 
-            "candName": "Yes",
-            "candPhotoURL": "https://scontent-ord1-1.xx.fbcdn.net/v/t1.0-1/p160x160/13062306_10153811532689678_5234899470406708821_n.jpg?oh=a377b8d4a7c58e43ac365508839569ae&oe=57F44534",
-            "candWeb": "http://yesforhomes.com/",
-            "candFbPage": "https://www.facebook.com/Yes-on-Prop-1-Support-the-Seattle-Housing-Levy-130863759677/",
-            "candTwAlias": "",
-            "candVol": "",
-            "candDonate": "",
-            "candEndorsements": "http://yesforhomes.com/endorsements/"
+            "candEndorsements": "http://masstransitnow.com/endorsements/"
           }
         ]
       }

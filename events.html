@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Local Democratic Party Events</title>
+
+<script type="text/javascript">
+
+function toggleDisplay (dv) {
+  // alert(dv.id.toString());
+  if (document.getElementById(dv.id.toString()).style.display == "none") {
+    document.getElementById(dv.id.toString()).style.display = "inline";
+  } else {
+    document.getElementById(dv.id.toString()).style.display = "none";
+  }
+  // alert(dv.style.value);
+}
+
+// For parsing QueryString parameters
+function getParameterByName(name, url) {
+    if (!url) {
+      url = window.location.href;
+    }
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+  
+function changeText() {
+  document.getElementById('pInfo').innerHTML = 'Loading requested data...';
+  
+  // alert("Loading requested data...");
+  
+  // Parse the QueryString param render
+  var strRender = "";
+  strRender = getParameterByName("render");
+  // alert(strRender);
+  
+  var request = new XMLHttpRequest();
+  request.onreadystatechange = function () {
+    var DONE = this.DONE || 4;
+    if (this.readyState === DONE){
+      // alert(this.readyState);
+      // alert(request.responseText);
+      var dataObj = JSON.parse(request.responseText);
+
+      // alert("Data parsed.  Found " + dataObj.length + " events");
+      
+      var strInfo = "";
+      
+      // try to render the events list
+      try {
+        
+        // for each event
+        for (iEvent = 0; iEvent < dataObj.length; iEvent++) {
+
+          strInfo += "<div>";
+          
+          // Event Date and Time:
+          strInfo += dataObj[iEvent].eventDate;
+          // If not rendering mini, add the time:
+          if (strRender != "mini") { 
+            strInfo += " " + dataObj[iEvent].eventStartTime;
+            // enable eventEndTime to be optional
+            try {
+              if ( dataObj[iEvent].eventEndTime.length > 0 ) {
+                strInfo += " to " + dataObj[iEvent].eventEndTime;
+              } // end if+else
+            } catch (err) {
+            } // end try+catch
+          } // end if not rendering mini
+
+          // add colon and space after date
+          strInfo += ": ";
+          
+          // Start bold
+          strInfo += "<b>";
+          
+          // Event hosting organization
+          // TODO: Need to support candidates, electeds, allied organizations, etc.
+          // TODO: Would be great to easily hyperlink to organization
+          switch ( dataObj[iEvent].eventOrgType ) {
+            case "Ally":
+              strInfo += dataObj[iEvent].eventOrgShort + " ";
+              break;
+            case "LD":
+            case "County":
+            case "CD":
+            case "County Young":
+            case "Young":
+            case "State":
+              if (strRender != "mini") {
+                strInfo += dataObj[iEvent].eventOrgShort + " " + dataObj[iEvent].eventOrgType + " Democrats "; 
+              } else {
+                strInfo += dataObj[iEvent].eventOrgShort + " " + dataObj[iEvent].eventOrgType + " Dems "; 
+              } // end if+else
+              break;
+            default:
+              strInfo += dataObj[iEvent].eventOrgShort + " ";
+              break;
+          } // end switch on eventOrgType
+          
+          // Event Title (and hyperlink)
+          // If  the event has a web page, hyperlink the event title
+          // Uses try+catch to enable eventWeb to be optional
+          try { 
+            if ( dataObj[iEvent].eventWeb.length > 0 ) {
+              strInfo += "<a href='" + dataObj[iEvent].eventWeb + "'>";
+              strInfo += dataObj[iEvent].eventTitle;
+              strInfo += "</a> ";
+            } else {
+              strInfo += dataObj[iEvent].eventTitle + " ";
+            } // end if+else
+          } catch (err) {
+            strInfo += dataObj[iEvent].eventTitle + " ";
+          }
+
+          // End bold
+          strInfo += "</b>";
+          
+          // Event Location
+          
+          // If not rendering mini, add the location name
+          if (strRender != "mini") {
+            strInfo += " at " + dataObj[iEvent].eventLocationName + " ";
+          } // end if mini
+          
+          // if rendering full, add the full location address
+          if (strRender == "full") {
+            try {
+              strInfo += "<br />"
+              strInfo += "&nbsp; " + dataObj[iEvent].eventLocationStreet + "<br />";
+              strInfo += "&nbsp; " + dataObj[iEvent].eventLocationCity + ", " + dataObj[iEvent].eventLocationST + " " + dataObj[iEvent].eventLocationZip + "<br />"; 
+            } catch (err) {
+            } // end try+catch
+          } // end if rendering full
+
+          // Close the event listing
+          strInfo += "</div>";
+          
+          // if rendering full, add a line break between events
+          if (strRender == "full") {
+            strInfo += "<div>&nbsp;</div>";
+          } // end if
+          
+        } // next event
+        
+      } catch (err) {
+        
+      } // end catch for rendering the events list
+          
+      document.getElementById('pInfo').innerHTML = strInfo;
+    }
+  };
+  request.open('GET', 'events.json', true);
+  request.setRequestHeader('X-Requested-With', 'XMLHttpRequest');  // Tells server that this call is made for ajax purposes.
+  request.send(null);  // No data needs to be sent along with the request.
+
+  document.getElementById('pInfo').innerHTML = 'Rendering requested data...';
+  
+}
+</script>
+
+</head>
+
+<body onload="changeText()" style="font-family:Arial">
+
+<h1>Local Democratic Party Events</h1>
+
+<p style="font-size:smaller">
+  View: <a href="?render=mini">Mini</a> | <a href="?render=">Default</a> | <a href="?render=full">Full</a>
+</p>
+  
+<p style="font-size:smaller">
+  Below is a list of local events that may be of interest to local Democratic party activists
+</p>
+
+<p id="pInfo">Loading data...</p>
+
+<p style="font-size:smaller">
+  Not authorized by any candidate or candidate's committee<br />
+</p>
+
+</body>
+</html> 

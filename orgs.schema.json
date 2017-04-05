@@ -1,13 +1,18 @@
 {
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Organizations (Orgs)",
+  "description": "This document describes the fields in the orgs.json file.",
   "type": "array",
   "items": {
     "type": "object",
     "required": ["orgShort", "orgType"],
     "properties": {
       "orgShort": {
+        "description": "A short name for the organization.  Counties should be the county name.  Legislative districts should be the LD number, zero-padded if a single digit (ex: 03rd)",
         "type": "string"
       },
       "orgType": {
+        "description": "A descriptor of the organization type.  Expected values are: \"County\", \"LD\", \"State Young\", \"County Young\", \"College Young\", \"HS Young\", \"Caucus\", and \"CD\" (Congressional District).  Concatenation of orgShort & orgType & \"Democrats\" (or \"Dems\") should yield a reasonable but sometimes imperfect organization full name.",
         "enum": [
           "County",
           "LD",
@@ -20,41 +25,51 @@
         ]
       },
       "orgFull": {
+        "description": "Full name of the organization (ex: \"1st Legislative District Democrats\" or \"King County Democratic Central Committee\")",
         "type": "string"
       },
       "orgWeb": {
+        "description": "URL to the organization's public-facing website",
         "type": "string",
         "format": "uri"
       },
       "orgFbPage": {
+        "description": "URL to the organization's Facebook page",
         "type": "string",
         "format": "uri"
       },
       "orgFbGroup": {
+        "description": "URL to the organization's Facebook group",
         "type": "string",
         "format": "uri"
       },
       "orgTwAlias": {
+        "description": "Twitter alias used by the organization (ex: \"43rdDems\" from https://twitter.com/43rdDems)",
         "type": "string",
         "maxLength": 15
       },
       "orgOfficers": {
+        "description": "URL to the organization's list of officers",
         "type": "string",
         "format": "uri"
       },
       "orgEvents": {
+        "description": "URL to the organization's events calendar",
         "type": "string",
         "format": "uri"
       },
       "orgPCOs": {
+        "description": "URL to the organization's list of PCOs",
         "type": "string",
         "format": "uri"
       },
       "orgBylaws": {
+        "description": "URL to the organization's governing documents such as a charter, bylaws, or standing rules",
         "type": "string",
         "format": "uri"
       },
       "orgEndorsements2016": {
+        "description": "URL to an archived copy of the organization's governing documents",
         "type": "string",
         "format": "uri"
       }

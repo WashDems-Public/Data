@@ -72,7 +72,7 @@
       "eventLocationZip": {
         "description": "ZIP code for the event location (ex: \"98040\")",
         "type": "string",
-        "pattern": "^\\d\\d\\d\\d\\d(-\\d\\d\\d\\d)?$"
+        "pattern": "^(|\\d{5}|(\\d{5}-\\d{4})$"
       },
       "eventWeb": {
         "description": "Web address where visitors can find more information about this event.",

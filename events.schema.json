@@ -37,6 +37,7 @@
       "eventOrgType": {
         "description": "A descriptor of the organization type.  (ex: \"LD\", \"County\", \"State\", \"Ally\")",
         "enum": [
+          "State",
           "County",
           "LD",
           "State Young",

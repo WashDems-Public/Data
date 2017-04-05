@@ -1,0 +1,62 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "orgShort": {
+        "type": "string"
+      },
+      "orgType": {
+        "enum": [
+          "County",
+          "LD",
+          "State Young",
+          "County Young",
+          "College Young",
+          "HS Young",
+          "Caucus",
+          "CD"
+        ]
+      },
+      "orgFull": {
+        "type": "string"
+      },
+      "orgWeb": {
+        "type": "string",
+        "format": "uri"
+      },
+      "orgFbPage": {
+        "type": "string",
+        "format": "uri"
+      },
+      "orgFbGroup": {
+        "type": "string",
+        "format": "uri"
+      },
+      "orgTwAlias": {
+        "type": "string",
+        "maxLength": 15
+      },
+      "orgOfficers": {
+        "type": "string",
+        "format": "uri"
+      },
+      "orgEvents": {
+        "type": "string",
+        "format": "uri"
+      },
+      "orgPCOs": {
+        "type": "string",
+        "format": "uri"
+      },
+      "orgBylaws": {
+        "type": "string",
+        "format": "uri"
+      },
+      "orgEndorsements2016": {
+        "type": "string",
+        "format": "uri"
+      }
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "title": "Events",
-  "description": "This document describes the fields in the events.json file."
+  "description": "This document describes the fields in the events.json file.",
   "type": "array",
   "items": {
     "type": "object",
@@ -18,17 +18,17 @@
       "eventDate": {
         "description": "The day and date on which the event takes place.  (ex: \"Thu, 12/1\")",
         "type": "string",
-        "pattern": "^(Mon|Tue|Wed|Thu|Fri|Sat|Sun), \d\d?\/\d\d?(\/(\d\d)?\d\d)?$"
+        "pattern": "^(Mon|Tue|Wed|Thu|Fri|Sat|Sun), \\d\\d?\\/\\d\\d?(\\/(\\d\\d)?\\d\\d)?$"
       },
       "eventStartTime": {
         "description": "The time at which the event starts.  (ex: \"7:00 PM\")",
         "type": "string",
-        "pattern": "^\d\d?:\d\d (AM|PM)$"
+        "pattern": "^\\d\\d?:\\d\\d (AM|PM)$"
       },
       "eventEndTime": {
         "description": "The time at which the event ends.",
         "type": "string",
-        "pattern": "^\d\d?:\d\d (AM|PM)$"
+        "pattern": "^\\d\\d?:\\d\\d (AM|PM)$"
       },
       "eventOrgShort": {
         "description": "Short name for the organization hosting.",
@@ -72,7 +72,7 @@
       "eventLocationZip": {
         "description": "ZIP code for the event location (ex: \"98040\")",
         "type": "string",
-        "pattern": "^\d\d\d\d\d(-\d\d\d\d)?$"
+        "pattern": "^\\d\\d\\d\\d\\d(-\\d\\d\\d\\d)?$"
       },
       "eventWeb": {
         "description": "Web address where visitors can find more information about this event.",
@@ -82,7 +82,7 @@
       "eventFbId": {
         "description": "Facebook ID for this event (ex: \"1811175945791682\")",
         "type": "string",
-        "pattern": "^\d+$"
+        "pattern": "^\\d+$"
       },
       "eventDescription": {
         "description": "Additional details about this event. (ex: \"Doors open at 6pm and program starts at 7pm\", \"Dinner will be served\", \"Suggested $20 donation\")",

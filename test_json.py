@@ -11,3 +11,12 @@ def test_orgs():
         data = json.load(data_file)
 
     validate(data, schema)
+
+def test_events():
+    with open('events.schema.json') as schema_file:
+        schema = json.load(schema_file)
+
+    with open('events.json') as data_file:
+        data = json.load(data_file)
+
+    validate(data, schema)

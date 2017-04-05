@@ -1,0 +1,93 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Events",
+  "description": "This document describes the fields in the events.json file."
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "eventDate",
+      "eventStartTime",
+      "eventOrgShort",
+      "eventOrgType",
+      "eventTitle",
+      "eventLocationName",
+      "eventWeb"
+    ],
+    "properties": {
+      "eventDate": {
+        "description": "The day and date on which the event takes place.  (ex: \"Thu, 12/1\")",
+        "type": "string",
+        "pattern": "^(Mon|Tue|Wed|Thu|Fri|Sat|Sun), \d\d?\/\d\d?(\/(\d\d)?\d\d)?$"
+      },
+      "eventStartTime": {
+        "description": "The time at which the event starts.  (ex: \"7:00 PM\")",
+        "type": "string",
+        "pattern": "^\d\d?:\d\d (AM|PM)$"
+      },
+      "eventEndTime": {
+        "description": "The time at which the event ends.",
+        "type": "string",
+        "pattern": "^\d\d?:\d\d (AM|PM)$"
+      },
+      "eventOrgShort": {
+        "description": "Short name for the organization hosting.",
+        "type": "string"
+      },
+      "eventOrgType": {
+        "description": "A descriptor of the organization type.  (ex: \"LD\", \"County\", \"State\", \"Ally\")",
+        "enum": [
+          "County",
+          "LD",
+          "State Young",
+          "County Young",
+          "College Young",
+          "HS Young",
+          "Caucus",
+          "CD",
+          "Ally"
+        ]
+      },
+      "eventTitle": {
+        "description": "A title for the event. Please do NOT include the name of the organization hosting the event.",
+        "type": "string"
+      },
+      "eventLocationName": {
+        "description": "Name of the location where the event will be held. (ex: \"Yakima County Democrats office\", \"Mercer Island Community Center\", \"Home of John Smith\")",
+        "type": "string"
+      },
+      "eventLocationStreet": {
+        "description": "Street address for the event location. (ex: \"123 Main St.\")",
+        "type": "string"
+      },
+      "eventLocationCity": {
+        "description": "City for the event location (ex: \"Wenatchee\")",
+        "type": "string"
+      },
+      "eventLocationST": {
+        "description": "Two-letter state abberviation for the event location (ex: \"WA\")",
+        "type": "string",
+        "maxLength": 2
+      },
+      "eventLocationZip": {
+        "description": "ZIP code for the event location (ex: \"98040\")",
+        "type": "string",
+        "pattern": "^\d\d\d\d\d(-\d\d\d\d)?$"
+      },
+      "eventWeb": {
+        "description": "Web address where visitors can find more information about this event.",
+        "type": "string",
+        "format": "uri"
+      },
+      "eventFbId": {
+        "description": "Facebook ID for this event (ex: \"1811175945791682\")",
+        "type": "string",
+        "pattern": "^\d+$"
+      },
+      "eventDescription": {
+        "description": "Additional details about this event. (ex: \"Doors open at 6pm and program starts at 7pm\", \"Dinner will be served\", \"Suggested $20 donation\")",
+        "type": "string"
+      }
+    }
+  }
+}

@@ -2,6 +2,7 @@
   "type": "array",
   "items": {
     "type": "object",
+    "required": ["orgShort", "orgType"],
     "properties": {
       "orgShort": {
         "type": "string"

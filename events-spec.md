@@ -36,6 +36,10 @@ The project maintainers are using a [public GitHub repository](https://github.co
 * [X] Event title, date, time, location, title
 * [X] Event title hyperlinks to more info about the event
 
+#### Event submisssion
+* [ ] Web form for event submission
+* [ ] Basic drop-downs (or validation) for schematized fields like date, time, and LPO
+
 #### Views
 * [X] Default list of events
 * [X] Mini list of events for embedding in a web widget

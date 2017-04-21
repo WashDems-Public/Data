@@ -90,5 +90,19 @@
     "eventLocationZip": "98040",
     "eventWeb": "https://www.nwprogressive.org/gala/",
     "eventDescription": "Reception starts at 6 PM, main program at 7 PM.  Full dinner buffet with vegetarian choices; beer and wine available from cash bar"
-  }  
+  },
+  {
+    "eventDate": "Tue, 5/16",
+    "eventStartTime": "7:00 PM",
+    "eventOrgShort": "43rd",
+    "eventOrgType": "LD",
+    "eventTitle": "Ballots & Bubbly 2017",
+    "eventLocationName": "Private home",
+    "eventLocationStreet": "",
+    "eventLocationCity": "Seattle",
+    "eventLocationST": "WA",
+    "eventLocationZip": "",
+    "eventWeb": "https://www.facebook.com/events/259891557809429/",
+    "eventDescription": "BALLOTS: We'll be hosting a straw poll for 2017 contested races. Every attendee will get a ballot packet and additional ballots will be available for a donation. BUBBLY: We'll have alcoholic and non-alcoholic bubbly beverages."
+  }
 ]

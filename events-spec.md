@@ -37,7 +37,7 @@ The project maintainers are using a [public GitHub repository](https://github.co
 * [X] Event title hyperlinks to more info about the event
 
 #### Event submisssion
-* [ ] Web form for event submission
+* [ ] Web form for event submission - [DRAFT](https://www.surveymonkey.com/r/WashDems-AddEvent)
 * [ ] Basic drop-downs (or validation) for schematized fields like date, time, and LPO
 
 #### Views

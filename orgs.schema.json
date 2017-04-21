@@ -68,6 +68,11 @@
         "type": "string",
         "format": "uri"
       },
+      "orgBylawsArchive": {
+        "description": "URL to an archived copy of the organization's governing documents",
+        "type": "string",
+        "format": "uri"
+      },
       "orgEndorsements2016": {
         "description": "URL to an archived copy of the organization's governing documents",
         "type": "string",

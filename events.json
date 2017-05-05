@@ -92,6 +92,20 @@
     "eventDescription": "Reception starts at 6 PM, main program at 7 PM.  Full dinner buffet with vegetarian choices; beer and wine available from cash bar"
   },
   {
+    "eventDate": "Thu, 5/4",
+    "eventStartTime": "7:00 PM",
+    "eventOrgShort": "Drinking Liberally - Renton",
+    "eventOrgType": "Ally",
+    "eventTitle": "Monthly Gathering",
+    "eventLocationName": "The Berliner Pub",
+    "eventLocationStreet": "221 Main Ave. S",
+    "eventLocationCity": "Renton",
+    "eventLocationST": "WA",
+    "eventLocationZip": "98057",
+    "eventWeb": "https://www.facebook.com/events/123170161570915/",
+    "eventDescription": "It's not Cinco De Mayo. But since when did Liberals need a holiday to gather for beverages?"
+  },
+  {
     "eventDate": "Sat, 5/6",
     "eventStartTime": "9:30 AM",
     "eventEndTime": "4:30 PM",

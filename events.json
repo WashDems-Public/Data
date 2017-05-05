@@ -92,6 +92,20 @@
     "eventDescription": "Reception starts at 6 PM, main program at 7 PM.  Full dinner buffet with vegetarian choices; beer and wine available from cash bar"
   },
   {
+    "eventDate": "Sat, 5/13",
+    "eventStartTime": "10:00 AM",
+    "eventOrgShort": "Clark",
+    "eventOrgType": "County",
+    "eventTitle": "Open House",
+    "eventLocationName": "Clark County Democrats HQ",
+    "eventLocationStreet": "10621 NE Coxley Dr.",
+    "eventLocationCity": "Vancouver",
+    "eventLocationST": "WA",
+    "eventLocationZip": "98662",
+    "eventWeb": "https://www.facebook.com/events/770212639815319/",
+    "eventDescription": "CCD leaders will be available to hear suggestions, discuss ideas, hear complaints and answer any questions you have about our local party and our plans for the future."
+  },
+  {
     "eventDate": "Tue, 5/16",
     "eventStartTime": "7:00 PM",
     "eventOrgShort": "43rd",

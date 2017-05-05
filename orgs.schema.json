@@ -60,7 +60,7 @@
       },
       "orgRecurring": {
         "description": "Day of the organization's recurring meeting (ex: \"1st Mon\" or \"3rd Tue\")",
-        "type": "string",
+        "type": "string"
       },
       "orgPCOs": {
         "description": "URL to the organization's list of PCOs",

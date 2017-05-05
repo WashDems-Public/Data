@@ -1,0 +1,46 @@
+[
+  {
+    "eventDate": "Fri, 4/7",
+    "eventStartTime": "4:00 PM",
+    "eventOrgShort": "Washington",
+    "eventOrgType": "State Young",
+    "eventTitle": "Convention 2017",
+    "eventLocationName": "Red Lion Hotel Olympia",
+    "eventLocationStreet": "2300 Evergreen Park Dr. SW",
+    "eventLocationCity": "Olympia",
+    "eventLocationST": "WA",
+    "eventLocationZip": "98502",
+    "eventWeb": "http://ydwa.org/events/ydwa-convention-2017-in-olympia/",
+    "eventFbId": "1498456823528419",
+    "eventDescription": "Awards Banquet Keynote Speaker is WA Attorney General Bob Ferguson"
+  },
+  {
+    "eventDate": "Sat, 4/22",
+    "eventStartTime": "1:00 PM",
+    "eventEndTime": "5:00 PM",
+    "eventOrgShort": "Washington",
+    "eventOrgType": "State",
+    "eventTitle": "WSDCC Meetings",
+    "eventLocationName": "Walla Walla",
+    "eventLocationStreet": "",
+    "eventLocationCity": "Walla Walla",
+    "eventLocationST": "WA",
+    "eventLocationZip": "",
+    "eventWeb": "",
+    "eventDescription": "Washington State Democratic Central Committee (WSDCC) spring meetings in Walla Walla"
+  },
+  {
+    "eventDate": "Sat, 4/29",
+    "eventStartTime": "6:00 PM",
+    "eventOrgShort": "NPI",
+    "eventOrgType": "Ally",
+    "eventTitle": "2017 Spring Fundraising Gala",
+    "eventLocationName": "Mercer Island Community & Event Center",
+    "eventLocationStreet": "8236 SE 24th St.",
+    "eventLocationCity": "Mercer Island",
+    "eventLocationST": "WA",
+    "eventLocationZip": "98040",
+    "eventWeb": "https://www.nwprogressive.org/gala/",
+    "eventDescription": "Reception starts at 6 PM, main program at 7 PM.  Full dinner buffet with vegetarian choices; beer and wine available from cash bar"
+  }
+]

@@ -69,6 +69,16 @@ function getOrgHTMLfromJSONObject(objOrg) {
   } catch (err) {
     strReturn += "<td></td>";
   }
+  // Try to add the org's Recurring meeting IF orgRecurring length > 0
+  try {
+    if (objOrg.orgRecurring.length > 0) {
+      strReturn += "<td>" + objOrg.orgRecurring + "</td>";
+    } else {
+      strReturn += "<td></td>";
+    }
+  } catch (err) {
+    strReturn += "<td></td>";
+  }
   // Try to add the org's PCOs IF orgPCOs length > 0
   try {
     if (objOrg.orgPCOs.length > 0) {
@@ -148,6 +158,7 @@ function changeText() {
         strOrgsList += "<td><b>Twitter</b></td>";
         strOrgsList += "<td><b>Officers</b></td>";
         strOrgsList += "<td><b>Events</b></td>";
+        strOrgsList += "<td><b>Recurring</b></td>";
         strOrgsList += "<td><b>PCOs</b></td>";
         strOrgsList += "<td><b>Bylaws</b></td>";
         /* Hide 2016 endorsements

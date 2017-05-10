@@ -65,6 +65,7 @@
     "orgTwAlias": "",
     "orgOfficers": "",
     "orgEvents": "http://www.5thdistrictdems.com/events-and-meetings/",
+    "orgRecurring": "3rd Wed",
     "orgPCOs": "",
     "orgBylaws": "",
     "orgBylawsArchive": "https://drive.google.com/open?id=0ByyJkonGsMANYXM1N2NyeWRVTXdEOTM3QVVNNmd0SV9RNnM0",
@@ -106,6 +107,7 @@
     "orgTwAlias": "",
     "orgOfficers": "http://wa8thld-dems.blogspot.com/p/blog-page.html",
     "orgEvents": "",
+    "orgRecurring": "3rd Wed",
     "orgPCOs": "",
     "orgBylaws": "http://wa8thld-dems.blogspot.com/p/8th-lddo-bylaws-adopted-may-15-2013.html",
     "orgEndorsements2016": "http://wa8thld-dems.blogspot.com/2016/10/latest-8th-legislative-district.html"
@@ -145,6 +147,7 @@
     "orgTwAlias": "11thLDDems",
     "orgOfficers": "http://www.11thlddems.org/executive-board/",
     "orgEvents": "",
+    "orgRecurring": "3rd Tue",
     "orgPCOs": "",
     "orgBylaws": "http://www.11thlddems.org/bylaws/",
     "orgBylawsArchive": "https://drive.google.com/open?id=0ByyJkonGsMANeERXM2tlb3RrZ00",
@@ -186,6 +189,7 @@
     "orgTwAlias": "",
     "orgOfficers": "http://ld14.wa-democrats.net/about-us/",
     "orgEvents": "http://ld14.wa-democrats.net/calendar-2/",
+    "orgRecurring": "4th Mon",
     "orgPCOs": "",
     "orgBylaws": "",
     "orgEndorsements2016": "http://klickitatdemocrats.org/wp2/august-3-primary-endorsements/"
@@ -220,6 +224,7 @@
     "orgFbPage": "",
     "orgFbGroup": "",
     "orgTwAlias": "",
+    "orgRecurring": "4th Wed",
     "orgBylawsArchive": "https://drive.google.com/open?id=0ByyJkonGsMANbmw0UzlybHFISWM",
     "orgEndorsements2016": "http://clarkcountydems.com/17-cand"
   },
@@ -258,6 +263,7 @@
     "orgFbPage": "",
     "orgFbGroup": "https://www.facebook.com/groups/49768531934/",
     "orgTwAlias": "21Dems",
+    "orgRecurring": "4th Wed",
     "orgBylawsArchive": "https://drive.google.com/open?id=0ByyJkonGsMANbGFCTVhtX3JVWVk",
     "orgEndorsements2016": "http://21dems.org/?page_id=207"
   },
@@ -278,6 +284,7 @@
     "orgFbPage": "https://www.facebook.com/23rdLegislativeDistrictDemocrats",
     "orgFbGroup": "",
     "orgTwAlias": "",
+    "orgRecurring": "3rd Thu",
     "orgBylawsArchive": "https://drive.google.com/open?id=0ByyJkonGsMANSnFrWVFOclV4RkE",
     "orgEndorsements2016": "http://www.kitsap23rd.com/contact-us"
   },
@@ -321,6 +328,7 @@
     "orgFbPage": "https://www.facebook.com/27thdems",
     "orgFbGroup": "https://www.facebook.com/groups/WA27thDems/",
     "orgTwAlias": "",
+    "orgRecurring": "4th Mon",
     "orgBylawsArchive": "https://drive.google.com/open?id=0ByyJkonGsMANdTFwT1dvLWw1LTg",
     "orgEndorsements2016": "http://www.27thdems.org/index.php/endorsements"
   },
@@ -365,6 +373,7 @@
     "orgTwAlias": "31stDems",
     "orgOfficers": "http://31stdistrictdemocrats.org/executive-board-and-committee-chairs/",
     "orgEvents": "http://31stdistrictdemocrats.org/upcoming-events/",
+    "orgRecurring": "4th Wed",
     "orgPCOs": "http://31stdistrictdemocrats.org/pcos/",
     "orgBylaws": "http://31stdistrictdemocrats.org/bylaws/",
     "orgBylawsArchive": "https://drive.google.com/open?id=1Cwc_2naF3UWkAvMxgosD2aqYjjIh-w3NKE0Rg3pdGFE",
@@ -422,6 +431,7 @@
     "orgFbGroup": "https://www.facebook.com/groups/103518050462/",
     "orgTwAlias": "36th",
     "orgOfficers": "http://36th.org/executive-board/",
+    "orgRecurring": "3rd Wed",
     "orgBylawsArchive": "https://drive.google.com/open?id=0ByyJkonGsMANeHhVczNOb0VfYmc",
     "orgEndorsements2016": "http://36th.org/endorsements/"
   },
@@ -475,6 +485,7 @@
     "orgFbGroup": "",
     "orgTwAlias": "41Dems",
     "orgOfficers": "http://41dems.org/contact.html",
+    "orgRecurring": "3rd Wed",
     "orgBylaws": "http://41dems.org/41bylaws.xml",
     "orgEndorsements2016": "http://41dems.org"
   },
@@ -497,6 +508,7 @@
     "orgFbGroup": "",
     "orgTwAlias": "43rdDems",
     "orgOfficers": "http://43rddems.ngpvanhost.com/executive-board",
+    "orgRecurring": "3rd Tue",
     "orgBylaws": "http://43rddems.ngpvanhost.com/43rd-district-documents",
     "orgEndorsements2016": "http://43rddems.ngpvanhost.com/2016-endorsements"
   },
@@ -529,6 +541,7 @@
     "orgFbGroup": "https://www.facebook.com/groups/46dems",
     "orgTwAlias": "wa46dems",
     "orgOfficers": "http://www.46dems.org/executive_board",
+    "orgRecurring": "3rd Thu",
     "orgBylaws": "https://d3n8a8pro7vhmx.cloudfront.net/46dems/pages/68/attachments/original/1462862948/2015_46Dems_Bylaws_Final.pdf?1462862948",
     "orgEndorsements2016": "http://www.46dems.org/2016_endorsement_information"
   },
@@ -549,6 +562,7 @@
     "orgFbPage": "https://www.facebook.com/48dems/",
     "orgFbGroup": "",
     "orgTwAlias": "48LDDemocrats",
+    "orgRecurring": "3rd Wed",
     "orgBylawsArchive": "https://drive.google.com/open?id=0ByyJkonGsMANQWY3RjNhc2MxY2s",
     "orgEndorsements2016": "https://48thdems.org/"
   },
@@ -589,6 +603,7 @@
     "orgFbPage": "https://www.facebook.com/Benton-County-WA-Democrats-217681951576663",
     "orgFbGroup": "",
     "orgTwAlias": "",
+    "orgRecurring": "3rd Wed",
     "orgBylawsArchive": "https://drive.google.com/open?id=0ByyJkonGsMANV092QTAzWHJsblpNcVRwU2ZIaWVINjd4SDJZ",
     "orgEndorsements2016": "https://www.facebook.com/permalink.php?story_fbid=1235762083101973&id=217681951576663"
   },
@@ -674,6 +689,7 @@
     "orgFbPage": "https://www.facebook.com/FranklinCountyWADems",
     "orgFbGroup": "",
     "orgTwAlias": "",
+    "orgRecurring": "3rd Tue",
     "orgBylawsArchive": "https://drive.google.com/open?id=0ByyJkonGsMANekFlUlZwVG5WbERfcGtBb2s5OFpvZWNTOThN",
     "orgEndorsements2016": "https://www.facebook.com/FranklinCountyWADems/posts/10154210428025435"
   },
@@ -725,6 +741,7 @@
     "orgFbPage": "https://www.facebook.com/jeffcodemocrats",
     "orgFbGroup": "",
     "orgTwAlias": "",
+    "orgRecurring": "4th Tue",
     "orgBylawsArchive": "https://drive.google.com/open?id=0ByyJkonGsMANbWUtZTJjaGZINzA",
     "orgEndorsements2016": "http://jeffcodemocrats.com/"
   },
@@ -737,7 +754,7 @@
     "orgFbGroup": "",
     "orgTwAlias": "kcdems",
     "orgOfficers": "https://www.kcdems.org/officers/",
-    "orgRecurring": "4th Mon",
+    "orgRecurring": "4th Tue",
     "orgBylaws": "https://www.kcdems.org/standing-rules/",
     "orgEndorsements2016": "https://www.kcdems.org/endorsements/"
   },
@@ -759,6 +776,7 @@
     "orgFbPage": "https://www.facebook.com/kittitasdemocrats",
     "orgFbGroup": "https://www.facebook.com/groups/64754815024/",
     "orgTwAlias": "kittcodems",
+    "orgRecurring": "4th Thu",
     "orgEndorsements2016": "https://www.facebook.com/kittitasdemocrats/posts/1800365530185082 "
   },
   {
@@ -779,6 +797,7 @@
     "orgFbPage": "https://www.facebook.com/www.lewiscountydemocrats.org",
     "orgFbGroup": "",
     "orgTwAlias": "",
+    "orgRecurring": "4th Thu",
     "orgEndorsements2016": "http://lewiscountydemocrats.org/lcdcc-2016-election-endorsements/"
   },
   {
@@ -914,6 +933,7 @@
     "orgFbPage": "https://www.facebook.com/ThurstonCountyDemocrats",
     "orgFbGroup": "",
     "orgTwAlias": "Thurstondems",
+    "orgRecurring": "4th Mon",
     "orgBylaws": "http://www.thurstondemocrats.org/sites/thurstondemocrats.ngphost.com/files/TCD_Bylaws_2015-2016.pdf",
     "orgEndorsements2016": "http://www.thurstondemocrats.org/content/current-campaigns"
   },
@@ -967,6 +987,7 @@
     "orgFbPage": "https://www.facebook.com/yakimademocrats/",
     "orgFbGroup": "",
     "orgTwAlias": "yakdems",
+    "orgRecurring": "4th Mon",
     "orgBylawsArchive": "https://drive.google.com/open?id=0ByyJkonGsMANRnNnWHZxMmRXT21PZUhUWHROWU5URWw4VlN3",
     "orgEndorsements2016": "https://www.facebook.com/yakimademocrats/posts/993581154096770"
   },

@@ -130,8 +130,8 @@
     "orgFbPage": "",
     "orgFbGroup": "",
     "orgTwAlias": "",
-    "orgOfficers": "",
-    "orgEvents": "",
+    "orgOfficers": "http://www.ld10.wa-democrats.net/wp/?page_id=29",
+    "orgEvents": "http://www.ld10.wa-democrats.net/wp/?page_id=12",
     "orgPCOs": "",
     "orgBylaws": "http://www.ld10.wa-democrats.net/wp/wp-content/uploads/2011/05/10th-LD-bylaws-Nov-15-2008.pdf",
     "orgEndorsements2016": "https://islandcountydemocrats.wordpress.com/"
@@ -377,6 +377,7 @@
     "orgFbPage": "",
     "orgFbGroup": "https://www.facebook.com/groups/44677644405/",
     "orgTwAlias": "32dems",
+    "orgRecurring": "2nd Wed",
     "orgBylaws": "http://32democrats.org/wp/?wpdmdl=148",
     "orgEndorsements2016": "http://32democrats.org/"
   },
@@ -387,6 +388,7 @@
     "orgFbPage": "https://www.facebook.com/33rddemocrats",
     "orgFbGroup": "",
     "orgTwAlias": "",
+    "orgRecurring": "3rd Mon",
     "orgBylaws": "http://33rddistrictdemocrats.org/Bylaws/33rd%20District%20Bylaws_2013.pdf",
     "orgEndorsements2016": "http://33rddistrictdemocrats.org/candidates-endorsements/"
   },
@@ -397,6 +399,7 @@
     "orgFbPage": "https://www.facebook.com/34dems/",
     "orgFbGroup": "",
     "orgTwAlias": "34dems",
+    "orgRecurring": "2nd Wed",
     "orgBylawsArchive": "https://drive.google.com/open?id=0ByyJkonGsMANMTZVVzZ6YXBZeGM",
     "orgEndorsements2016": "http://www.34dems.org/endorsements"
   },
@@ -407,6 +410,7 @@
     "orgFbPage": "",
     "orgFbGroup": "https://www.facebook.com/groups/111480962257268/",
     "orgTwAlias": "35thLD",
+    "orgRecurring": "2nd Sat",
     "orgBylaws": "http://35thdemocrats.org/bylaws/",
     "orgEndorsements2016": "https://www.facebook.com/groups/111480962257268/permalink/1085373958201292/"
   },
@@ -428,6 +432,7 @@
     "orgFbPage": "https://www.facebook.com/37thDistrictDemocrats",
     "orgFbGroup": "",
     "orgTwAlias": "37dems",
+    "orgRecurring": "2nd Mon",
     "orgBylaws": "http://37dems.org/index.php?page=display&id=123",
     "orgEndorsements2016": "http://37dems.org/index.php?page=display&id=87"
   },
@@ -554,6 +559,7 @@
     "orgFbPage": "https://www.facebook.com/49thLegislativeDistrictWA",
     "orgFbGroup": "",
     "orgTwAlias": "",
+    "orgRecurring": "2nd Sat",
     "orgBylawsArchive": "https://drive.google.com/open?id=0ByyJkonGsMANNkpEanM1SWZfTVlvdmtmNVllcFU4ZGZkY0hv",
     "orgEndorsements2016": "http://clarkcountydems.com/49-cand"
   },
@@ -603,6 +609,11 @@
     "orgFbPage": "https://www.facebook.com/clallamdemocrats",
     "orgFbGroup": "",
     "orgTwAlias": "",
+    "orgOfficers": "http://www.clallamdemocrats.org/executive-board.html",
+    "orgEvents": "",
+    "orgRecurring": "",
+    "orgPCOs": "http://www.clallamdemocrats.org/precinct-committee-officers-2016-2018.html",
+    "orgBylaws": "http://www.clallamdemocrats.org/bylaws.html",
     "orgBylawsArchive": "https://drive.google.com/open?id=0ByyJkonGsMANTE1jS0xpM2xNUGl2eDFua1NEbnNqNkJ6dnNn",
     "orgEndorsements2016": "http://www.clallamdemocrats.org/endorsements.html"
   },
@@ -613,6 +624,7 @@
     "orgFbPage": "https://www.facebook.com/ClarkCountyDems",
     "orgFbGroup": "",
     "orgTwAlias": "ClarkCoDemParty",
+    "orgRecurring": "2nd Mon",
     "orgBylawsArchive": "https://drive.google.com/file/d/0ByyJkonGsMANckR3UGhmSzZHOVk/view?usp=drivesdk",
     "orgEndorsements2016": "http://clarkcountydems.com/2016-candidates/"
   },
@@ -736,6 +748,7 @@
     "orgFbPage": "https://www.facebook.com/kitsapcountydemocrats",
     "orgFbGroup": "",
     "orgTwAlias": "",
+    "orgRecurring": "3rd Mon",
     "orgBylaws": "http://www.kitsapdemocrats.com/wp-content/uploads/2014/06/KCDCC-Bylaws-Updated-4_21_14.pdf",
     "orgEndorsements2016": "http://www.kitsapdemocrats.com/endorsements/"
   },
@@ -755,6 +768,7 @@
     "orgFbPage": "https://www.facebook.com/klickitatdemocrats",
     "orgFbGroup": "https://www.facebook.com/groups/107842586037601/",
     "orgTwAlias": "",
+    "orgRecurring": "2nd Mon",
     "orgBylawsArchive": "https://drive.google.com/open?id=0ByyJkonGsMANY1BMam8wRlFobmRmRUxpVHdBWUdvbWpKZWNz",
     "orgEndorsements2016": "http://klickitatdemocrats.org/wp2/august-3-primary-endorsements/"
   },
@@ -784,6 +798,7 @@
     "orgFbPage": "https://www.facebook.com/Mason-County-Democrats-288589567623",
     "orgFbGroup": "",
     "orgTwAlias": "MasonCoDemocrat",
+    "orgRecurring": "2nd Wed",
     "orgBylawsArchive": "https://drive.google.com/open?id=1hStiFAbCIiDVDvQvBT4ElmTdi4AFY1AQKe9ZeFfh7_U",
     "orgEndorsements2016": ""
   },
@@ -794,6 +809,7 @@
     "orgFbPage": "https://www.facebook.com/Okanogan-County-Democrats-396430083779914",
     "orgFbGroup": "",
     "orgTwAlias": "",
+    "orgRecurring": "2nd Sat",
     "orgEndorsements2016": ""
   },
   {
@@ -803,6 +819,7 @@
     "orgFbPage": "https://www.facebook.com/Pacific-County-Democrats-195835297108769",
     "orgFbGroup": "",
     "orgTwAlias": "",
+    "orgRecurring": "2nd Mon",
     "orgBylaws": "http://www.pacificcountydemocrats.com/uploads/5/0/8/6/50865051/pcd_bylaws_11-2013.pdf",
     "orgEndorsements2016": "http://www.pacificcountydemocrats.com/"
   },
@@ -823,6 +840,7 @@
     "orgFbPage": "https://www.facebook.com/piercecountydems/",
     "orgFbGroup": "",
     "orgTwAlias": "piercedems",
+    "orgRecurring": "2nd Thu",
     "orgBylaws": "http://www.piercecountydems.org/bylaws",
     "orgEndorsements2016": "http://www.piercecountydems.org/endorsements"
   },
@@ -853,6 +871,7 @@
     "orgFbPage": "https://www.facebook.com/SkamaniaDemocrats",
     "orgFbGroup": "",
     "orgTwAlias": "",
+    "orgRecurring": "2nd Mon",
     "orgBylawsArchive": "https://drive.google.com/open?id=0ByyJkonGsMANNGtSYWNCWjF4Smw0T2MtNDBQWGdudHI4MWkw",
     "orgEndorsements2016": ""
   },
@@ -863,6 +882,7 @@
     "orgFbPage": "https://www.facebook.com/SCDCC/",
     "orgFbGroup": "",
     "orgTwAlias": "Sno_Co_Dems",
+    "orgRecurring": "2nd Sat",
     "orgBylaws": "http://snocodems.org/pdf/SCDCCBylaws_2017_Final.pdf",
     "orgEndorsements2016": "http://snocodems.org/"
   },
@@ -914,6 +934,7 @@
     "orgFbPage": "https://www.facebook.com/WallaWallaDemocrats",
     "orgFbGroup": "",
     "orgTwAlias": "",
+    "orgRecurring": "2nd Tue",
     "orgBylawsArchive": "https://drive.google.com/open?id=0ByyJkonGsMANOE5hQnk1OGQ0bUE",
     "orgEndorsements2016": "http://wallawalla.wa-democrats.net/?p=118"
   },
@@ -935,6 +956,7 @@
     "orgFbPage": "",
     "orgFbGroup": "https://www.facebook.com/groups/WhitmanDemocats/",
     "orgTwAlias": "WhitmanCDems",
+    "orgRecurring": "2nd Wed",
     "orgBylawsArchive": "https://drive.google.com/open?id=0ByyJkonGsMANMXV0dE9ZVHlfQ3lIeWFyUHI2WkFaZlBFNWx3",
     "orgEndorsements2016": ""
   },

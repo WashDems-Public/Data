@@ -177,5 +177,19 @@
     "eventLocationZip": "",
     "eventWeb": "https://www.facebook.com/events/259891557809429/",
     "eventDescription": "BALLOTS: We'll be hosting a straw poll for 2017 contested races. Every attendee will get a ballot packet and additional ballots will be available for a donation. BUBBLY: We'll have alcoholic and non-alcoholic bubbly beverages."
+  },
+  {
+    "eventDate": "Thu, 6/8",
+    "eventStartTime": "6:00 PM",
+    "eventOrgShort": "Transportation Choices Coalition",
+    "eventOrgType": "Ally",
+    "eventTitle": "Transit Trivia Night 2017",
+    "eventLocationName": "Fado Seattle",
+    "eventLocationStreet": "801 1st Ave",
+    "eventLocationCity": "Seattle",
+    "eventLocationST": "WA",
+    "eventLocationZip": "98104",
+    "eventWeb": "http://transportationchoices.force.com/donations/CnP_PaaS_EVT__ExternalRegistrationPage?event_id=a28A0000001IbjYIAS",
+    "eventDescription": "Put your transit knowledge to the test, and compete for the Gold medal.Create a team (or be matched with one), and test your smarts against your fellow transit (or trivia) nerds."
   }
 ]

@@ -151,6 +151,21 @@
     "eventDescription": "Light lunch and refreshments will be served.  This is a community meet and greet event, but donations are also welcome."
   },
   {
+    "eventDate": "Mon, 5/8",
+    "eventStartTime": "7:00 PM",
+    "eventEndTime": "10:00 PM",
+    "eventOrgShort": "Drinking Liberally - Fremont",
+    "eventOrgType": "Ally",
+    "eventTitle": "With Port Commissioner Fred Felleman",
+    "eventLocationName": "Fremont Tavern",
+    "eventLocationStreet": "3517 Fremont Ave. N.",
+    "eventLocationCity": "Seattle",
+    "eventLocationST": "WA",
+    "eventLocationZip": "98103",
+    "eventWeb": "https://www.facebook.com/events/1682980288670463/",
+    "eventDescription": "Did you know the Port Commission is a BFD? The Port of Seattle encompasses SeaTac Airport, shipping terminals, cruise terminals, and other properties, accommodating about 50 million airline travelers, 4 million shipping containers, and 1 million cruise ship passengers annually. The Port directly employs 1800 people, and oversees entities that employ upwards of 200,000 more."
+  },
+  {
     "eventDate": "Sat, 5/13",
     "eventStartTime": "10:00 AM",
     "eventOrgShort": "Clark",
@@ -163,6 +178,37 @@
     "eventLocationZip": "98662",
     "eventWeb": "https://www.facebook.com/events/770212639815319/",
     "eventDescription": "CCD leaders will be available to hear suggestions, discuss ideas, hear complaints and answer any questions you have about our local party and our plans for the future."
+  },
+  {
+    "eventDate": "Tue, 5/16",
+    "eventStartTime": "5:30 PM",
+    "eventEndTime": "9:00 PM",
+    "eventOrgShort": "Manka Dhingra for State Senate",
+    "eventOrgType": "Candidate",
+    "eventTitle": "Phone Bank Kickoff!",
+    "eventLocationName": "Kingsgate Library",
+    "eventLocationStreet": "12315 NE 143rd St.",
+    "eventLocationCity": "Kirkland",
+    "eventLocationST": "WA",
+    "eventLocationZip": "98034",
+    "eventWeb": "http://bit.ly/2pLLa5q",
+    "eventFbId": "1376476955761910",
+    "eventDescription": "Come join volunteers and neighbors for our Phone Bank Kickoff!  We'll be making calls to voters, learning how to help Manka's campaign and getting to know each other."
+  },
+  {
+    "eventDate": "Tue, 5/16",
+    "eventStartTime": "7:00 PM",
+    "eventEndTime": "10:00 PM",
+    "eventOrgShort": "Whitman",
+    "eventOrgType": "County",
+    "eventTitle": "Support Pullman City Council's Welcome Resolution",
+    "eventLocationName": "Pullman City Hall",
+    "eventLocationStreet": "325 SE Paradise St.",
+    "eventLocationCity": "Pullman",
+    "eventLocationST": "WA",
+    "eventLocationZip": "99163",
+    "eventWeb": "https://www.facebook.com/events/305573566533746/",
+    "eventDescription": "Come and support the Pullman Welcoming City resolution bought forth by Councilman Nathan Weller. Let us take a bold stance and acknowledge that the diversity reflected in our city contributes to the rich, dynamic and robust Pullman community."
   },
   {
     "eventDate": "Tue, 5/16",
